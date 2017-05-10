@@ -45,13 +45,7 @@ player createDiaryRecord ["ChangeLog",
 		"10.05.17",
 			"
 			<br />
-			<font color='#FACC2E'>- Ingame ChangeLog eingeführt</font><br/>
-			<br />
-			<font color='#FACC2E'>- Kavala FARA Helispawn</font><br/>
-			<br />
-			<font color='#FACC2E'>- Teeverarbeiter Lizenz-Preisanzeige korrigiert</font><br/>
-			<br />
-			<font color='#FACC2E'>- Verwahrstelle mit Flughangar ausgestattet</font><br/>
+			<font color='#FACC2E'>- LSD-Route</font><br/>
 			<br />
 			"
 	]
@@ -126,7 +120,7 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>300.000 €</font>] - Waffenschein<br />
 			[<font color='#63bfaa'>150.000 €</font>] - Pilotenschein<br />
 			[<font color='#63bfaa'>500.000 €</font>] - Berufpilotenschein<br />
-			[<font color='#63bfaa'>2.500.000 €</font>] - Rebellentraining<br />
+			[<font color='#63bfaa'>5.000.000 €</font>] - Rebellentraining<br />
 			[<font color='#63bfaa'>1.000.000 €</font>] - Hausbesitzerurkunde<br />
 			[<font color='#63bfaa'>15.000.000 €</font>] - Elite-Waffenschein<br />
 			<br />
