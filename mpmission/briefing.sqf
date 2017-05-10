@@ -20,6 +20,7 @@ player createDiaryRecord ["Regeln",
 			"
 			<br />
 			<font color='#FACC2E'>Unsere aktuellen Regeln findet ihr unter:</font><br/>
+			<br />
 			<font color='#FACC2E'>http://michecortes.de/serverinfo/armaregeln/</font><br/>
 			<br />
 			"
@@ -32,6 +33,7 @@ player createDiaryRecord ["TwitchStream",
 			"
 			<br />
 			<font color='#FACC2E'>Schaut MicheCortes im Stream zu und werdet Teil von etwas Größerem</font><br/>
+			<br />
 			<font color='#FACC2E'>http://www.twitch.com/michecorteslp</font><br/>
 			<br />
 			"
@@ -43,7 +45,13 @@ player createDiaryRecord ["ChangeLog",
 		"10.05.17",
 			"
 			<br />
+			<font color='#FACC2E'>- Ingame ChangeLog eingeführt</font><br/>
+			<br />
 			<font color='#FACC2E'>- Kavala FARA Helispawn</font><br/>
+			<br />
+			<font color='#FACC2E'>- Teeverarbeiter Lizenz-Preisanzeige korrigiert</font><br/>
+			<br />
+			<font color='#FACC2E'>- Verwahrstelle mit Flughangar ausgestattet</font><br/>
 			<br />
 			"
 	]
