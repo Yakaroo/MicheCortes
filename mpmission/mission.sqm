@@ -16,7 +16,7 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={4881.5854,354.44196,21923.65};
+		pos[]={4882.8735,356.89059,21923.119};
 		dir[]={0.58207077,-0.76906341,-0.26407972};
 		up[]={0.70035642,0.63917148,-0.31774512};
 		aside[]={-0.41315797,5.2328687e-008,-0.91066116};
@@ -419,6 +419,24 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+				};
+			};
+		};
+		class Attribute1
+		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -433,24 +451,6 @@ class CustomAttributes
 						};
 					};
 					value=1;
-				};
-			};
-		};
-		class Attribute1
-		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
 				};
 			};
 		};
@@ -94268,7 +94268,7 @@ class Mission
 			name="marker_274";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=227.40991;
+			angle=227.4099;
 			id=13766;
 			atlOffset=0.1603775;
 		};
@@ -94616,7 +94616,7 @@ class Mission
 			name="marker_287";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=222.86081;
+			angle=222.86079;
 			id=13790;
 			atlOffset=0.16056824;
 		};
@@ -95263,7 +95263,7 @@ class Mission
 			name="marker_310";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=222.44464;
+			angle=222.44463;
 			id=13838;
 			atlOffset=0.16122437;
 		};
@@ -95555,14 +95555,14 @@ class Mission
 				angles[]={0,5.5066366,0};
 			};
 			side="Empty";
-			flags=1;
+			flags=5;
 			class Attributes
 			{
 				init="this addAction[""<t color='#ADFF2F'>Pfandflaschen sammeln</t>"",life_fnc_pfand]; ";
 			};
 			id=13858;
 			type="Land_GarbageBin_01_F";
-			atlOffset=0.3394413;
+			atlOffset=0.17497444;
 		};
 		class Item4610
 		{
@@ -95573,7 +95573,7 @@ class Mission
 			colorName="ColorGreen";
 			angle=133.68288;
 			id=13859;
-			atlOffset=0.49975204;
+			atlOffset=0.33518028;
 		};
 		class Item4611
 		{
@@ -111654,7 +111654,6 @@ class Mission
 			text="Untergrund Disco Dealer";
 			type="respawn_unknown";
 			colorName="ColorRed";
-			alpha=0;
 			id=15090;
 			atlOffset=-347.25269;
 		};
