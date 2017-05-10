@@ -53,6 +53,7 @@ player createDiaryRecord ["ChangeLog",
 			<br />
 			<font color='#FACC2E'>- Verwahrstelle mit Flughangar ausgestattet</font><br/>
 			<br />
+			<font color='#FACC2E'>- LSD-Route</font><br/>
 			"
 	]
 ];
