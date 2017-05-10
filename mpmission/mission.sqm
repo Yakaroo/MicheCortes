@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3732.4761,41.94149,12995.395};
-		dir[]={0.0058759786,-0.88921547,-0.45745918};
-		up[]={0.011421143,0.4574441,-0.88916469};
-		aside[]={-0.99991971,2.1827873e-011,-0.012843769};
+		pos[]={4745.3057,86.284203,11707.03};
+		dir[]={0.40389952,-0.76988584,-0.49413022};
+		up[]={0.48724172,0.63817722,-0.59609103};
+		aside[]={-0.77426469,1.3620593e-008,-0.63288039};
 	};
 };
 binarizationWanted=0;
@@ -1643,7 +1643,7 @@ class Mission
 			position[]={3735.1819,0,12991.516};
 			name="med_car_1";
 			type="Empty";
-			angle=270.31198;
+			angle=270.31192;
 			id=196;
 			atlOffset=-18.835608;
 		};
@@ -1679,7 +1679,7 @@ class Mission
 			position[]={3735.1819,0,12991.516};
 			name="med_car_2";
 			type="Empty";
-			angle=272.09097;
+			angle=272.09091;
 			id=200;
 			atlOffset=-18.835608;
 		};
@@ -40877,18 +40877,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={4746.02,84.430717,11706.022};
+				position[]={4746.02,84.430267,11706.022};
 				angles[]={0,2.4259031,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="this setObjectTexture [0, ""textures\other\verarbeiter.paa""]; this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Tea"",life_fnc_processAction,""tea"",0,false,false,"""",' life_inv_teaUnrefined > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""tea"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""muschel"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""tea"",0,false,false,"""",' !license_civ_tea && playerSide isEqualTo civilian '];";
+				init="this setObjectTexture [0, ""textures\other\verarbeiter.paa""]; this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Tea"",life_fnc_processAction,""tea"",0,false,false,"""",' life_inv_teaUnrefined > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""tea"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""tea"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""tea"",0,false,false,"""",' !license_civ_tea && playerSide isEqualTo civilian '];";
 			};
 			id=7728;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.0034484863;
+			atlOffset=0.0029983521;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -58673,13 +58673,14 @@ class Mission
 				angles[]={0,0.50330931,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false;";
 			};
 			id=11462;
 			type="Land_OfficeChair_01_F";
-			atlOffset=0.26299953;
+			atlOffset=0.00010490417;
 		};
 		class Item2740
 		{
@@ -58690,13 +58691,14 @@ class Mission
 				angles[]={0,2.0930481,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				init="this allowDamage false; this enableSimulation false;";
 			};
 			id=11463;
 			type="Land_OfficeCabinet_01_F";
-			atlOffset=0.26099968;
+			atlOffset=0.00022315979;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -93142,7 +93144,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={15458.172,4.9302573,15862.231};
+				position[]={15458.172,4.9302578,15862.231};
 				angles[]={0,4.6908689,0};
 			};
 			side="Empty";
@@ -93151,13 +93153,12 @@ class Mission
 			{
 				skill=0.2;
 				lock="LOCKEDPLAYER";
-				init="this addAction[""Verwahrungsstelle KFZ"", { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getimpoundedVehicles"",2]; createDialog ""Life_impounded_menu""; disableSerialization; ctrlSetText[28020,""Suche verwarte Fahrzeuge""]; life_garage_sp = ""verwahrstelle_spawn""; life_garage_type = ""Car""; }];";
+				init="this addAction[""Verwahrungsstelle KFZ"", { [getPlayerUID player,playerSide,""Car"",player] remoteExecCall [""TON_fnc_getimpoundedVehicles"",2]; createDialog ""Life_impounded_menu""; disableSerialization; ctrlSetText[28020,""Suche verwarte Fahrzeuge""]; life_garage_sp = ""verwahrstelle_spawn""; life_garage_type = ""Car""; }];this addAction[""Verwahrungsstelle Luft"", { [getPlayerUID player,playerSide,""Air"",player] remoteExecCall [""TON_fnc_getimpoundedVehicles"",2]; createDialog ""Life_impounded_menu""; disableSerialization; ctrlSetText[28020,""Suche verwahrte Fahrzeuge""]; life_garage_sp = ""verwahrstelle_spawn""; life_garage_type = ""Air""; }];";
 				name="cvscild3_3";
 				disableSimulation=1;
 			};
 			id=13686;
 			type="Land_InfoStand_V2_F";
-			atlOffset=-4.7683716e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -94267,7 +94268,7 @@ class Mission
 			name="marker_274";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=227.40996;
+			angle=227.40993;
 			id=13766;
 			atlOffset=0.1603775;
 		};
@@ -94615,7 +94616,7 @@ class Mission
 			name="marker_287";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=222.86086;
+			angle=222.86082;
 			id=13790;
 			atlOffset=0.16056824;
 		};
@@ -95262,7 +95263,7 @@ class Mission
 			name="marker_310";
 			type="mil_dot";
 			colorName="ColorGreen";
-			angle=222.44469;
+			angle=222.44466;
 			id=13838;
 			atlOffset=0.16122437;
 		};

@@ -2,12 +2,65 @@ waitUntil {!isNull player && player isEqualTo player};
 if (player diarySubjectExists "controls") exitWith {};
 
 player createDiarySubject ["space1","--------------------------"];
+player createDiarySubject ["ChangeLog","ChangeLog"];
+player createDiarySubject ["Regeln","Regeln"];
 player createDiarySubject ["Teamspeak 3","Teamspeak 3"];
 player createDiarySubject ["Fragen","Support"];
 player createDiarySubject ["items","Allgemeines"];
 player createDiarySubject ["controls","Tastenbelegung"];
 player createDiarySubject ["space2","--------------------------"];
 player createDiarySubject ["Illegales","Illegales"];
+player CreateDiarySubject ["space3","--------------------------"];
+player CreateDiarySubject ["TwitchStream","TwitchStream"];
+player CreateDiarySubject ["space4","--------------------------"];
+
+player createDiaryRecord ["Regeln",
+	[
+		"Regelwerk",
+			"
+			<br />
+			<font color='#FACC2E'>Unsere aktuellen Regeln findet ihr unter:</font><br/>
+			<font color='#FACC2E'>http://michecortes.de/serverinfo/armaregeln/</font><br/>
+			<br />
+			"
+	]
+];
+
+player createDiaryRecord ["TwitchStream",
+	[
+		"MicheCortesLP",
+			"
+			<br />
+			<font color='#FACC2E'>Schaut MicheCortes im Stream zu und werdet Teil von etwas Größerem</font><br/>
+			<font color='#FACC2E'>http://www.twitch.com/michecorteslp</font><br/>
+			<br />
+			"
+	]
+];
+
+player createDiaryRecord ["ChangeLog",
+	[
+		"10.05.17",
+			"
+			<br />
+			<font color='#FACC2E'>- Kavala FARA Helispawn</font><br/>
+			<br />
+			"
+	]
+];
+
+player createDiaryRecord ["ChangeLog",
+	[
+		"09.05.17",
+			"
+			<br />
+			<font color='#FACC2E'>- FARA Medic Rucksack</font><br/>
+			<font color='#FACC2E'>- Texturen verkleinert</font><br/>
+			<font color='#FACC2E'>- Vorbereitungen für HeadlessClient</font><br/>
+			<br />
+			"
+	]
+];
 
 player createDiaryRecord ["Teamspeak 3",
 	[
@@ -61,11 +114,11 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>1000 €</font>] - Führerschein<br />
 			[<font color='#63bfaa'>50.000 €</font>] - Bootsschein<br />
 			[<font color='#63bfaa'>20.000 €</font>] - Gefahrgutführerschein<br />
-			[<font color='#63bfaa'>75.000 €</font>] - LKWFührerschein<br />
+			[<font color='#63bfaa'>75.000 €</font>] - LKW Führerschein<br />
 			[<font color='#63bfaa'>300.000 €</font>] - Waffenschein<br />
 			[<font color='#63bfaa'>150.000 €</font>] - Pilotenschein<br />
 			[<font color='#63bfaa'>500.000 €</font>] - Berufpilotenschein<br />
-			[<font color='#63bfaa'>5.000.000 €</font>] - Rebellentraining<br />
+			[<font color='#63bfaa'>2.500.000 €</font>] - Rebellentraining<br />
 			[<font color='#63bfaa'>1.000.000 €</font>] - Hausbesitzerurkunde<br />
 			[<font color='#63bfaa'>15.000.000 €</font>] - Elite-Waffenschein<br />
 			<br />
@@ -82,9 +135,9 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>120.000 €</font>] - Sand<br />
 			[<font color='#63bfaa'>100.000 € </font>] - Salz<br />
 			[<font color='#63bfaa'>500.000 €</font>] - Muschel<br />
-			[<font color='#63bfaa'>800.000 €</font>] - Marihuana<br />
+			[<font color='#63bfaa'>600.000 €</font>] - Marihuana<br />
 			[<font color='#63bfaa'>750.000 €</font>] - Kokain<br />
-			[<font color='#63bfaa'>600.000 €</font>] - Heroin<br />
+			[<font color='#63bfaa'>650.000 €</font>] - Heroin<br />
 			[<font color='#63bfaa'>1.500.000 €</font>] - LSD muss man haben!<br />
 			"
 	]
