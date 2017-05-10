@@ -973,8 +973,8 @@ class VirtualItems {
         variable = "lsdProcessed";
         displayName = "STR_Item_LsdP";
         weight = 3;
-        buyPrice = 12000;
-        sellPrice = 10500;
+        buyPrice = 20000;
+        sellPrice = 12500;
         illegal = true;
         edible = -1;
         icon = "icons\ico_lsd.paa";

@@ -10000,6 +10000,10 @@
             <Polish>Diler narkotyków</Polish>
             <Italian>Spacciatore</Italian>
         </Key>
+		<Key ID="STR_MAR_UndergroundDealer">
+            <Original>Underground Disco Dealer</Original>
+            <German>Untergrund Disco Dealer</German>
+        </Key>
         <Key ID="STR_MAR_Diamond_Processing">
             <Original>Diamond Processing</Original>
             <Czech>Diamond Processing</Czech>

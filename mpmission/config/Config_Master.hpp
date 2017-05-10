@@ -21,7 +21,7 @@ class Life_Settings {
     saved_virtualItems[] = { "pickaxe","appleseeds","peachseeds","maisseeds","cornseeds","silber_unrefined""tea_refined","tea_unrefined",,"silber_refined","mais_unrefined","getreide_unrefined","netz","schaufel","axt","holz_unrefined","holzkohle_refined","perle_refined","muschel_unrefined","schokolade_refined","kakao_unrefined","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","oil_unprocessed","oil_processed","copper_unrefined","copper_refined","iron_unrefined","iron_refined","salt_unrefined","salt_refined","sand","glass","diamond_uncut","diamond_cut", "rock", "cement", "heroin_unprocessed","heroin_processed","cannabis","marijuana","cocaine_unprocessed","cocaine_unprocessed","cocaine_processed","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","pfandflasche" }; //Array of virtual items that can be saved on your player.
     save_playerStats = false; //Save food, water and damage (all sides)?
     save_civilian_weapons = true; //Allow civilians to save weapons on them?
-    save_civilian_position = true; //Save civilian location?
+    save_civilian_position = ftrue; //Save civilian location?
     save_civilian_position_restart = true; //Save civilian location only between restarts. After a server restart you'll have to spawn again.
     /* !!!TO SAVE POSITION BETWEEN RESTARTS save_civilian_position MUST BE TRUE!!! */
     save_civilian_positionStrict = false; //Strip the player if possible combat-log?  WARNING: Server crashes and lack of reliable syncing can trigger this.
@@ -106,9 +106,9 @@ class Life_Settings {
     bank_civ = 50000; //Amount of cash in bank for new civillians
     bank_med = 75000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 2500; //Payment for cops
+    paycheck_cop = 5000; //Payment for cops
     paycheck_civ = 750; //Payment for civillians
-    paycheck_med = 1500; //Payment for medics
+    paycheck_med = 2000; //Payment for medics
 
     paycheck_period = 5; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
