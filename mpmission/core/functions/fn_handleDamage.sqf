@@ -18,7 +18,7 @@ params [
 //Handle the tazer first (Top-Priority).
 if (!isNull _source) then {
     if (_source != _unit) then {
-        if (currentWeapon _source in ["hgun_P07_snds_F"] && _projectile in ["B_9x21_Ball","B_556x45_dual"]) then {
+        if (currentWeapon _source in ["hgun_P07_snds_F","arifle_SDAR_F"] && _projectile in ["B_9x21_Ball","B_556x45_dual"]) then {
             if (side _source isEqualTo west && playerSide isEqualTo civilian) then {
                 _damage = 0;
                 if (alive player && !life_istazed && !life_isknocked && !(_unit getVariable ["restrained",false])) then {
@@ -42,22 +42,6 @@ if (!isNull _source) then {
             if (side _source isEqualTo west && (playerSide isEqualTo west || playerSide isEqualTo independent)) then {
                 _damage = 0;
             };
-        };
-    };
-};
-
-if (vehicle _unit == _unit) then {
-
-        if ( _source isKindOf "Air" OR _source isKindOf "Car" OR _source isKindOf "Boat" ) then
-        {
-        diag_log "::VDM-NACHRICHT:: Eine Person wurde überfahren.";
-        _damage = false;
-        } else {    
-        _isVehicle = vehicle _source;
-        if (_isVehicle isKindOf "Air" OR _isVehicle isKindOf "Car" OR _isVehicle isKindOf "Boat") then 
-        {
-            diag_log "::VDM-NACHRICHT:: Eine Person wurde überfahren.";
-            _damage = false;
         };
     };
 };

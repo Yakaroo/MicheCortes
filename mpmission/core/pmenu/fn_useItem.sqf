@@ -12,10 +12,9 @@ if ((lbCurSel 2005) isEqualTo -1) exitWith {hint localize "STR_ISTR_SelectItemFi
 _item = CONTROL_DATA(2005);
 
 switch (true) do {
-    case (_item in ["bloddymary","softdrink","waterBottle","coffee","redgull"]): {
+    case (_item in ["waterBottle","coffee","redgull"]): {
         if ([false,_item,1] call life_fnc_handleInv) then {
             life_thirst = 100;
-			[player, "drink"] call life_fnc_globalSound;
             if (LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1) then {player setFatigue 0;};
             if (_item isEqualTo "redgull" && {LIFE_SETTINGS(getNumber,"enable_fatigue") isEqualTo 1}) then {
                 [] spawn {
@@ -45,73 +44,17 @@ switch (true) do {
         [cursorObject] spawn life_fnc_defuseKit;
         closeDialog 0;
     };
+	
+    case (_item isEqualTo "schlauch"): {
+		[] spawn life_fnc_schlauch;
+    };
 
     case (_item isEqualTo "storagesmall"): {
         [false] call life_fnc_storageBox;
     };
-	
-    case (_item isEqualTo "sid"): {
-        hint "SWEET <3";
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "antibiotika"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-
-    case (_item isEqualTo "bandage"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "diaet"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "lolli"): {
-        player setDamage 0;
-		hint "Mhhh, Lecker";
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "medictee"): {
-        player setDamage 0;
-		hint "Mhhh, Lecker";
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "pflaster"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "salbe"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "schwerzmittel"): {
-        player setDamage 0;
-		[false,_item,1] call life_fnc_handleInv
-    };
-	
-    case (_item isEqualTo "skalpell"): {
-        player setDamage 0.4;
-		hint "AHHH , Tut das Weh...";
-		[false,_item,1] call life_fnc_handleInv
-    };
 
     case (_item isEqualTo "storagebig"): {
         [true] call life_fnc_storageBox;
-    };
-	
-	case (_item isEqualTo "sos"): {
-       if([false,_item,1] call life_fnc_handleInv) then {
-       [] spawn life_fnc_copbackup;
-       closeDialog 0;
-    };
     };
 
     case (_item isEqualTo "spikeStrip"): {
@@ -123,7 +66,7 @@ switch (true) do {
     };
 
     case (_item isEqualTo "fuelFull"): {
-        if (vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
+        if !(isNull objectParent player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
         [] spawn life_fnc_jerryRefuel;
         closeDialog 0;
     };
@@ -138,7 +81,7 @@ switch (true) do {
         closeDialog 0;
     };
 
-    case (_item in ["pizza","bratwurst","broetchen","burger","steak","brezenstange","apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach"]): {
+    case (_item in ["apple","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","donuts","tbacon","peach","banana","strawberry","banana_juice","strawberry_juice","quellwasser","chips"]): {
         if (!(M_CONFIG(getNumber,"VirtualItems",_item,"edible") isEqualTo -1)) then {
             if ([false,_item,1] call life_fnc_handleInv) then {
                 _val = M_CONFIG(getNumber,"VirtualItems",_item,"edible");
@@ -146,13 +89,11 @@ switch (true) do {
                 switch (true) do {
                     case (_val < 0 && _sum < 1): {life_hunger = 5;}; //This adds the ability to set the entry edible to a negative value and decrease the hunger without death
                     case (_sum > 100): {life_hunger = 100;};
-				    [player, "eat"] call life_fnc_globalSound;
                     default {life_hunger = _sum;};
                 };
             };
         };
     };
-
 
     default {
         hint localize "STR_ISTR_NotUsable";

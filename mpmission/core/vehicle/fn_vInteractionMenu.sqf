@@ -30,7 +30,7 @@ _Btn2 = _display displayCtrl Btn2;
 _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
-_Btn6 = _display displayCtrl Btn6; 
+_Btn6 = _display displayCtrl Btn6;
 life_vInact_curTarget = _curTarget;
 _id = getObjectDLC _curTarget;
 

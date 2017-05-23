@@ -6,7 +6,7 @@
     Description:
     Main functionality for toolkits, to be revised in later version.
 */
-private ["_veh","_upp","_ui","_progress","_pgText","_cP","_displayName","_vehicle","_test","_sideRepairArray"];
+private ["_veh","_upp","_ui","_progress","_pgText","_cP","_displayName","_test","_sideRepairArray"];
 _veh = cursorObject;
 _vehicle = param [0,objNull,[objNull]];
 life_interrupted = false;
@@ -26,13 +26,15 @@ if ((_veh isKindOf "Car") || (_veh isKindOf "Ship") || (_veh isKindOf "Air")) th
         _pgText ctrlSetText format ["%2 (1%1)...","%",_upp];
         _progress progressSetPosition 0.01;
         _cP = 0.01;
+		
+		playSound "repair";
 
         for "_i" from 0 to 1 step 0 do {
-            if (animationState player != "AinvPknlMstpSnonWnonDnon_medic_1") then {
-                [player,"AinvPknlMstpSnonWnonDnon_medic_1",true] remoteExecCall ["life_fnc_animSync",RCLIENT];
-                player switchMove "AinvPknlMstpSnonWnonDnon_medic_1";
-                player playMoveNow "AinvPknlMstpSnonWnonDnon_medic_1";
-            };
+			if(animationState player != "InBaseMoves_repairVehiclePne") then {
+				[player,"InBaseMoves_repairVehiclePne",true] remoteExec ["life_fnc_animSync",0];
+				player switchMove "InBaseMoves_repairVehiclePne";
+				player playMoveNow "InBaseMoves_repairVehiclePne";
+			};
 
             sleep 0.27;
             _cP = _cP + 0.01;
@@ -40,7 +42,7 @@ if ((_veh isKindOf "Car") || (_veh isKindOf "Ship") || (_veh isKindOf "Air")) th
             _pgText ctrlSetText format ["%3 (%1%2)...",round(_cP * 100),"%",_upp];
             if (_cP >= 1) exitWith {};
             if (!alive player) exitWith {};
-            if (player != vehicle player) exitWith {};
+            if !(isNull objectParent player) exitWith {};
             if (life_interrupted) exitWith {};
         };
 
@@ -48,22 +50,34 @@ if ((_veh isKindOf "Car") || (_veh isKindOf "Ship") || (_veh isKindOf "Air")) th
         "progressBar" cutText ["","PLAIN"];
         player playActionNow "stop";
         if (life_interrupted) exitWith {life_interrupted = false; titleText[localize "STR_NOTF_ActionCancel","PLAIN"]; life_action_inUse = false;};
-        if (player != vehicle player) exitWith {titleText[localize "STR_NOTF_ActionInVehicle","PLAIN"];};
+        if !(isNull objectParent player) exitWith {titleText[localize "STR_NOTF_ActionInVehicle","PLAIN"];};
 
         _sideRepairArray = LIFE_SETTINGS(getArray,"vehicle_infiniteRepair");
 
 		//Gibt Fara geld beim Reparieren
-        if (playerSide isEqualTo independent) then {
+        if (playerSide isEqualTo independent or playerSide isEqualTo west) then {
 		
             if (_vehicle in life_vehicles) then {
                 hint "Du hast dein Eigenes Fahrzeug repariert & erhälst nun kein Geld !";
 		    } else {
-			
-				life_cash = life_cash + 750;
-				hint "Du hast 750 € für das reparieren eines Fahrzeugs bekommen !";
+				["repair"] spawn mav_ttm_fnc_addExp;
+				life_cash = life_cash + 500;
+				hint "Du hast 500 € & 1 EXP für das reparieren eines Fahrzeugs bekommen !";
 				
 			};
 		};
+		
+		//Gibt Civs XP
+        if (playerSide isEqualTo civilian) then {
+		
+            if (_vehicle in life_vehicles) then {
+                hint "Du hast dein Eigenes Fahrzeug repariert & erhälst nun keine EXP !";
+		    } else {
+				["repair"] spawn mav_ttm_fnc_addExp;
+				hint "Du hast ein Farzeug eines anderen Bürgers repariert & erhäst nun EXP!";
+				
+			};
+		};		
 		
         //Check if playerSide has infinite repair enabled
         if (playerSide isEqualTo civilian && (_sideRepairArray select 0) isEqualTo 0) then {

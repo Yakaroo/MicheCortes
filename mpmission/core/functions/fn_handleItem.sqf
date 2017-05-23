@@ -15,6 +15,7 @@ _override = [_this,4,false,[false]] call BIS_fnc_param;
 _toUniform = [_this,5,false,[false]] call BIS_fnc_param; //Manual override to send items specifically to a uniform.
 _toVest = [_this,6,false,[false]] call BIS_fnc_param; //Manual override to send items specifically to a vest
 _preview = [_this,7,false,[false]] call BIS_fnc_param;
+_acecheck = ["ACE_atropine","ACE_morphine","ACE_epinephrine","ACE_CableTie","ACE_DefusalKit","ACE_Flashlight_MX991","ACE_Flashlight_XL50","ACE_M84","ACE_gunbag","ACE_EarPlugs","acc_pointer_IR","ACE_acc_pointer_red","ACE_acc_pointer_green_IR","ACE_acc_pointer_green","ACE_wirecutter","ACE_MapTools","ACE_fieldDressing","ACE_elasticBandage","ACE_quikclot","ACE_bodyBag","ACE_packingBandage","ACE_personalAidKit","ACE_salineIV_250","ACE_salineIV_500","ACE_salineIV","ACE_surgicalKit","ACE_tourniquet","ACE_NVG_Gen1","ACE_NVG_Gen2","ACE_NVG_Gen3","ACE_NVG_Gen4","ACE_NVG_Wide","ACE_Altimeter","ACE_Cellphone","ACE_100Rnd_65x39_caseless_mag_Tracer_Dim","ACE_200Rnd_65x39_cased_Box_Tracer_Dim","ACE_30Rnd_65x39_caseless_mag_Tracer_Dim","ACE_30Rnd_65x39_caseless_green_mag_Tracer_Dim","ACE_30Rnd_556x45_Stanag_M995_AP_mag","ACE_30Rnd_556x45_Stanag_Mk262_mag","ACE_30Rnd_556x45_Stanag_Mk318_mag","ACE_30Rnd_556x45_Stanag_Tracer_Dim","ACE_20Rnd_762x51_Mag_Tracer","ACE_20Rnd_762x51_Mag_Tracer_Dim","ACE_20Rnd_762x51_Mag_SD","ACE_10Rnd_762x51_M118LR_Mag","ACE_10Rnd_762x51_M993_AP_Mag","ACE_20Rnd_762x51_M993_AP_Mag","ACE_10Rnd_762x54_Tracer_mag","ACE_Chemlight_HiRed","ACE_Chemlight_Orange","ACE_HandFlare_Red","ACE_HandFlare_Green","ACE_MX2A","ACE_optic_Arco_2D","ACE_optic_Arco_PIP","ACE_optic_LRPS_2D","ACE_optic_LRPS_PIP","ACE_optic_SOS_2D","ACE_optic_SOS_PIP","ACE_optic_MRCO_2D","ACE_optic_MRCO_PIP","ACE_optic_Hamr_2D","ACE_optic_Hamr_PIP","ACE_Wheel","ACE_TacticalLadder_Pack","ACE_SpraypaintRed","ACE_SpraypaintGreen","ACE_Vector","ACE_Yardage450"];
 
 //Some checks
 if (_item isEqualTo "") exitWith {};
@@ -72,9 +73,11 @@ if (_bool) then {
             if (_ispack) exitWith {player addItemToBackpack _item;};
 
             if ((_details select 4) in [1,2,4,5,4096]) then {
+			if(_item in _acecheck) then {player addItem _item;};
                 if ((_details select 4) isEqualTo 4096) then {
                     if ((_details select 5) isEqualTo -1) then {
                         _isgun = true;
+						
                     };
                 } else {
                     _isgun = true;
@@ -82,7 +85,7 @@ if (_bool) then {
             };
 
             if (_isgun) then {
-                if (!_ispack && _override) exitWith {}; //It was in the vest/uniform, try to close to prevent it overriding stuff... (Actual weapon and not an item)
+                //if (!_ispack && _override) exitWith {}; //It was in the vest/uniform, try to close to prevent it overriding stuff... (Actual weapon and not an item)
                 if (_item isEqualTo "MineDetector") then {
                     player addItem _item;
                 } else {

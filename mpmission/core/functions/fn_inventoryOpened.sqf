@@ -11,22 +11,13 @@ if (count _this isEqualTo 1) exitWith {false};
 _unit = _this select 0;
 _container = _this select 1;
 
-[] spawn {
-	sleep 2;
-	if(!(isNull (findDisplay 49))) exitWith {
-		closeDialog 0;
-		[10,ObjNull,"CHEAT: ESC beim Spieler/Fahrzeug I-Inventar!",0,0] spawn SOCK_fnc_updatePartial;
-	};
-};
-
-
 _isPack = FETCH_CONFIG2(getNumber,"CfgVehicles",typeOf _container,"isBackpack");
 if (_isPack isEqualTo 1) exitWith {
     hint localize "STR_MISC_Backpack";
     true;
 };
 
-if ((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F","Land_WaterTank_F","Land_CargoBox_V1_F","Land_Cargo20_yellow_F"]) exitWith {
+if ((typeOf _container) in ["Box_IND_Grenades_F","B_supplyCrate_F"]) exitWith {
     _house = nearestObject [player, "House"];
     if (!(_house in life_vehicles) && (_house getVariable ["locked",true])) exitWith {
         hint localize "STR_House_ContainerDeny";

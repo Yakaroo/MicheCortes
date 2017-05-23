@@ -1,18 +1,12 @@
-author = "Tonic & Shriver";
-onLoadName = "Altis Life by Miche Cortes";
-onLoadMission = "Rollenspiel von Tonic / Modifiziert von Miche Cortes Team";
-loadScreen =  "logo.paa";
- 
- 
-disableChannels[]={{0,true,true},{1,true,true},{2,true,true},{7,false,true}};
- 
-#include "config\Config_Spyglass.hpp"
+disableChannels[] = {{0,true,true},{1,true,true},{2,true,true}};    // Disabled text and voice for global, side, and command channels. Syntax: disableChannels[] = {{channelID<number>, disableChat<bool>, disableVoice<bool>}};
+overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
+
+#include "config\Config_SpyGlass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
 #include "infiSTAR_AdminMenu.hpp"
-#include "Config_EmergLights.hpp"
- 
+
 class CfgServer {
     DatabaseName = "altislife"; //Config name that'll be grep in the extdb-conf.ini. Default: [altislife]
     DebugMode = 0; //Enable many server/hc debugging logs. Default: 0 (1 = Enabled / 0 = Disabled)
@@ -22,133 +16,82 @@ class CfgServer {
     Disabled: If HeadlessSupport is set to 0 (disabled), the connection of a Headless Client will make no difference. This option will increase server performance a TINY but negligible amount.
     */
 };
- 
+
 class RscTitles {
     #include "dialog\progress.hpp"
     #include "dialog\hud_nameTags.hpp"
     #include "dialog\hud_stats.hpp"
-    #include "dialog\RL_progress.hpp"
 	#include "maverick\talent-tree-modular\gui\_masterTitles.cpp"
 };
- 
+
 class CfgFunctions {
     #include "Functions.hpp"
     #include "maverick\maverick_functions_master.cpp"
- 
 };
- 
+
 class CfgSounds {
     sounds[] = {};
-    class SirenLong {
-        name = "SirenLong";
-        sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
+    class sirenLong {
+        name = "sirenLong";
+        sound[] = {"\sounds\sirenLong.ogg", 1.0, 1};
         titles[] = {};
     };
-   
-    class siren {
-        name = "siren";
-        sound[] = {"\sounds\siren.ogg", 1.0, 1};
-        titles[] = {};
-    };
-   
-    class razzia {
-        name = "razzia";
-        sound[] = {"\sounds\speech.ogg", 1.0, 1};
-        titles[] = {};
-    };
- 
-    class adm {
-        name = "adm";
-        sound[] = {"\sounds\admin.ogg", 1.0, 1};
-        titles[] = {};
-    };
- 
+
     class medicSiren {
         name = "medicSiren";
         sound[] = {"\sounds\medicSiren.ogg", 1.0, 1};
         titles[] = {};
     };
-	
-	class medicSiren2 {
-        name = "medicSiren2";
-        sound[] = {"\sounds\medicSiren2.ogg", 1.0, 1};
-        titles[] = {};
-    };
-	
-	class medicSiren3 {
-        name = "medicSiren3";
-        sound[] = {"\sounds\medicSiren3.ogg", 1.0, 1};
-        titles[] = {};
-    };
- 
+
     class tazerSound {
         name = "tazerSound";
         sound[] = {"\sounds\tazer.ogg", 0.25, 1};
         titles[] = {};
     };
- 
+
     class flashbang {
         name = "flashbang";
         sound[] = {"\sounds\flashbang.ogg", 1.0, 1};
         titles[] = {};
     };
- 
+	
+    class repair {
+        name = "repair";
+        sound[] = {"\sounds\repair.ogg", 1.0, 1};
+        titles[] = {};
+    };
+	
+    class cop_stop {
+        name = "cop_stop";
+        sound[] = {"\sounds\cop_stop.ogg", 1.0, 1};
+        titles[] = {};
+    };
+
     class mining {
         name = "mining";
         sound[] = {"\sounds\mining.ogg", 1.0, 1};
         titles[] = {};
     };
- 
+
     class harvest {
         name = "harvest";
         sound[] = {"\sounds\harvest.ogg", 1.0, 1};
         titles[] = {};
     };
- 
+
     class lockCarSound {
         name = "lockCarSound";
         sound[] = {"\sounds\carLock.ogg", 0.25, 1};
         titles[] = {};
     };
- 
+
     class unlockCarSound {
         name = "unlockCarSound";
         sound[] = {"\sounds\carUnlock.ogg", 0.25, 1};
         titles[] = {};
     };
-   
-    class intro_music {
-        name = "intro_music";
-        sound[] = {"\sounds\intro_music.ogg", 0.25, 1};
-        titles[] = {};
-    };
-   
-    class lizenz {
-        name = "lizenz";
-        sound[] = {"\sounds\lizenz.ogg", 0.25, 1};
-        titles[] = {};
-    };
-   
-    class empwarn {
-    name = "empwarn";
-    sound[] = {"\sounds\empwarn.ogg", 1.0, 1};
-    titles[] = {};
-  };
- 
-  class empacsound {
-    name = "empacsound";
-    sound[] = {"sounds\empac.ogg", db-5, 1};
-    titles[] = {};
-  };
- 
-  class alarmSiren {
-    name = "alarmSiren";
-    sound[] = {"\sounds\alarm.ogg", 2.0, 1};
-    titles[] = {};
-  };
- 
 };
- 
+
 class CfgDebriefing {
     class NotWhitelisted {
         title = "$STR_NotWhitelisted_Title";
@@ -158,7 +101,7 @@ class CfgDebriefing {
         picture = "";
         pictureColor[] = {0,0.3,0.6,1};
     };
- 
+
     class Blacklisted {
         title = "$STR_Blacklisted_Title";
         subtitle = "$STR_Blacklisted_SubTitle";
@@ -167,8 +110,17 @@ class CfgDebriefing {
         picture = "";
         pictureColor[] = {0,0.3,0.6,1};
     };
+
+    class SpyGlass {
+        title = "$STR_SpyDetect_Title";
+        subTitle = "$STR_SpyDetect_SubTitle";
+        description = "$STR_SpyDetect_Descript";
+        pictureBackground = "";
+        picture = "";
+        pictureColor[] = {0,0.3,0.6,1};
+    };
 };
- 
+
 class CfgNotifications {
     class MedicalRequestEmerg {
         title = "$STR_MedicalRequestEmerg_Title";
@@ -177,7 +129,7 @@ class CfgNotifications {
         duration = 5;
         priority = 7;
     };
- 
+
     class DeliveryAssigned {
         title = "$STR_DeliveryAssigned_Title";
         iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
@@ -185,7 +137,7 @@ class CfgNotifications {
         duration = 10;
         priority = 7;
     };
- 
+
     class DeliveryFailed {
         title = "$STR_DeliveryFailed_Title";
         iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
@@ -193,7 +145,7 @@ class CfgNotifications {
         duration = 7;
         priority = 7;
     };
- 
+
     class DeliverySucceeded {
         title = "$STR_DeliverySucceeded_Title";
         iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
@@ -201,7 +153,7 @@ class CfgNotifications {
         duration = 6;
         priority = 6;
     };
- 
+
     class TextMessage {
         title = "$STR_TextMessage_Title";
         iconPicture = "icons\ico_messageNew.paa";
@@ -209,7 +161,7 @@ class CfgNotifications {
         duration = 10;
         priority = 6;
     };
- 
+
     class PoliceDispatch {
         title = "$STR_PoliceDispatch_Title";
         iconPicture = "icons\ico_messagePolice.paa";
@@ -217,7 +169,7 @@ class CfgNotifications {
         duration = 10;
         priority = 6;
     };
- 
+
     class AdminDispatch {
         title = "$STR_AdminDispatch_Title";
         iconPicture = "icons\ico_messageAdmin.paa";
@@ -225,7 +177,7 @@ class CfgNotifications {
         duration = 10;
         priority = 6;
     };
- 
+
     class AdminMessage {
         title = "$STR_AdminMessage_Title";
         iconPicture = "icons\ico_messageAdmin.paa";
@@ -233,15 +185,6 @@ class CfgNotifications {
         duration = 10;
         priority = 5;
     };
-   
-    class PolizeiRundfunk {
-        title = "Polizei Rundfunk";
-        iconPicture = "icons\marke_cop.paa"; //Icon kann geändert werden, kein Icon = leere ""
-        description = "%1";
-        duration = 10;
-        priority = 5;
-    };
-   
 };
- 
+
 #include "maverick\maverick_master.cpp"

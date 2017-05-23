@@ -8,19 +8,18 @@ class Socket_Reciever {
         class syncData {};
         class updatePartial {};
         class updateRequest {};
-		class tazeRagdoll {};
     };
 };
 
-class blackfisch_Functions {
-    tag = "bf";
-       class Scripts {
-         file = "core\scripts";
-         class lights {};
-         class lightsOn {};
+class SpyGlass {
+    tag = "SPY";
+    class Functions {
+        file = "SpyGlass";
+        class cookieJar{};
+        class notifyAdmins{};
+        class observe{};
     };
 };
-
 
 class Life_Client_Core {
     tag = "life";
@@ -33,6 +32,7 @@ class Life_Client_Core {
         class setupActions {};
         class setupEVH {};
         class survival {};
+        class welcomeNotification {};
     };
 
     class Actions {
@@ -71,33 +71,7 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
-        class pfand {};
     };
-	
-	class CivTieing {
-		file = "core\civilian\CivTieing";
-		class gagAction {};					
-		class gagged {};
-		class removeGagAction {};
-		class tieing {};
-		class tieingAction {};
-		class tieingActionb {};
-		class tieingb {};
-		class untie {};
-		class untieb {};
-	};
-	
-	class Apart {
-		file = "core\apart";
-		class ApartRent {};					
-		class ApartInvStore {};
-		class ApartInvLoad {};
-		class ApartGearStore {};
-		class ApartGearLoad {};
-		class ApartUpdate {};
-		class ApartStore {};
-		class ApartLoad {};
-	};
 
     class Admin {
         file = "core\admin";
@@ -114,8 +88,6 @@ class Life_Client_Core {
         class adminSpectate {};
         class adminTeleport {};
         class adminTpHere {};
-        class adminLights {};
-        class adminLightsa {};  
     };
 
     class Civilian {
@@ -132,8 +104,6 @@ class Life_Client_Core {
         class robPerson {};
         class robReceive {};
         class tazed {};
-		class passeportCiv {};  
-        class civPasseport {};
     };
 
     class Config {
@@ -144,12 +114,19 @@ class Life_Client_Core {
         class vehicleWeightCfg {};
     };
 	
-    class Tankstellen {
+    class tankstellen {
         file = "core\tankstellen";
         class atral {};
         class esco {};
+        class rell {};
         class set {};
         class star {};
+    };
+	
+    class jobcenter {
+        file = "core\jobcenter";
+        class jobcenter {};
+        class jobcaffe {};
     };
 
     class Cop {
@@ -162,8 +139,6 @@ class Life_Client_Core {
         class copMarkers {};
         class copSearch {};
         class copSiren {};
-		class copSiren2 {};
-		class copSiren3 {};
         class doorAnimate {};
         class fedCamDisplay {};
         class licenseCheck {};
@@ -182,14 +157,6 @@ class Life_Client_Core {
         class ticketPrompt {};
         class vehInvSearch {};
         class wantedGrab {};
-		class passportCop {};   
-        class copPassport {};
-		class showArrestDialog {};
-        class arrestDialog_Arrest {};
-		class copbackup {};
-		class adminsirene1 {};
-		class seizeWeapon {};
-		
     };
 
     class Dialog_Controls {
@@ -216,22 +183,7 @@ class Life_Client_Core {
         class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
-		class impoundedMenu {};
-        class willswieder {};
-        class impoundLBChange {};
-		
     };
-	
-	class DynMarket {
-       file = "core\DynMarket";
-       class bought {};
-       class update {};
-       class DisplayPrices {};
-       class LoadIntoListbox {};
-       class ForcePrice {};
-       class DYNMARKET_getPrice {};
-    
-	};
 
     class Functions {
         file = "core\functions";
@@ -281,9 +233,6 @@ class Life_Client_Core {
         class tazeSound {};
         class teleport {};
         class whereAmI {};
-		class notenbank {};
-		class globalSoundClient {};
-		class globalSound {};
     };
 
     class Gangs {
@@ -300,7 +249,6 @@ class Life_Client_Core {
         class gangNewLeader {};
         class gangUpgrade {};
         class initGang {};
-		class areaCapture {};
     };
 
     class Housing {
@@ -325,17 +273,6 @@ class Life_Client_Core {
         class sellHouseGarage {};
     };
 
-	class Special {
-		file = "core\special";
-		class openEmpMenu {};
-		class isEmpOperator {};
-		class scanVehicles {};
-		class warnVehicle {};
-		class empVehicle {};
-		class vehicleWarned {};
-		class vehicleEmpd {};
-	};
-	
     class Items {
         file = "core\items";
         class blastingCharge {};
@@ -347,6 +284,7 @@ class Life_Client_Core {
         class lockpick {};
         class placestorage {};
         class spikeStrip {};
+        class schlauch {};
         class storageBox {};
     };
 
@@ -365,8 +303,6 @@ class Life_Client_Core {
         class respawned {};
         class revived {};
         class revivePlayer {};
-		class medicSiren2 {};
-		class medicSiren3 {};
     };
 
     class Network {
@@ -401,9 +337,6 @@ class Life_Client_Core {
         class wantedInfo {};
         class wantedList {};
         class wantedMenu {};
-		class smartphone {};
-		class newMsg {};
-		class showMsg {};
     };
 
     class Shops {
@@ -436,17 +369,6 @@ class Life_Client_Core {
         class weaponShopMenu {};
         class weaponShopSelection {};
     };
-	
-	class Placeables {
-       file = "core\functions\placeables";
-       class placeablesInit {};
-       class medicPlaceablesInit {};
-       class placeablesMenu {};
-       class placeablesRemoveAll {};
-       class placeablePlace {};
-       class placeableCancel {};
-       class placeablesPlaceComplete {};
-    };
 
     class Vehicle {
         file = "core\vehicle";
@@ -463,14 +385,9 @@ class Life_Client_Core {
         class vehicleWeight {};
         class vehInventory {};
         class vehStoreItem {};
+        class vehTakeAllItem {};
+        class vehStoreAllItem {};
         class vehTakeItem {};
         class vInteractionMenu {};
-		class vehTakeAllItem {};
-		class vehStoreAllItem {};
-    };
-	
-	class Scripts_Siren {
-       file = "core\scripts";
-       class callSiren {};
     };
 };

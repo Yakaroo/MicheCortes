@@ -1,11 +1,28 @@
 class CfgGather {
     class Resources {
-        class test {
+
+        class heroin_unprocessed {
             amount = 3;
-            zones[] = { "test_1", "test_2", "test_3", "test_4" };
+            zones[] = { "heroin_1" };
             item = "";
+            zoneSize = 30;
+        };
+
+        class cocaine_unprocessed {
+            amount = 3;
+            zones[] = { "cocaine_1" };
+            item = "";
+            zoneSize = 30;
+        };
+
+        class cannabis {
+            amount = 3;
+            zones[] = { "weed_1" };
+            item = "";
+            zoneSize = 30;
         };
     };
+
 /*
 This block can be set using percent,if you want players to mine only one resource ,just leave it as it is.
 Example:
@@ -41,128 +58,87 @@ Example 2:
 
     class Minerals {
         class copper_unrefined {
-            amount = 2;
-            zones[] = { "copper_mine" };
+            amount = 1;
+            zones[] = { "copper_1" };
             item = "pickaxe";
             mined[] = {"copper_unrefined"};
-            zoneSize = 30;
+            zoneSize = 20;
         };
 		
-        class kakao_unrefined {
-            amount = 3;
-            zones[] = { "kakao_mine" };
+		class kakao_unrefined {
+            amount = 1;
+            zones[] = { "kakao_1" };
             item = "";
             mined[] = {"kakao_unrefined" };
             zoneSize = 30;
         };
 		
-		class apple {
-            amount = 5;
-            zones[] = { "apple_1", "apple_2", "apple_3", "apple_4" };
-            item = "";
-            mined[] = {"apple"};
-            zoneSize = 30;
-        };
-		
-		class peach {
-            amount = 5;
-            zones[] = { "peaches_1", "peaches_2", "peaches_3", "peaches_4" };
-            item = "";
-            mined[] = {"peach"};
-            zoneSize = 30;
-        };
-		
-		class getreide_unrefined {
-            amount = 3;
-            zones[] = { "getreide_1" };
-            item = "";
-            mined[] = {"getreide_unrefined" , };
-            zoneSize = 30;
-        };
-		
-		class mais_unrefined {
+		class banana {
             amount = 2;
-            zones[] = { "mais_1" };
+            zones[] = { "banana_1", "banana_2" };
             item = "";
-            mined[] = {"mais_unrefined" , };
-            zoneSize = 30;
+            mined[] = {"banana" };
+            zoneSize = 35;
         };
 		
-		class heroin_unprocessed {
+		class strawberry {
+            amount = 2;
+            zones[] = { "strawberry_1" };
+            item = "";
+            mined[] = {"strawberry" };
+            zoneSize = 35;
+        };
+		
+		class quellwasser {
+            amount = 2;
+            zones[] = { "quellwasser_1" };
+            item = "";
+            mined[] = {"quellwasser" };
+            zoneSize = 10;
+        };
+		
+		class tabakpflanze {
             amount = 3;
-            zones[] = { "heroin_1" };
+            zones[] = { "tabakpflanze_1" };
             item = "";
-            mined[] = {"heroin_unprocessed"};
-            zoneSize = 30;
+            mined[] = {"tabakpflanze" };
+            zoneSize = 40;
         };
 		
-		class cocaine_unprocessed {
-            amount = 3;
-            zones[] = { "cocaine_1" };
-            item = "";
-            mined[] = {"cocaine_unprocessed"};
-            zoneSize = 30;
-        };
-		
-	    class cannabis {
-            amount = 3;
-            zones[] = { "weed_1" };
-            item = "";
-            mined[] = {"cannabis"};
-            zoneSize = 30;
-        };
-		
-		class frog {
+		class kartoffel {
             amount = 1;
-            zones[] = { "frog_1" };
-            item = "netz";
-            mined[] = {"lsd_unprocessed"};
-            zoneSize = 30;
-        };
-		
-        class muschel_unrefined {
-            amount = 2;
-            zones[] = { "muschel_mine" };
-            item = "netz";
-            mined[] = {"muschel_unrefined"};
-            zoneSize = 30;
-        };
-
-        class holz_unrefined {
-            amount = 4;
-            zones[] = { "holz_mine" };
-            item = "axt";
-            mined[] = {"holz_unrefined"};
-            zoneSize = 30;
+            zones[] = { "kartoffel_1" };
+            item = "";
+            mined[] = {"kartoffel" };
+            zoneSize = 60;
         };
 
         class iron_unrefined {
-            amount = 2;
-            zones[] = { "iron_mine" };
+            amount = 1;
+            zones[] = { "iron_1" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
             zoneSize = 30;
         };
 		
-        class silber_unrefined {
-            amount = 3;
-            zones[] = { "silber_mine" };
+		 class kohle {
+            amount = 1;
+            zones[] = { "kohle_1" };
             item = "pickaxe";
-            mined[] = { "silber_unrefined" };
+            mined[] = { "kohle" };
             zoneSize = 30;
         };
 		
-        class tea_unrefined {
-            amount = 7;
-            zones[] = { "tea_mine" };
-            item = "";
-            mined[] = { "tea_unrefined" };
-            zoneSize = 30;
+		class goldkies {
+            amount = 1;
+            zones[] = { "goldkies_1" };
+            item = "schaufel";
+            mined[] = { "goldkies" };
+            zoneSize = 15;
         };
 
-
         class salt_unrefined {
-            amount = 4;
+            amount = 2;
             zones[] = { "salt_mine" };
             item = "pickaxe";
             mined[] = { "salt_unrefined" };
@@ -170,9 +146,9 @@ Example 2:
         };
 
         class sand {
-            amount = 4;
+            amount = 2;
             zones[] = { "sand_mine" };
-            item = "schaufel";
+            item = "pickaxe";
             mined[] = { "sand" };
             zoneSize = 30;
         };
@@ -186,7 +162,7 @@ Example 2:
         };
 
         class rock {
-            amount = 4;
+            amount = 2;
             zones[] = { "rock_quarry" };
             item = "pickaxe";
             mined[] = { "rock" };
@@ -194,7 +170,7 @@ Example 2:
         };
 
         class oil_unprocessed {
-            amount = 3;
+            amount = 2;
             zones[] = { "oil_field_1", "oil_field_2" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };

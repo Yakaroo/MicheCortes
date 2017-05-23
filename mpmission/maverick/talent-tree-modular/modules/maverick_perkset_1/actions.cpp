@@ -18,7 +18,12 @@ class Itemmined {
 	message = "Items abgebaut";
 };
 
+class repair {
+    expToAdd = 1;
+	message = "Fahrzeug repariert";
+};
+
 class Example {
-    expToAdd = 100;
+    expToAdd = 1;
 	message = "test";
 };

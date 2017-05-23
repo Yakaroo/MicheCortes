@@ -6,7 +6,7 @@
 #define CLIENT 1
 #define SERVER 2
 #define HC HC_Life
- 
+
 class CfgRemoteExec {
     class Functions {
         mode = 1;
@@ -20,11 +20,8 @@ class CfgRemoteExec {
         F(life_fnc_adminInfo,CLIENT)
         F(life_fnc_bountyReceive,CLIENT)
         F(life_fnc_copLights,CLIENT)
-        F(life_fnc_adminLights,CLIENT)
         F(life_fnc_copSearch,CLIENT)
         F(life_fnc_copSiren,CLIENT)
-        F(life_fnc_copSiren2,CLIENT)
-        F(life_fnc_copSiren3,CLIENT)
         F(life_fnc_freezePlayer,CLIENT)
         F(life_fnc_gangCreated,CLIENT)
         F(life_fnc_gangDisbanded,CLIENT)
@@ -72,17 +69,6 @@ class CfgRemoteExec {
         F(TON_fnc_clientGetKey,CLIENT)
         F(TON_fnc_clientMessage,CLIENT)
         F(TON_fnc_player_query,CLIENT)
-		F(life_fnc_passeportCiv,CLIENT)
-		F(life_fnc_passportCop,CLIENT)
-		F(life_fnc_vehicleEmpd,CLIENT)
-        F(life_fnc_vehicleWarned,CLIENT)
-        F(life_fnc_update,CLIENT) //DynMarket
-		F(life_fnc_adminsirene1,CLIENT)
-		F(life_fnc_tieing,CLIENT)
-		F(life_fnc_tieingb,CLIENT)
-		F(life_fnc_gagged,CLIENT)
-		F(life_fnc_medicSiren2,CLIENT) // Medic 2 Sirene
-		F(life_fnc_medicSiren3,CLIENT) // Medic 3 Sirene
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
@@ -125,15 +111,6 @@ class CfgRemoteExec {
         F(TON_fnc_vehicleUpdate,SERVER)
         F(TON_fnc_handleBlastingCharge,SERVER)
         F(TON_fnc_houseGarage,SERVER)
-		F(TON_fnc_playerLogged,SERVER) //DynMarket
-        F(TON_fnc_getUpdate,SERVER) //DynMarket
-        F(TON_fnc_changePrice, SERVER) //DynMarket
-		F(life_fnc_globalSound,SERVER)// RP SIRENE
-        F(TON_fnc_vehicleImpound,SERVER) // Verwahrstelle
-        F(TON_fnc_getimpoundedvehicles,SERVER) //Verwahrstelle		
-		F(TON_fnc_handleMessages,SERVER)
-		F(TON_fnc_msgRequest,SERVER)
-
 
         /* HeadlessClient only functions */
         F(HC_fnc_addContainer,HC)
@@ -185,7 +162,6 @@ class CfgRemoteExec {
         F(life_fnc_setFuel,ANYONE)
         F(life_fnc_simDisable,ANYONE)
         F(SPY_fnc_notifyAdmins,ANYONE)
-		F(bf_fnc_lightsOn,ANYONE)
     };
 
     class Commands {

@@ -179,10 +179,18 @@ class Licenses {
         side = "civ";
     };
 
+	class fruchtwerk {
+        variable = "fruchtwerk";
+        displayName = "STR_License_Fruchtwerk";
+        price = 500;
+        illegal = false;
+        side = "civ";
+    };
+	
     class diamond {
         variable = "diamond";
         displayName = "STR_License_Diamond";
-        price = 500000;
+        price = 10000;
         illegal = false;
         side = "civ";
     };
@@ -203,10 +211,42 @@ class Licenses {
         side = "civ";
     };
 
-    class iron {
+    class metalverarbeitung {
         variable = "iron";
-        displayName = "STR_License_Iron";
-        price = 60000;
+        displayName = "STR_License_metalverarbeitung";
+        price = 1100;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class presse {
+        variable = "presse";
+        displayName = "STR_License_Presse";
+        price = 7000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class sieben {
+        variable = "sieben";
+        displayName = "STR_License_Sieben";
+        price = 1550;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class tabakdreher {
+        variable = "tabakdreher";
+        displayName = "STR_License_Tabakdreher";
+        price = 6000;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class roesterrei {
+        variable = "roesterei";
+        displayName = "STR_License_roesterei";
+        price = 450;
         illegal = false;
         side = "civ";
     };
@@ -226,19 +266,11 @@ class Licenses {
         illegal = false;
         side = "civ";
     };
-
-    class copper {
-        variable = "copper";
-        displayName = "STR_License_Copper";
-        price = 8000;
-        illegal = false;
-        side = "civ";
-    };
 	
     class kakao {
         variable = "kakao";
         displayName = "STR_License_Kakao";
-        price = 5000;
+        price = 700;
         illegal = false;
         side = "civ";
     };

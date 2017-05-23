@@ -24,6 +24,14 @@ class ProcessAction {
         //ScrollText = "Process Oil";
         NoLicenseCost = 9000;
     };
+	
+	class kohle {
+        MaterialsReq[] = {{"kohle",6}};
+        MaterialsGive[] = {{"diamond_uncut",1}};
+        Text = "STR_Process_Kohle";
+        //ScrollText = "Press Coal";
+        NoLicenseCost = 5000;
+    };
 
     class diamond {
         MaterialsReq[] = {{"diamond_uncut",1}};
@@ -42,19 +50,67 @@ class ProcessAction {
     };
 
     class copper {
-        MaterialsReq[] = {{"copper_unrefined",1}};
-        MaterialsGive[] = {{"copper_refined",1}};
+        MaterialsReq[] = {{"copper_unrefined",3}};
+        MaterialsGive[] = {{"copper_refined",2}};
         Text = "STR_Process_Copper";
         //ScrollText = "Refine Copper";
-        NoLicenseCost = 2000;
+        NoLicenseCost = 800;
     };
 	
-    class kakao {
-        MaterialsReq[] = {{"kakao_unrefined",1}};
+	class bananaJuice {
+        MaterialsReq[] = {{"banana",4}};
+        MaterialsGive[] = {{"banana_juice",1}};
+        Text = "STR_Process_BananaJuice";
+        //ScrollText = "Refine Bananas";
+        NoLicenseCost = 400;
+    };
+	
+	class strawberryJuice {
+        MaterialsReq[] = {{"strawberry",4}};
+        MaterialsGive[] = {{"strawberry_juice",1}};
+        Text = "STR_Process_StrawberryJuice";
+        //ScrollText = "Refine Strawberry";
+        NoLicenseCost = 400;
+    };
+	
+	class icecube {
+        MaterialsReq[] = {{"quellwasser",1}};
+        MaterialsGive[] = {{"icecube",1}};
+        Text = "STR_Process_Icecube";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 2;
+    };
+	
+	class tabak {
+        MaterialsReq[] = {{"tabakpflanze",2}};
+        MaterialsGive[] = {{"tabak",1}};
+        Text = "STR_Process_Tabak";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = -1;
+    };
+	
+	class zigarette {
+        MaterialsReq[] = {{"tabak",2}};
+        MaterialsGive[] = {{"zigarette",1}};
+        Text = "STR_Process_Zigaretten";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 3000;
+    };
+	
+	class kakao {
+        MaterialsReq[] = {{"kakao_unrefined",2}};
         MaterialsGive[] = {{"schokolade_refined",1}};
         Text = "STR_Process_Kakao";
         //ScrollText = "Refine Kakao";
-        NoLicenseCost = 3000;
+        NoLicenseCost = 550;
+    };
+	
+	class kartoffel {
+        MaterialsReq[] = {{"kartoffel",6}};
+        MaterialsGive[] = {{"chips",1}};
+        Text = "STR_Process_Kartoffel";
+        //ScrollText = "Refine Kartoffel";
+        NoLicenseCost = 550;
     };
 	
     class muschel {
@@ -63,6 +119,22 @@ class ProcessAction {
         Text = "STR_Process_Muschel";
         //ScrollText = "Refine muschel";
         NoLicenseCost = 18000;
+    };
+	
+	 class goldnuggets {
+        MaterialsReq[] = {{"goldkies",1}};
+        MaterialsGive[] = {{"goldnuggets",1}};
+        Text = "STR_Process_Goldnuggets";
+        //ScrollText = "Refine Gold Gravel";
+        NoLicenseCost = 800;
+    };
+	
+	class goldbar {
+        MaterialsReq[] = {{"goldnuggets",8}};
+        MaterialsGive[] = {{"goldbar",1}};
+        Text = "STR_Process_Goldbar";
+        //ScrollText = "Refine Goldnuggets";
+        NoLicenseCost = 800;
     };
 	
     class holz {
@@ -74,11 +146,11 @@ class ProcessAction {
     };
 
     class iron {
-        MaterialsReq[] = {{"iron_unrefined",1}};
-        MaterialsGive[] = {{"iron_refined",1}};
+        MaterialsReq[] = {{"iron_unrefined",4}};
+        MaterialsGive[] = {{"iron_refined",2}};
         Text = "STR_Process_Iron";
         //ScrollText = "Refine Iron";
-        NoLicenseCost = 2000;
+        NoLicenseCost = 800;
     };
 	
     class silber {
