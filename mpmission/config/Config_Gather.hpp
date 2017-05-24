@@ -2,21 +2,21 @@ class CfgGather {
     class Resources {
 
         class heroin_unprocessed {
-            amount = 3;
+            amount = 1;
             zones[] = { "heroin_1" };
             item = "";
             zoneSize = 30;
         };
 
         class cocaine_unprocessed {
-            amount = 3;
+            amount = 1;
             zones[] = { "cocaine_1" };
             item = "";
             zoneSize = 30;
         };
 
         class cannabis {
-            amount = 3;
+            amount = 2;
             zones[] = { "weed_1" };
             item = "";
             zoneSize = 30;

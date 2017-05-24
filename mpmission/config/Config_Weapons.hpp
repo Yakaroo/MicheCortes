@@ -238,7 +238,7 @@ class WeaponShops {
 			{ "ACE_quikclot", "", 10, 1000, "" },
 			{ "ACE_elasticBandage", "", 10, 1000, "" },
 			{ "ACE_packingBandage", "", 10, 1000, "" },
-			{ "ACE_tourniquete", "", 25, 1000, "" },
+			{ "ACE_tourniquet", "", 25, 1000, "" },
 			{ "ACE_SpraypaintGreen", "", 25, 1000, "" },
 			{ "ACE_SpraypaintRed", "", 25, 1000, "" }
         };
@@ -264,7 +264,7 @@ class WeaponShops {
 			{ "ACE_quikclot", "", 10, 1000, "" },
 			{ "ACE_elasticBandage", "", 10, 1000, "" },
 			{ "ACE_packingBandage", "", 10, 1000, "" },
-			{ "ACE_tourniquete", "", 25, 1000, "" },
+			{ "ACE_tourniquet", "", 25, 1000, "" },
 			{ "ACE_morphine", "", 30, 1000, "" },
 			{ "ACE_epinephrine", "", 30, 1000, "" },
 			{ "ACE_atropine", "", 10, 1000, "" },
