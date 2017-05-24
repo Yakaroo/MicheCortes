@@ -30,3 +30,4 @@
 #include "newsStation.hpp"
 #include "jobcenter.hpp"
 #include "jobcaffe.hpp"
+#include "placeables.hpp"

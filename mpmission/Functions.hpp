@@ -72,6 +72,17 @@ class Life_Client_Core {
         class ticketAction {};
         class unrestrain {};
     };
+	
+	class Placeables {
+        file = "core\functions\placeables";
+        class placeablesInit {};
+        class medicPlaceablesInit {};
+        class placeablesMenu {};
+        class placeablesRemoveAll {};
+        class placeablePlace {};
+        class placeableCancel {};
+        class placeablesPlaceComplete {};
+    };
 
     class Admin {
         file = "core\admin";
