@@ -133,15 +133,16 @@
             <Polish>Sklep Kartingowy</Polish>
         </Key>
         <Key ID="STR_Shops_Market">
-            <Original>Altis Market</Original>
-            <Czech>Altis Market</Czech>
-            <Spanish>Mercado de Altis</Spanish>
-            <Russian></Russian>
-            <German>Altis Markt</German>
-            <Italian>Mercato</Italian>
-            <French>Marché d'Altis</French>
-            <Portuguese>Mercado</Portuguese>
-            <Polish>Market Altis</Polish>
+            <Original>Market</Original>
+            <German>Markt</German>
+        </Key>
+		<Key ID="STR_Shops_Tempeldisco">
+            <Original>EL Erduado</Original>
+            <German>EL Erduado</German>
+        </Key>
+		<Key ID="STR_Shops_Kaffe">
+            <Original>Café</Original>
+            <German>Café</German>
         </Key>
 		<Key ID="STR_Shops_WikiBar">
             <Original>Wiki Bar</Original>
@@ -359,6 +360,9 @@
             <Portuguese>Vender</Portuguese>
             <Polish>Sprzedaj</Polish>
         </Key>
+        <Key ID="STR_Global_Flaschen">
+            <Original>Sammel 30 Pfandflaschen</Original>
+        </Key>
         <Key ID="STR_Global_Buy">
             <Original>Buy</Original>
             <Czech>Koupit</Czech>
@@ -490,6 +494,9 @@
             <Italian>Si</Italian>
             <Portuguese>Sim</Portuguese>
             <Polish>Tak</Polish>
+        </Key>
+        <Key ID="STR_Global_schlauch">
+            <Original>Willst du wirklich illegal den Tank des Fahrzeuges absaugen ?</Original>
         </Key>
         <Key ID="STR_Global_No">
             <Original>No</Original>
@@ -6234,6 +6241,18 @@
             <Portuguese>Maconha não Processada</Portuguese>
             <Polish>Konopie</Polish>
         </Key>
+		<Key ID="STR_Item_Schlangen">
+            <Original>Snake</Original>
+            <German>Schlange</German>
+        </Key>
+		<Key ID="STR_Item_Schlangengift">
+            <Original>Snake Poison</Original>
+            <German>Schlangengift</German>
+        </Key>
+		<Key ID="STR_Item_Kotropfen">
+            <Original>K.O. Drops</Original>
+            <German>K.O. Tropfen</German>
+        </Key>
         <Key ID="STR_Item_Apple">
             <Original>Apple</Original>
             <Czech>Jablko</Czech>
@@ -6701,6 +6720,14 @@
             <Original>Source Water</Original>
             <German>Quellwasser</German>
         </Key>
+		<Key ID="STR_Item_Kaffebohnen">
+            <Original>Coffee Bean</Original>
+            <German>Kaffebohne</German>
+        </Key>
+		<Key ID="STR_Item_Kaffepulver">
+            <Original>Coffee Powder</Original>
+            <German>Kaffepulver</German>
+        </Key>
 		<Key ID="STR_Item_Icecube">
             <Original>Icecube</Original>
             <German>Eiswürfel</German>
@@ -6751,6 +6778,10 @@
         </Key>
         <Key ID="STR_Item_schlauch">
             <Original>Benzinschlauch</Original>
+        </Key>
+		<Key ID="STR_Item_Handschuhe">
+            <Original>Gloves</Original>
+			<German>Handschuhe</German>
         </Key>
         <Key ID="STR_Item_Defibrillator">
             <Original>Defibrillator</Original>
@@ -7230,6 +7261,14 @@
             <Original>Sieve License</Original>
             <German>Siebe Lizenz</German>
         </Key>
+		<Key ID="STR_License_Kaffe">
+            <Original>Coffee Roaster License</Original>
+            <German>Kafferöster Lizenz</German>
+        </Key>
+		<Key ID="STR_License_ophiotoxin">
+            <Original>Ophiotoxin Mixer License</Original>
+            <German>Ophiotoxin Mischer Lizenz</German>
+        </Key>
 		<Key ID="STR_License_roesterei">
             <Original>Roasted License</Original>
             <German>Rösterei Lizenz</German>
@@ -7266,6 +7305,9 @@
             <Italian>Processo Cocaina</Italian>
             <Portuguese>Treinamento de Cocaína</Portuguese>
             <Polish>Oczyszczanie kokainy</Polish>
+        </Key>
+        <Key ID="STR_License_pfandflaschensammler">
+            <Original>Pfandflaschensammler</Original>
         </Key>
         <Key ID="STR_License_Marijuana">
             <Original>Marijuana Training</Original>
@@ -7876,6 +7918,18 @@
             <Portuguese>Lapidando Diamante</Portuguese>
             <Polish>Szlif diamentów</Polish>
         </Key>
+		<Key ID="STR_Process_Kaffe">
+            <Original>Grind Coffee</Original>
+            <German>Kaffe mahlen</German>
+        </Key>
+		<Key ID="STR_Process_Schlangen">
+            <Original>Snake milking</Original>
+            <German>Gift melken</German>
+        </Key>
+		<Key ID="STR_Process_Kotropfen">
+            <Original>Poison is mixed with other components</Original>
+            <German>Gift wird mit anderen Komponenten gemischt</German>
+        </Key>
         <Key ID="STR_Process_Heroin">
             <Original>Processing Opium</Original>
             <Czech>zpracování Opium</Czech>
@@ -8064,6 +8118,9 @@
             <Italian>%1 sta richiedendo l'intervento medico.</Italian>
             <Portuguese>%1 requisitou o resgate do SAMU</Portuguese>
             <Polish>%1 prosi o pomoc medyczną.</Polish>
+        </Key>
+        <Key ID="STR_caffe">
+            <Original>Begebe dich zum Caffe.</Original>
         </Key>
         <Key ID="STR_Medic_Respawn">
             <Original>Respawn Available in: %1</Original>
@@ -10036,6 +10093,10 @@
             <Polish>Diler narkotyków</Polish>
             <Italian>Spacciatore</Italian>
         </Key>
+		<Key ID="STR_MAR_Tempel_Dealer">
+            <Original>EL Erduado</Original>
+            <German>EL Erduado</German>
+        </Key>
         <Key ID="STR_MAR_Diamond_Processing">
             <Original>Diamond Processing</Original>
             <Czech>Diamond Processing</Czech>
@@ -10247,15 +10308,8 @@
             <Italian>Banca Federale</Italian>
         </Key>
         <Key ID="STR_MAR_Highway_Patrol">
-            <Original>Highway Patrol Outpost</Original>
-            <Czech>Dálniční hlídka Outpost</Czech>
-            <French>Poste de Police</French>
-            <Spanish>Puesto de Patrulla de Carretera</Spanish>
-            <Russian></Russian>
-            <German>Mautstation</German>
-            <Portuguese>Base da Polícia Rodoviária</Portuguese>
-            <Polish>Posterunek policji drogowej</Polish>
-            <Italian>Checkpoint di polizia</Italian>
+            <Original>Police Training Center</Original>
+            <German>Polizei Ausbildungslager</German>
         </Key>
         <Key ID="STR_MAR_Rock_Quarry">
             <Original>Rock Quarry</Original>
@@ -10994,15 +11048,7 @@
             <Polish>South East Hospital</Polish>
         </Key>
         <Key ID="STR_SP_EMS_Tan">
-            <Original>Tanouka Regional</Original>
-            <Czech>Tanouka Regional</Czech>
-            <Spanish>Tanouka Regional</Spanish>
-            <Russian>Tanouka Regional</Russian>
-            <German>Tanouka Krankenhaus</German>
-            <French>Tanouka Regional</French>
-            <Italian>Tanouka Regional</Italian>
-            <Portuguese>Tanouka Regional</Portuguese>
-            <Polish>Tanouka Regional</Polish>
+            <Original>Oumere Hospital</Original>
         </Key>
         <Key ID="STR_SP_EMS_NEair">
             <Original>North East Airport Hospital</Original>

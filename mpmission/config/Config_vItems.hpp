@@ -12,7 +12,7 @@ class VirtualShops {
         name = "STR_Shops_Market";
         side = "civ";
         conditions = "";
-        items[] = { "pickaxe", "netz", "schaufel", "axt", "fuelFull", "toolkit", "storagesmall", "storagebig", "waterBottle", "chips", "rabbit", "banana", "strawberry", "tbacon", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "pickaxe", "netz", "schaufel", "axt", "handschuhe", "fuelFull", "toolkit", "storagesmall", "storagebig", "waterBottle", "chips", "rabbit", "banana", "strawberry", "tbacon", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 	
     class rebellen {
@@ -81,6 +81,14 @@ class VirtualShops {
         items[] = { "lsd_processed" };
     };
 	
+	class tempeldisco {
+        name = "STR_Shops_Tempeldisco";
+        side = "civ";
+        license = "";
+        conditions = "";
+        items[] = { "kotropfen" };
+    };
+	
 	class metaltrader {
         name = "STR_Shops_Metal";
         side = "civ";
@@ -142,6 +150,14 @@ class VirtualShops {
         side = "civ";
         conditions = "";
         items[] = { "schokolade_refined" };
+		
+    };
+	
+	class kaffe {
+        name = "STR_Shops_Kaffe";
+        side = "civ";
+        conditions = "";
+        items[] = { "coffee", "kaffepulver" };
 		
     };
 	
@@ -280,6 +296,17 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_schlauch.paa";
+    };
+	
+	class handschuhe {
+        variable = "handschuhe";
+        displayName = "STR_Item_Handschuhe";
+        weight = 2;
+        buyPrice = 100;
+        sellPrice = 45;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_handschuhe.paa";
     };
 
 // Medic
@@ -1038,6 +1065,38 @@ class VirtualItems {
         icon = "icons\ico_lsd.paa";
     };
 	
+	class schlangen {
+        variable = "schlangen";
+        displayName = "STR_Item_Schlangen";
+        weight = 4;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_schlangen.paa";
+    };
+
+    class schlangengift {
+        variable = "schlangengift";
+        displayName = "STR_Item_Schlangengift";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = true;
+        edible = -1;
+        icon = "icons\ico_schlangengift.paa";
+    };
+
+    class kotropfen {
+        variable = "kotropfen";
+        displayName = "STR_Item_Kotropfen";
+        weight = 2;
+        buyPrice = 200;
+        sellPrice = 140;
+        illegal = true;
+        edible = 10;
+        icon = "icons\ico_kotropfen.paa";
+    };	
 
     //Drink
     class redgull {
@@ -1126,6 +1185,28 @@ class VirtualItems {
         illegal = false;
         edible = 75;
         icon = "icons\ico_quellwasser.paa";
+    };
+	
+	class kaffebohnen {
+        variable = "kaffebohnen";
+        displayName = "STR_Item_Kaffebohnen";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_kaffebohnen.paa";
+    };
+	
+	class kaffepulver {
+        variable = "kaffepulver";
+        displayName = "STR_Item_Kaffepulver";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = 30;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_kaffeepulver.paa";
     };
 
     //Food

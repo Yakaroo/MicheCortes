@@ -200,9 +200,9 @@ class CfgSpawnPoints {
 
             class HW {
                 displayName = $STR_MAR_Highway_Patrol;
-                spawnMarker = "cop_spawn_5";
+                spawnMarker = "cop_spawn_4";
                 icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
-                conditions = "call life_coplevel >= 3";
+                conditions = "";
             };
         };
 
