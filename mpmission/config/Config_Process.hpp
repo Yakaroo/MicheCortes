@@ -97,6 +97,30 @@ class ProcessAction {
         NoLicenseCost = 3000;
     };
 	
+	class kaffee {
+        MaterialsReq[] = {{"kaffebohnen",4}};
+        MaterialsGive[] = {{"kaffepulver",1}};
+        Text = "STR_Process_Kaffe";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 400;
+    };
+	
+	class schlangengift {
+        MaterialsReq[] = {{"schlangen",1}};
+        MaterialsGive[] = {{"schlangengift",1}};
+        Text = "STR_Process_Schlangen";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = -1;
+    };
+	
+	class kotropfen {
+        MaterialsReq[] = {{"schlangengift",2}};
+        MaterialsGive[] = {{"kotropfen",1}};
+        Text = "STR_Process_Kotropfen";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 1000;
+    };
+	
 	class kakao {
         MaterialsReq[] = {{"kakao_unrefined",2}};
         MaterialsGive[] = {{"schokolade_refined",1}};

@@ -56,6 +56,14 @@ class Licenses {
         side = "civ";
     };
 	
+    class pfandflaschensammler {
+        variable = "pfandflaschensammler";
+        displayName = "STR_License_pfandflaschensammler";
+        price = 0;
+        illegal = false;
+        side = "civ";
+    };
+	
     class oiltrucking {
         variable = "oiltrucking";
         displayName = "STR_License_oilTruck";
@@ -232,6 +240,22 @@ class Licenses {
         displayName = "STR_License_Sieben";
         price = 1550;
         illegal = false;
+        side = "civ";
+    };
+	
+	class kaffeeroester {
+        variable = "kaffe";
+        displayName = "STR_License_Kaffe";
+        price = 1600;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class ophiotoxinmischer {
+        variable = "ophiotoxinmischer";
+        displayName = "STR_License_ophiotoxin";
+        price = 8000;
+        illegal = true;
         side = "civ";
     };
 	

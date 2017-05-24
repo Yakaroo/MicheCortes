@@ -112,6 +112,14 @@ Example 2:
             mined[] = {"kartoffel" };
             zoneSize = 60;
         };
+		
+		class kaffebohnen {
+            amount = 2;
+            zones[] = { "kaffebohnen_1" };
+            item = "";
+            mined[] = {"kaffebohnen" };
+            zoneSize = 50;
+        };
 
         class iron_unrefined {
             amount = 1;
@@ -167,6 +175,14 @@ Example 2:
             item = "pickaxe";
             mined[] = { "rock" };
             zoneSize = 30;
+        };
+		
+		class schlangen {
+            amount = 1;
+            zones[] = { "schlangen_1" };
+            item = "handschuhe";
+            mined[] = { "schlangen" };
+            zoneSize = 25;
         };
 
         class oil_unprocessed {
