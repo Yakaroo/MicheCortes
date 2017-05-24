@@ -32,3 +32,5 @@
 #include "jobcaffe.hpp"
 #include "placeables.hpp"
 #include "impounded.hpp"
+#include "dynmarket_changeprice.hpp"
+#include "dynmarket_prices.hpp"
