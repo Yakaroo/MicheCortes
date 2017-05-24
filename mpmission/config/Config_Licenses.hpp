@@ -32,6 +32,14 @@ class Licenses {
         side = "civ";
     };
 	
+    class helikopter {
+        variable = "helikopter";
+        displayName = "STR_License_helikopter";
+        price = 150000;
+        illegal = false;
+        side = "civ";
+    };
+	
 	class bigpilot {
         variable = "bigpilot";
         displayName = "STR_License_Bigpilot";
@@ -271,6 +279,14 @@ class Licenses {
         variable = "roesterei";
         displayName = "STR_License_roesterei";
         price = 450;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class giftmischer {
+        variable = "giftmischer";
+        displayName = "STR_License_giftmischer";
+        price = 1000;
         illegal = false;
         side = "civ";
     };

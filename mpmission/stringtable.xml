@@ -7279,6 +7279,10 @@
             <Original>Roasted License</Original>
             <German>Rösterei Lizenz</German>
         </Key>
+		<Key ID="STR_License_giftmischer">
+            <Original>Poison Mixer License</Original>
+            <German>Giftmischer Lizenz</German>
+        </Key>
         <Key ID="STR_License_Sand">
             <Original>Sand Processing</Original>
             <Czech>Zpracování písek</Czech>
