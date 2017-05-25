@@ -65,7 +65,6 @@ class CarShops {
             { "Guillaume9545_Shelby_Cobra_Vert", "" },
             { "Guillaume9545_Shelby_Cobra_Rouge_fonce", "" },
             { "Guillaume9545_Shelby_Cobra_noir", "" },
-            { "Faisal_MaybachLaundet57", "" },
             { "BRP_1969_White", "" },
             { "BRP_1969_Green", "" },
             { "BRP_1969_Black", "" },
@@ -78,7 +77,6 @@ class CarShops {
             { "AMG_Suburban2015", "" },
             { "ivory_isf", "" },
             { "C_Jas_MX5Miata11_F", "" },
-            { "AMG_Charger_12", "" },
             { "Jonzie_Quattroporte", "" },
             { "Xiphoid87_W222", "" }, //1
             { "C_Sal_nissan_gtr_2017_alt_F", "" },
@@ -165,7 +163,10 @@ class CarShops {
             { "Dacia_Duster_gn", "" },
             { "c4h_gnb", "" },
             { "Transit_gn", "" },
-            { "Mer_Vito_gn", "" }
+            { "Mer_Vito_gn", "" },
+            { "Jonzie_Ambulance", "" },
+            { "Bcas", "" },				
+            { "depanren", "" }
         };
     };
 
@@ -182,7 +183,6 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "DAR_ExplorerSheriff", "" },
             { "FaisalAlYahya_CVPI_police", "" },
             { "ivory_isf_slicktop", "" },
             { "ivory_isf_marked", "" },
@@ -194,6 +194,14 @@ class CarShops {
             { "ivory_evox_marked", "" },
             { "ivory_wrx_slicktop", "" },
             { "ivory_wrx_marked", "" }
+        };
+    };
+	
+	class cop_swat {
+        side = "cop";
+        conditions = "";
+        vehicles[] = {
+            { "DAR_SWATPolice", "" }
         };
     };
 
@@ -568,43 +576,57 @@ class LifeCfgVehicles {
 	// Fara Autos - Anfang
 	
     class Dacia_Duster_gn {
-        vItemSpace = 100;
+        vItemSpace = 50;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class c4h_gnb {
-        vItemSpace = 100;
+        vItemSpace = 50;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class Transit_gn {
-        vItemSpace = 100;
+        vItemSpace = 50;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class Mer_Vito_gn {
-        vItemSpace = 100;
+        vItemSpace = 50;
         conditions = "";
         price = 500;
+        textures[] = {};
+    };
+	
+	class depanren {
+        vItemSpace = 75;
+        conditions = "";
+        price = 700;
+        textures[] = {};
+    };
+	
+	class Jonzie_Ambulance {
+        vItemSpace = 75;
+        conditions = "";
+        price = 1000;
+        textures[] = {};
+    };
+	
+	class Bcas {
+        vItemSpace = 75;
+        conditions = "";
+        price = 1000;
         textures[] = {};
     };
 	
 	// Fara Autos - Ende
 	
-	//Cop Autos - Anfang
-    class DAR_ExplorerSheriff {
-        vItemSpace = 100;
-        conditions = "";
-        price = 500;
-        textures[] = {};
-    };
-	
+	//Cop Autos - Anfang	
     class FaisalAlYahya_CVPI_police {
         vItemSpace = 100;
         conditions = "";
@@ -683,6 +705,13 @@ class LifeCfgVehicles {
         vItemSpace = 100;
         conditions = "";
         price = 500;
+        textures[] = {};
+    };
+	
+	class DAR_SWATPolice {
+        vItemSpace = 100;
+        conditions = "";
+        price = 5000;
         textures[] = {};
     };
 	// Cop Auto Ende
