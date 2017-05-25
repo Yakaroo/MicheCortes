@@ -89,6 +89,22 @@ class ProcessAction {
         NoLicenseCost = -1;
     };
 	
+	class muscheln {
+        MaterialsReq[] = {{"muschel_unrefined",1}};
+        MaterialsGive[] = {{"perle_refined",1}};
+        Text = "STR_Process_Muscheln";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 1000;
+    };
+	
+	class kokosnuss {
+        MaterialsReq[] = {{"kokosnuss",2}};
+        MaterialsGive[] = {{"kokosnussmilch",1}};
+        Text = "STR_Process_Kokosnuss";
+        //ScrollText = "freeze source water";
+        NoLicenseCost = 200;
+    };
+	
 	class zigarette {
         MaterialsReq[] = {{"tabak",2}};
         MaterialsGive[] = {{"zigarette",1}};

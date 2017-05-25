@@ -229,9 +229,8 @@
             <Portuguese>Comprador de Petróleo</Portuguese>
             <Polish>Skup Ropy</Polish>
         </Key>
-		<Key ID="STR_Shops_Metal">
-            <Original>Metal Trader</Original>
-            <German>Metallhändler</German>
+		<Key ID="STR_Shops_Seetraderlegal">
+            <Original>Legaler Überseehändler</Original>
         </Key>
 		<Key ID="STR_Shops_Zigarette">
             <Original>Cigarettes Trader</Original>
@@ -6749,6 +6748,9 @@
             <Portuguese>Café</Portuguese>
             <Polish>Kawa</Polish>
         </Key>
+		<Key ID="STR_Item_Alpenmilch">
+            <Original>Alpenmilch</Original>
+        </Key>
         <Key ID="STR_Item_Donuts">
             <Original>Donuts</Original>
             <Czech>koblihy</Czech>
@@ -6854,6 +6856,14 @@
             <Italian>Lingotto di ferro</Italian>
             <Portuguese>Barra de Ferro</Portuguese>
             <Polish>Sztabka żelaza</Polish>
+        </Key>
+		<Key ID="STR_Item_Kokosnuss">
+            <Original>Coconut</Original>
+            <German>Kokosnuss</German>
+        </Key>
+		<Key ID="STR_Item_Kokosnussmilch">
+            <Original>Coconutmilk</Original>
+            <German>Kokosnussmilch</German>
         </Key>
 		<Key ID="STR_Item_Kohle">
             <Original>Coal</Original>
@@ -7270,6 +7280,12 @@
 		<Key ID="STR_License_Kaffe">
             <Original>Coffee Roaster License</Original>
             <German>Kafferöster Lizenz</German>
+        </Key>
+		<Key ID="STR_License_Muschel">
+            <Original>Muschelknacker</Original>
+        </Key>
+		<Key ID="STR_License_Kokosnussknacker">
+            <Original>Kokosnussknacker</Original>
         </Key>
 		<Key ID="STR_License_ophiotoxin">
             <Original>Ophiotoxin Mixer License</Original>
@@ -7876,6 +7892,9 @@
 		<Key ID="STR_Process_Muscheln">
             <Original>Processing Shellfish</Original>
             <German>Muscheln werden verarbeitet...</German>
+        </Key>
+		<Key ID="STR_Process_Kokosnuss">
+            <Original>Kokosnuss knacken</Original>
         </Key>
 		<Key ID="STR_Process_Goldnuggets">
             <Original>Processing Gold Gravel</Original>
@@ -9679,6 +9698,12 @@
             <Italian>Deruba</Italian>
             <Portuguese>Roubar Jogador</Portuguese>
             <Polish>Obrabuj osobę</Polish>
+        </Key>
+        <Key ID="STR_pAct_Papiere">
+            <Original>Papiere zeigen</Original>
+        </Key>
+        <Key ID="STR_pAct_Polizeiausweiss">
+            <Original>(Polizei) Papiere zeigen</Original>
         </Key>
     </Package>
     <Package name="Markers_names">

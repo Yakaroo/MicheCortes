@@ -144,6 +144,14 @@ Example 2:
             mined[] = { "goldkies" };
             zoneSize = 15;
         };
+		
+		class muschel {
+            amount = 1;
+            zones[] = { "muschel_1" };
+            item = "netz";
+            mined[] = { "muschel_unrefined" };
+            zoneSize = 60;
+        };
 
         class salt_unrefined {
             amount = 2;
@@ -184,10 +192,18 @@ Example 2:
             mined[] = { "schlangen" };
             zoneSize = 25;
         };
+		
+		class kokosnuss {
+            amount = 1;
+            zones[] = { "kokosnuss_1" };
+            item = "";
+            mined[] = { "kokosnuss" };
+            zoneSize = 35;
+        };
 
         class oil_unprocessed {
             amount = 2;
-            zones[] = { "oil_field_1", "oil_field_2" };
+            zones[] = { "oil_field_1" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
             zoneSize = 30;

@@ -95,6 +95,13 @@ class VirtualShops {
         conditions = "";
         items[] = { "copper_refined", "iron_refined", "goldbar" };
     };
+	
+	class seetraderlegal {
+        name = "STR_Shops_Seetraderlegal";
+        side = "civ";
+        conditions = "";
+        items[] = { "alpenmilch" };
+    };
 
     class oil {
         name = "STR_Shops_Oil";
@@ -193,7 +200,7 @@ class VirtualShops {
         name = "STR_Shops_WikiBar";
         side = "civ";
         conditions = "";
-        items[] = { "banana_juice", "strawberry_juice", "icecube" };
+        items[] = { "banana_juice", "strawberry_juice", "icecube", "kokosnuss" };
     };
 	
 	class seeds {
@@ -645,8 +652,8 @@ class VirtualItems {
         variable = "oilProcessed";
         displayName = "STR_Item_OilP";
         weight = 5;
-        buyPrice = 6400;
-        sellPrice = 4367;
+        buyPrice = 100;
+        sellPrice = 78;
         illegal = false;
         edible = -1;
         icon = "icons\ico_oilProcessed.paa";
@@ -700,7 +707,7 @@ class VirtualItems {
 	class muschel_unrefined {
         variable = "muschelUnrefined";
         displayName = "STR_Item_muschelOre";
-        weight = 4;
+        weight = 3;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -711,9 +718,9 @@ class VirtualItems {
     class perle_refined {
         variable = "perleRefined";
         displayName = "STR_Item_perle";
-        weight = 2;
-        buyPrice = 10000;
-        sellPrice = 6926;
+        weight = 1;
+        buyPrice = 200;
+        sellPrice = 145;
         illegal = false;
         edible = -1;
         icon = "icons\ico_perle.paa";
@@ -783,6 +790,28 @@ class VirtualItems {
         illegal = false;
         edible = -1;
         icon = "icons\ico_iron.paa";
+    };
+	
+	class kokosnuss {
+        variable = "kokosnuss";
+        displayName = "STR_Item_Kokosnuss";
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = -1;
+        icon = "icons\ico_kokos.paa";
+    };
+	
+	class kokosnussmilch {
+        variable = "kokosnussmilch";
+        displayName = "STR_Item_Kokosnussmilch";
+        weight = 2;
+        buyPrice = -1;
+        sellPrice = -1;
+        illegal = false;
+        edible = 100;
+        icon = "icons\ico_kokosmilch.paa";
     };
 	
 	class kohle {
@@ -1141,6 +1170,17 @@ class VirtualItems {
         illegal = false;
         edible = 50;
         icon = "icons\ico_coffee.paa";
+    };
+	
+	class alpenmilch {
+        variable = "alpenmilch";
+        displayName = "STR_Item_Alpenmilch";
+        weight = 2;
+        buyPrice = 100;
+        sellPrice = -1;
+        illegal = false;
+        edible = 50;
+        icon = "icons\ico_alpenmilchfass.paa";
     };
 	
 	class softdrink {

@@ -318,7 +318,16 @@ class Licenses {
     class muschel {
         variable = "muschel";
         displayName = "STR_License_Muschel";
-        price = 500000;
+        price = 18000;
+        illegal = false;
+        side = "civ";
+		
+    };
+	
+	class kokosnussknacker {
+        variable = "kokosnussknacker";
+        displayName = "STR_License_Kokosnussknacker";
+        price = 620;
         illegal = false;
         side = "civ";
 		
