@@ -270,7 +270,8 @@ class WeaponShops {
 			{ "hlc_rifle_awmagnum_BL", "", 10000, 3750, "" },
 			{ "hlc_rifle_awMagnum_BL_ghillie", "", 10000, 3750, "" },
             { "srifle_DMR_07_blk_F", "", 10000, 16000, "" },
-			{ "prpl_benelli", "", 2500, 16000, "" }
+			{ "prpl_benelli", "", 2500, 16000, "" },
+			{ "Rifle_Base_F", "", 1000, 16000, "" }
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 30, 60, "" },
@@ -349,6 +350,7 @@ class WeaponShops {
             { "Binocular", "", 150, 75, "" },
 			{ "Rangefinder", "", 200, 75, "" },
 			{ "ACE_Vector", "", 200, 75, "" },
+			{ "tf_anprc152", "", 200, 75, "" },
             { "ItemGPS", "", 100, 50, "" },
             { "ItemMap", "", 2000, 1000, "" },
 			{ "ARP_Objects_card_black_m", "", 10, 1000, "" },

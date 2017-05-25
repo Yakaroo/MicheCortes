@@ -156,9 +156,7 @@ class Clothing {
             { "kenny_police2_4", "", 1250, "" },
             { "kenny_police3_1", "", 1250, "" },
             { "jamie_tou", "", 350, "" },
-            { "U_bombsuit", "", 550, "" }, //1
-            { "RM_SWAT_Uniform_02", "", 1250, "" },
-            { "RM_SWAT_Uniform_01", "", 1250, "" },
+            { "U_bombsuit", "", 550, "call life_coplevel >= 6" }, //1
             { "jamie_prison", "", 550, "" }
         };
         headgear[] = {
@@ -166,7 +164,10 @@ class Clothing {
             { "jamie_pcapblue", "", 25, "" },
             { "jamie_pcapblue2", "", 120, "" },
             { "jamie_pcapblack", "", 75, "" },
-            { "jamie_blackhelmet", "", 80, "" }
+            { "jamie_blackhelmet", "", 80, "" },
+			{ "H_Bombsuit_Helmet", "", 550, "call life_coplevel >= 6" },
+			{ "H_Titan_Helmet_", "", 550, "call life_coplevel >= 6" },
+			{ "H_Titan_Helmet_0", "", 550, "call life_coplevel >= 6" }
         };
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
@@ -191,12 +192,52 @@ class Clothing {
             { "kenny_vest_police", "", 100, "" }, 
             { "kenny_vest_security", "", 150, "" },
             { "jamie_black", "", 100, "" },
-            { "RM_SWAT_Vest_01", "", 80, "" }, //1
-            { "RM_SWAT_Vest_Red_01", "", 100, "" },
-            { "RM_SWAT_Vest_Blue_01", "", 100, "" }, 
             { "TRYK_V_Bulletproof_BL", "", 150, "" },
             { "TRYK_V_Bulletproof", "", 100, "" },
             { "TRYK_V_Bulletproof_BLK", "", 100, "" }
+        };
+        backpacks[] = {
+            { "NONE", $STR_C_Remove_backpacks, 0, "" },
+            { "tf_anprc155", "", 500, "" },
+			{ "ACE_TacticalLadder_Pack", "", 500, "" } //Tactical Ladder
+        };
+    };
+	
+	class cop_swat {
+        title = "STR_Shops_C_SWAT";
+        conditions = "";
+        side = "cop";
+        uniforms[] = {
+            { "NONE", $STR_C_Remove_uniforms, 0, "" },
+            { "U_bombsuit", "", 550, "" }, //1
+            { "RM_SWAT_Uniform_02", "", 1250, "" },
+            { "RM_SWAT_Uniform_01", "", 1250, "" }
+        };
+        headgear[] = {
+            { "NONE", $STR_C_Remove_headgear, 0, "" },
+            { "gign_Balaclava", "SWAT Balaclava", 25, "" },
+			{ "Rainman_HelmetIA_Splinter_Urban", "", 50, "" },
+			{ "Rainman_HelmetB_Light_Splinter_Urban", "", 50, "" },
+			{ "RM_SWAT_MilCap_Black", "", 50, "" },
+			{ "RM_SWAT_Helmet_01", "", 50, "" },
+            { "gign_helm", "SWAT Heavy Helmet", 120, "" },
+            { "gign_helm3", "SWAT Operator Helmet", 75, "" },
+            { "gign_helm4", "SWAT Operator Helmet ESS", 80, "" },
+			{ "skn_m04_gas_mask_blk", "", 80, "" },
+			{ "H_Bombsuit_Helmet", "", 550, "call life_coplevel >= 6" },
+			{ "H_Titan_Helmet_", "", 550, "call life_coplevel >= 6" },
+			{ "H_Titan_Helmet_0", "", 550, "call life_coplevel >= 6" }
+        };
+        goggles[] = {
+            { "NONE", $STR_C_Remove_goggles, 0, "" },
+            { "G_RM_SWAT_Balaclava", "", 10, "" },
+			{ "G_RM_SWAT_Glasses", "", 10, "" },
+        };
+        vests[] = {
+            { "NONE", $STR_C_Remove_vests, 0, "" },
+            { "RM_SWAT_Vest_01", "", 80, "" }, //1
+            { "RM_SWAT_Vest_Red_01", "", 100, "" },
+            { "RM_SWAT_Vest_Blue_01", "", 100, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
