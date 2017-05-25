@@ -179,6 +179,7 @@ class WeaponShops {
             { "RH_fn57", "", 1000, 3750, "" },
 			{ "RH_usp", "", 1000, 3750, "" },
 			{ "RH_bullb", "", 1500, 3750, "" },
+			{ "SMG_05_F", "", 1700, 3750, "call life_coplevel >= 2" },
 			{ "KA_UMP40", "", 2000, 3750, "call life_coplevel >= 2" },
 			{ "hlc_smg_mp5k", "", 3000, 3750, "call life_coplevel >= 3" },
 			{ "hlc_rifle_m4", "", 4000, 3750, "call life_coplevel >= 3" },
@@ -197,6 +198,7 @@ class WeaponShops {
         };
         mags[] = {
             { "16Rnd_9x21_Mag", "", 30, 60, "" },
+			{ "30Rnd_9x21_Mag_SMG_02", "", 40, 60, "" },
 			{ "RH_17Rnd_9x19_g17", "", 30, 60, "" },
 			{ "RH_20Rnd_57x28_FN", "", 30, 60, "" },
 			{ "RH_12Rnd_45cal_usp", "", 30, 60, "" },
