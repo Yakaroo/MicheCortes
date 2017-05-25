@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 1000;
+        price = 1400;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +19,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 50000;
+        price = 3000;
         illegal = false;
         side = "civ";
     };
@@ -27,7 +27,15 @@ class Licenses {
     class pilot {
         variable = "pilot";
         displayName = "STR_License_Pilot";
-        price = 150000;
+        price = 20000;
+        illegal = false;
+        side = "civ";
+    };
+	
+    class helikopter {
+        variable = "helikopter";
+        displayName = "STR_License_helikopter";
+        price = 15000;
         illegal = false;
         side = "civ";
     };
@@ -35,7 +43,7 @@ class Licenses {
 	class bigpilot {
         variable = "bigpilot";
         displayName = "STR_License_Bigpilot";
-        price = 500000;
+        price = 30000;
         illegal = false;
         side = "civ";
     };
@@ -43,7 +51,7 @@ class Licenses {
 	class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 2500000;
+        price = 175000;
         illegal = false;
         side = "civ";
     };
@@ -51,7 +59,7 @@ class Licenses {
     class trucking {
         variable = "trucking";
         displayName = "STR_License_Truck";
-        price = 75000;
+        price = 16000;
         illegal = false;
         side = "civ";
     };
@@ -67,7 +75,7 @@ class Licenses {
     class oiltrucking {
         variable = "oiltrucking";
         displayName = "STR_License_oilTruck";
-        price = 20000;
+        price = 6000;
         illegal = false;
         side = "civ";
     };
@@ -75,7 +83,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 200000;
+        price = 12000;
         illegal = false;
         side = "civ";
     };
@@ -83,7 +91,7 @@ class Licenses {
     class pvp {
         variable = "pvp";
         displayName = "STR_License_Pvp";
-        price = 15000000;
+        price = 4000000;
         illegal = false;
         side = "civ";
     };
@@ -91,7 +99,7 @@ class Licenses {
     class dive {
         variable = "dive";
         displayName = "STR_License_Diving";
-        price = 10000;
+        price = 3000;
         illegal = false;
         side = "civ";
     };
@@ -182,7 +190,7 @@ class Licenses {
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";
-        price = 300000;
+        price = 1800;
         illegal = false;
         side = "civ";
     };
@@ -254,7 +262,7 @@ class Licenses {
 	class ophiotoxinmischer {
         variable = "ophiotoxinmischer";
         displayName = "STR_License_ophiotoxin";
-        price = 8000;
+        price = 50000;
         illegal = true;
         side = "civ";
     };
@@ -271,6 +279,14 @@ class Licenses {
         variable = "roesterei";
         displayName = "STR_License_roesterei";
         price = 450;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class giftmischer {
+        variable = "giftmischer";
+        displayName = "STR_License_giftmischer";
+        price = 2000;
         illegal = false;
         side = "civ";
     };
@@ -336,7 +352,7 @@ class Licenses {
     class cocaine {
         variable = "cocaine";
         displayName = "STR_License_Cocaine";
-        price = 750000;
+        price = 25000;
         illegal = true;
         side = "civ";
     };
@@ -352,7 +368,7 @@ class Licenses {
     class marijuana {
         variable = "marijuana";
         displayName = "STR_License_Marijuana";
-        price = 600000;
+        price = 8000;
         illegal = true;
         side = "civ";
     };
@@ -360,7 +376,7 @@ class Licenses {
 	class lsd {
         variable = "lsd";
         displayName = "STR_License_Lsd";
-        price = 1500000;
+        price = 42000;
         illegal = true;
         side = "civ";
     };

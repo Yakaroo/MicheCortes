@@ -42,11 +42,11 @@ class ProcessAction {
     };
 
     class heroin {
-        MaterialsReq[] = {{"heroin_unprocessed",1}};
+        MaterialsReq[] = {{"heroin_unprocessed",4}};
         MaterialsGive[] = {{"heroin_processed",1}};
         Text = "STR_Process_Heroin";
         //ScrollText = "Process Heroin";
-        NoLicenseCost = 15000;
+        NoLicenseCost = 5000;
     };
 
     class copper {
@@ -210,19 +210,19 @@ class ProcessAction {
     };
 
     class cocaine {
-        MaterialsReq[] = {{"cocaine_unprocessed",1}};
+        MaterialsReq[] = {{"cocaine_unprocessed",4}};
         MaterialsGive[] = {{"cocaine_processed",1}};
         Text = "STR_Process_Cocaine";
         //ScrollText = "Process Cocaine";
-        NoLicenseCost = 15000;
+        NoLicenseCost = 8000;
     };
 
     class marijuana {
-        MaterialsReq[] = {{"cannabis",1}};
+        MaterialsReq[] = {{"cannabis",6}};
         MaterialsGive[] = {{"marijuana",1}};
         Text = "STR_Process_Marijuana";
         //ScrollText = "Harvest Marijuana";
-        NoLicenseCost = 15000;
+        NoLicenseCost = 3000;
     };
 	
 	class lsd {

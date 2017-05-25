@@ -72,6 +72,17 @@ class Life_Client_Core {
         class ticketAction {};
         class unrestrain {};
     };
+	
+	class Placeables {
+        file = "core\functions\placeables";
+        class placeablesInit {};
+        class medicPlaceablesInit {};
+        class placeablesMenu {};
+        class placeablesRemoveAll {};
+        class placeablePlace {};
+        class placeableCancel {};
+        class placeablesPlaceComplete {};
+    };
 
     class Admin {
         file = "core\admin";
@@ -127,6 +138,22 @@ class Life_Client_Core {
         file = "core\jobcenter";
         class jobcenter {};
         class jobcaffe {};
+    };
+	
+    class papiere {
+        file = "core\papiere";
+        class frame {};
+        class papiereDialog {};
+    };
+	
+    class scheine {
+        file = "core\papiere\scheine";
+        class ausweiss {};
+        class flugzeug {};
+        class helikopter {};
+        class lkw {};
+        class pkw {};
+        class waffenschein {};
     };
 
     class Cop {
@@ -185,6 +212,19 @@ class Life_Client_Core {
         class unimpound {};
         class vehicleGarage {};
         class wireTransfer {};
+		class impoundedMenu {};
+        class willswieder {};
+        class impoundLBChange {};
+    };
+	
+	class DynMarket {
+        file = "core\DynMarket";
+        class bought {};
+        class update {};
+        class DisplayPrices {};
+        class LoadIntoListbox {};
+        class ForcePrice {};
+        class DYNMARKET_getPrice {};
     };
 
     class Functions {

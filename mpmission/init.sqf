@@ -15,6 +15,10 @@ if (hasInterface) then {
 [] execVM "core\markers\mapmarker.sqf";
 [] execVM "core\cop\keycard.sqf"; 
 
+
+[] execVM "core\admin\antihack.sqf"; 
+
+
 ace_hearing_disableVolumeUpdate = true;
 
 StartProgress = true;

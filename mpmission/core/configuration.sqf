@@ -49,6 +49,35 @@ life_civ_position = [];
 life_markers = false;
 life_canpay_bail = true;
 
+/*
+**************************************
+****** Placeables Variables *****
+**************************************
+*/
+life_definePlaceables = //Array aller Absperrungen (Cop + Medic)
+[
+ "plp_upm_TrafficConeRed",
+ "RoadCone_L_F",
+ "RoadBarrier_F",
+ "RoadBarrier_small_F",
+ "plp_upm_WarningPyramidCaution",
+ "PlasticBarrier_03_orange_F",
+ "Land_CncBarrier_stripes_F",
+ "Land_PortableLight_single_F",
+ "Land_PortableLight_double_F",
+ "Land_PortableLight_double_F",
+ "plp_up_MetalFenceGreySign",
+ "plp_up_ParkingBlockCone",
+ "plp_up_PlasticBarrierOrange",
+ "plp_upm_WoodBarrierLongRed",
+ "plp_upm_WoodBarrierLongYellow",
+ "plp_upm_WoodBarrierShortYellowLightsOn",
+ "plp_up_SiteFenceMetalTarpWhiteA",
+ "plp_up_WoodBarrierLongPolice",
+ "plp_up_WoodBarrierShortPolice"
+];
+life_bar_limit = 100; //Maximale Anzahl Absperrungen pro Person
+
 //Settings
 life_settings_enableNewsBroadcast = profileNamespace getVariable ["life_enableNewsBroadcast",true];
 life_settings_enableSidechannel = profileNamespace getVariable ["life_enableSidechannel",true];

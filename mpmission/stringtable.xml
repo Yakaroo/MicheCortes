@@ -88,6 +88,9 @@
             <Polish>Sklep samobójców AKBAR</Polish>
             <German>Mohammed's Ausrüstungen</German>
         </Key>
+        <Key ID="STR_Shops_C_frauen">
+            <Original>Frauen bekleidung</Original>
+        </Key>
         <Key ID="STR_Shops_C_Diving">
             <Original>Steve's Diving Shop</Original>
             <Czech>Steve je potápění obchod</Czech>
@@ -677,6 +680,9 @@
             <Italian>Ricerca di veicoli nel Database...</Italian>
             <Portuguese>Buscando por veículo no banco de dados...</Portuguese>
             <Polish>Szukam pojazdu w bazie danych...</Polish>
+        </Key>
+		<Key ID="STR_ANOTF_QueryImpGarage">
+        <Original>Durchsuche nach Fahrzeugen...</Original>
         </Key>
         <Key ID="STR_ANOTF_Query_2">
             <Original>You are already querying a player.</Original>
@@ -2122,6 +2128,9 @@
             <Portuguese></Portuguese>
             <Polish></Polish>
         </Key>
+		<Key ID="STR_Garage_NoImpVehicles">
+        <Original>Keine beschlagnahmten Fahrzeuge gefunden.</Original>
+		</Key>
         <Key ID="STR_Garage_HouseBuyMSG">
             <Original>This garage is available for &lt;t color='#8cff9b'&gt;$%1&lt;/t&gt;&lt;br/&gt;</Original>
             <Czech></Czech>
@@ -7273,6 +7282,10 @@
             <Original>Roasted License</Original>
             <German>Rösterei Lizenz</German>
         </Key>
+		<Key ID="STR_License_giftmischer">
+            <Original>Poison Mixer License</Original>
+            <German>Giftmischer Lizenz</German>
+        </Key>
         <Key ID="STR_License_Sand">
             <Original>Sand Processing</Original>
             <Czech>Zpracování písek</Czech>
@@ -8280,6 +8293,15 @@
             <Portuguese>Seus Veículos</Portuguese>
             <Polish>Twój pojazd</Polish>
         </Key>
+		<Key ID="STR_GUI_ImpGarage">
+            <Original>Verwahrungsstelle</Original>
+        </Key>
+		<Key ID="STR_GUI_YourImpVeh">
+            <Original>Beschlagnahmte Fahrzeuge</Original>
+        </Key>
+        <Key ID="STR_GUI_VehInfo">
+            <Original>Und nun?!</Original>
+        </Key>
         <Key ID="STR_GUI_VehInfo">
             <Original>Vehicle Information</Original>
             <Czech>Informace o vozidle</Czech>
@@ -8925,6 +8947,9 @@
             <Italian>Spiacente ma non hai fondi a sufficienza per comprare questi vestiti.</Italian>
             <Portuguese>Desculpe senhor, você não tem dinheiro para pagar. Volte sempre.</Portuguese>
             <Polish>Przepraszam, ale nie masz tyle pieniędzy aby kupić to ubranie.</Polish>
+        </Key>
+		<Key ID="STR_Shop_IMPVEH">
+        <Original>Um dein Beschlagnahmtes Fahrzeug wieder zu bekommen verlangen wir eine Gebühr von</Original>
         </Key>
         <Key ID="STR_Shop_Total">
             <Original>Total:</Original>
@@ -9657,6 +9682,9 @@
             <Italian>Deruba</Italian>
             <Portuguese>Roubar Jogador</Portuguese>
             <Polish>Obrabuj osobę</Polish>
+        </Key>
+        <Key ID="STR_pAct_Papiere">
+            <Original>Papiere zeigen</Original>
         </Key>
     </Package>
     <Package name="Markers_names">
