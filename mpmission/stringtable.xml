@@ -11059,15 +11059,7 @@
             <Polish>Pyrgos Hospital</Polish>
         </Key>
         <Key ID="STR_SP_EMS_SE">
-            <Original>South East Hospital</Original>
-            <Czech>South East Hospital</Czech>
-            <Spanish>South East Hospital</Spanish>
-            <Russian>South East Hospital</Russian>
-            <German>Süd-Ost Krankenhaus</German>
-            <French>South East Hospital</French>
-            <Italian>South East Hospital</Italian>
-            <Portuguese>South East Hospital</Portuguese>
-            <Polish>South East Hospital</Polish>
+            <Original>Georgetown Hospital</Original>
         </Key>
         <Key ID="STR_SP_EMS_Tan">
             <Original>Oumere Hospital</Original>

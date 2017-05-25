@@ -195,7 +195,7 @@ class CfgSpawnPoints {
                 displayName = $STR_MAR_Police_Air_HQ;
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\Markers\NATO\b_air.paa";
-                conditions = "call life_coplevel >= 2 && {license_cop_cAir}";
+                conditions = "";
             };
 
             class HW {
@@ -210,14 +210,14 @@ class CfgSpawnPoints {
 
             class SEHospital {
                 displayName = $STR_SP_EMS_SE;
-                spawnMarker = "medic_spawn_1";
+                spawnMarker = "medic_playerspawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class TanoukaHospital {
                 displayName = $STR_SP_EMS_Tan;
-                spawnMarker = "medic_spawn_2";
+                spawnMarker = "medic_playerspawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
