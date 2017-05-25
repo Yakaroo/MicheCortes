@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=60;
+		nextID=64;
 	};
 	class Camera
 	{
-		pos[]={11735.547,205.52554,4094.7363};
-		dir[]={0.16876827,-0.64959735,0.7413168};
-		up[]={0.14419819,0.76027709,0.63339245};
-		aside[]={0.97505456,-1.5494879e-007,-0.22198056};
+		pos[]={3659.7839,23.273222,9290.6523};
+		dir[]={0.71257114,-0.60459149,-0.35597765};
+		up[]={0.54085654,0.79653311,-0.27019456};
+		aside[]={-0.4469057,-2.2212043e-007,-0.89458477};
 	};
 };
 binarizationWanted=0;
@@ -1266,7 +1266,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.15607;
+			angle=229.15604;
 			id=203;
 		};
 		class Item52
@@ -9655,15 +9655,15 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5733.3501,6.9849572,10340.041};
-						angles[]={0,1.7680475,0};
+						position[]={5733.3501,6.9849896,10340.041};
+						angles[]={0,1.7680534,0};
 					};
 					side="Civilian";
 					flags=4;
 					class Attributes
 					{
 						skill=0.60000002;
-						init="this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""];";
+						init="call{this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Clothing_Store"",life_fnc_clothingMenu,""bruce""]; this addAction[localize""STR_Shops_C_frauen"",life_fnc_clothingMenu,""frauen""];}";
 						disableSimulation=1;
 						class Inventory
 						{
@@ -9681,10 +9681,29 @@ class Mission
 					};
 					id=996;
 					type="C_man_1";
-					atlOffset=0.0314641;
+					atlOffset=0.031496525;
 					class CustomAttributes
 					{
 						class Attribute0
+						{
+							property="acex_headless_blacklist";
+							expression="_this setVariable [""acex_headless_blacklist"",_value,true]";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"BOOL"
+										};
+									};
+									value=0;
+								};
+							};
+						};
+						class Attribute1
 						{
 							property="allowDamage";
 							expression="_this allowdamage _value;";
@@ -9703,7 +9722,45 @@ class Mission
 								};
 							};
 						};
-						nAttributes=1;
+						class Attribute2
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male02GRE";
+								};
+							};
+						};
+						class Attribute3
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1.01;
+								};
+							};
+						};
+						nAttributes=4;
 					};
 				};
 				class Item11
@@ -34584,7 +34641,7 @@ class Mission
 			};
 			id=6897;
 			type="C_Boat_Civil_04_F";
-			atlOffset=2.8439579;
+			atlOffset=2.8439574;
 		};
 		class Item1105
 		{
@@ -37190,7 +37247,7 @@ class Mission
 			position[]={12268.815,0,12971.868};
 			name="cop_spawn_3";
 			type="Empty";
-			angle=220.7576;
+			angle=220.75757;
 			id=7082;
 			atlOffset=-1.7259741;
 		};
@@ -37227,7 +37284,7 @@ class Mission
 			position[]={12257.181,4.4085093,12963.351};
 			name="cop_air_11";
 			type="Empty";
-			angle=13.808023;
+			angle=13.808021;
 			id=7085;
 			atlOffset=1.9585092;
 		};
@@ -37303,12 +37360,12 @@ class Mission
 		class Item1179
 		{
 			dataType="Marker";
-			position[]={5955.2915,0,10520.776};
-			name="medic_spawn_1";
+			position[]={5978.7329,0,10522.056};
+			name="medic_playerspawn_1";
 			type="Empty";
-			angle=144.74475;
+			angle=239.31786;
 			id=7106;
-			atlOffset=-21.18;
+			atlOffset=-20.977163;
 		};
 		class Item1180
 		{
@@ -42612,7 +42669,7 @@ class Mission
 			position[]={12690.982,17.025183,7478.9019};
 			name="med_car_5";
 			type="Empty";
-			angle=4.8650947;
+			angle=4.8650942;
 			id=7672;
 		};
 		class Item1425
@@ -42739,7 +42796,6 @@ class Mission
 				angles[]={0,1.6615132,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Marijuana"",life_fnc_processAction,""marijuana"",0,false,false,"""",' life_inv_cannabis > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""marijuana"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""marijuana"",0,false,false,"""",' !license_civ_marijuana && playerSide isEqualTo civilian '];}";
@@ -42747,6 +42803,7 @@ class Mission
 			};
 			id=7690;
 			type="Land_InfoStand_V1_F";
+			atlOffset=0.86260986;
 		};
 		class Item1435
 		{
@@ -42764,17 +42821,19 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3667.7117,16.389174,9283.6943};
-				angles[]={0,4.3988833,0};
+				position[]={3670.2834,16.208199,9285.1338};
+				angles[]={0,3.7058914,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=-1054867456;
 			};
 			id=7694;
 			type="Land_TentDome_F";
+			atlOffset=-0.35396004;
 		};
 		class Item1437
 		{
@@ -42782,7 +42841,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3667.5459,15.602479,9287.9355};
-				angles[]={-0,0,0.069222413};
+				angles[]={0,0,0.069222413};
 			};
 			side="Empty";
 			flags=4;
@@ -42792,6 +42851,7 @@ class Mission
 			};
 			id=7697;
 			type="Campfire_burning_F";
+			atlOffset=0.0015659332;
 		};
 		class Item1438
 		{
@@ -42808,6 +42868,7 @@ class Mission
 			};
 			id=7698;
 			type="Land_Sleeping_bag_folded_F";
+			atlOffset=-0.00099372864;
 		};
 		class Item1439
 		{
@@ -42824,6 +42885,7 @@ class Mission
 			};
 			id=7700;
 			type="Land_CampingChair_V2_F";
+			atlOffset=-0.00080871582;
 		};
 		class Item1440
 		{
@@ -42841,7 +42903,7 @@ class Mission
 			};
 			id=7701;
 			type="Land_CampingTable_small_F";
-			atlOffset=-0.073695183;
+			atlOffset=-0.074324608;
 		};
 		class Item1441
 		{
@@ -42868,13 +42930,13 @@ class Mission
 				angles[]={0,0,6.2711921};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				aiRadarUsage=265863;
 			};
 			id=7703;
 			type="Land_Map_F";
+			atlOffset=0.72040272;
 		};
 		class Item1443
 		{
@@ -42911,7 +42973,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{removeAllWeapons this; this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Drug_Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo civilian ']; this addAction[localize""STR_MAR_Question_Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo west && !life_action_inUse '];}";
+						init="call{this allowDamage false; this enableSimulation false; this addAction[localize""STR_MAR_Drug_Dealer"",life_fnc_virt_menu,""drugdealer"",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo civilian ']; this addAction[localize""STR_MAR_Question_Dealer"",life_fnc_questionDealer,"""",0,false,false,"""",' isNull objectParent player && player distance _target < 5 && playerSide isEqualTo west && !life_action_inUse '];}";
 						class Inventory
 						{
 							class uniform
@@ -43135,6 +43197,7 @@ class Mission
 			};
 			id=7729;
 			type="ARP_Objects_pallet";
+			atlOffset=9.5367432e-007;
 		};
 		class Item1456
 		{
@@ -43932,7 +43995,7 @@ class Mission
 			};
 			id=7778;
 			type="ARP_Objects_cocaine";
-			atlOffset=0.2205801;
+			atlOffset=0.22057915;
 		};
 		class Item1503
 		{
@@ -43966,7 +44029,7 @@ class Mission
 			};
 			id=7780;
 			type="ARP_Objects_cocaine";
-			atlOffset=0.22694111;
+			atlOffset=0.22694016;
 		};
 		class Item1505
 		{
@@ -43983,21 +44046,24 @@ class Mission
 			};
 			id=7781;
 			type="ARP_Objects_pallet";
+			atlOffset=9.5367432e-007;
 		};
 		class Item1506
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5960.8555,21.727692,10526.461};
+				position[]={5960.855,21.640162,10526.461};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 			};
 			id=7786;
 			type="ARP_Objects_slipsign";
+			atlOffset=0.0099964142;
 		};
 		class Item1507
 		{
@@ -44119,7 +44185,7 @@ class Mission
 			};
 			id=7802;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.00025939941;
+			atlOffset=0.00091552734;
 		};
 		class Item1515
 		{
