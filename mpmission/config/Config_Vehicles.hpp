@@ -18,15 +18,16 @@ class CarShops {
     */
     class civ_car {
         side = "civ";
-        conditions = "";
+        conditions = "driver";
         vehicles[] = {
-            { "B_Quadbike_01_F", "" },
-            { "C_Hatchback_01_F", "" },
-            { "C_Offroad_01_F", "" },
-            { "C_SUV_01_F", "" },
-            { "C_Hatchback_01_sport_F", "" },
-            { "C_Van_01_transport_F", "" },
-            { "C_Offroad_02_unarmed_F", "" } //Apex DLC
+            { "AMG_Caprice1993", "" },
+            { "Jonzie_30CSL", "" },
+            { "Guillaume9545_Peugeot_207_civ_violet", "" },
+            { "Maisha_Peugeot_207_civ", "" },
+            { "Guillaume9545_Peugeot_207_civ_vert", "" },
+            { "Guillaume9545_Peugeot_207_civ_orange", "" },
+            { "Guillaume9545_Peugeot_207_civ_jaune", "" },
+            { "Guillaume9545_Peugeot_207_civ_bleu", "" }		
         };
     };
 	
@@ -42,7 +43,7 @@ class CarShops {
 	
     class civ_luxus {
         side = "civ";
-        conditions = "";
+        conditions = "driver";
         vehicles[] = {
             { "Guillaume9545_Bmw_M5_Blanche", "" },
             { "Guillaume9545_Bmw_M5_bleu", "" },
@@ -93,7 +94,7 @@ class CarShops {
 
     class kart_shop {
         side = "civ";
-        conditions = "";
+        conditions = "driver";
         vehicles[] = {
             { "C_Kart_01_Blu_F", "" },
             { "C_Kart_01_Fuel_F", "" },
@@ -104,25 +105,18 @@ class CarShops {
 
     class civ_truck {
         side = "civ";
-        conditions = "";
+        conditions = "trucking";
         vehicles[] = {
-            { "C_Van_01_box_F", "" },
-            { "I_Truck_02_transport_F", "" },
-            { "I_Truck_02_covered_F", "" },
-            { "B_Truck_01_transport_F", "" },
-            { "O_Truck_03_transport_F", "" },
-            { "O_Truck_03_covered_F", "" },
-            { "B_Truck_01_box_F", "" },
-            { "O_Truck_03_device_F", "" },
-            { "C_Van_01_fuel_F", "" },
-            { "I_Truck_02_fuel_F", "" },
-            { "B_Truck_01_fuel_F", "" }
+            { "Jonzie_Box_Truck", "" },
+            { "Jonzie_Flat_Bed", "" },
+            { "Jonzie_Log_Truck", "" },
+            { "Jonzie_Tanker_Truck", "" }
         };
     };
 
     class civ_air {
         side = "civ";
-        conditions = "";
+        conditions = "helikopter";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
@@ -134,7 +128,7 @@ class CarShops {
 	
 	class civ_plane {
         side = "civ";
-        conditions = "";
+        conditions = "pilot";
         vehicles[] = {
             { "C_Plane_Civil_01_F", "" },
 			{ "Sab_af_An2", "" },
@@ -152,7 +146,7 @@ class CarShops {
 
      class civ_ship {
         side = "civ";
-        conditions = "";
+        conditions = "boat";
         vehicles[] = {
             { "C_Rubberboat", "" },
             { "C_Boat_Civil_01_F", "" },
@@ -204,6 +198,7 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
+			{ "FaisalAlYahya_CVPI_police", "" },
 			{ "ivory_m3_marked", "" },
 			{ "ivory_rs4_marked", "call life_coplevel >= 2" },
             { "ivory_rs4_slicktop", "call life_coplevel >= 2" },
@@ -216,7 +211,8 @@ class CarShops {
             { "ivory_wrx_slicktop", "call life_coplevel >= 6" },
             { "ivory_wrx_marked", "call life_coplevel >= 6" },
 			{ "DAR_ExplorerSheriff", "call life_coplevel >= 7" },
-			{ "FaisalAlYahya_CVPI_police", "call life_coplevel >= 8" },
+			{ "FaisalAlYahya_CVPI_police", "" },
+			{ "AMG_TahoePolice", "call life_coplevel >= 8" },
 			{ "Faisal_Youkun2015_PD", "call life_coplevel >= 8" }
         };
     };
@@ -232,11 +228,7 @@ class CarShops {
             { "AMG_TahoePolice", "" },
             { "ivory_wrx_unmarked", "" },
             { "ivory_evox_unmarked", "" },
-            { "ivory_wrx_unmarked", "" },
-            { "", "" },
-            { "", "" },
-            { "", "" },
-            { "", "" }
+            { "ivory_wrx_unmarked", "" }
         };
     };
 	
@@ -306,317 +298,409 @@ class LifeCfgVehicles {
 	
 	// CIV Freizeit Händler Anfang
     class dbo_CIV_ol_bike {
-        vItemSpace = 100;
+        vItemSpace = 10;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class dbo_CIV_new_bike {
-        vItemSpace = 100;
+        vItemSpace = 10;
         conditions = "";
         price = 600;
         textures[] = {};
     };
 	
     class sga_hover_board {
-        vItemSpace = 100;
+        vItemSpace = 10;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	// CIV Freizeit Händler Ende
 	
+	// CIV Gebraucht - Anfang
+	
+    class AMG_Caprice1993 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Jonzie_30CSL {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Guillaume9545_Peugeot_207_civ_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Maisha_Peugeot_207_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Guillaume9545_Peugeot_207_civ_vert {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Guillaume9545_Peugeot_207_civ_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Guillaume9545_Peugeot_207_civ_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+    class Guillaume9545_Peugeot_207_civ_bleu {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+
+	// CIV Gebraucht - ende
+	
 	// CIV Luxus Händler Anfang
 	
     class Guillaume9545_Bmw_M5_Blanche {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_bleu {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_bleufonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_gris {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_jaune {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_Violette {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_VertFonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_Vert {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5_Rouge_fonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class Guillaume9545_Bmw_M5_noir {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_Orange {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_Blanche {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_bleu {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_bleufonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_gris {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_jaune {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_Violette {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_VertFonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class Guillaume9545_Shelby_Cobra_Vert {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_Rouge_fonce {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Shelby_Cobra_noir {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Faisal_MaybachLaundet57 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class BRP_1969_White {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class BRP_1969_Green {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class BRP_1969_Black {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_rs4_taxi {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_rs4 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class Audi_S8_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_c {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Guillaume9545_Bmw_M5 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_suburban {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class AMG_Suburban2015 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_isf {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Jas_MX5Miata11_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class AMG_Charger_12 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Jonzie_Quattroporte {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class AMG_MercedesBenz6x6 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Xiphoid87_W222 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Sal_nissan_gtr_2017_alt_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Sal_nissan_gtr_2017_whiteF_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Sal_nissan_gtr_2017_redW_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Sal_nissan_gtr_2017_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class C_Sal_nissan_gtr_2017_Grey_F {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_evox {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class ivory_gt500 {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_wrx {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	    class Jonzie_STI {
-        vItemSpace = 100;
+        vItemSpace = 20;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	// CIV Luxus Händler Ende
+	
+	// CIV LKW - Anfang
+	
+	 class Jonzie_Box_Truck {
+        vItemSpace = 100;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class Jonzie_Flat_Bed {
+        vItemSpace = 100;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class Jonzie_Log_Truck {
+        vItemSpace = 100;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class Jonzie_Tanker_Truck {
+        vItemSpace = 100;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	// CIV LKW - Ende
 	
 	// CIV Flugzeug Anfang
 	

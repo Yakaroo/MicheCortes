@@ -36,3 +36,4 @@
 #include "dynmarket_prices.hpp"
 #include "papiere.hpp"
 #include "ausweiss_polizei.hpp"
+#include "statusbar.hpp"

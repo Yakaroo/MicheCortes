@@ -5,21 +5,21 @@ class CfgGather {
             amount = 1;
             zones[] = { "heroin_1" };
             item = "";
-            zoneSize = 30;
+            zoneSize = 60;
         };
 
         class cocaine_unprocessed {
             amount = 1;
             zones[] = { "cocaine_1" };
             item = "";
-            zoneSize = 30;
+            zoneSize = 60;
         };
 
         class cannabis {
             amount = 2;
             zones[] = { "weed_1" };
             item = "";
-            zoneSize = 30;
+            zoneSize = 60;
         };
     };
 
@@ -62,7 +62,7 @@ Example 2:
             zones[] = { "copper_1" };
             item = "pickaxe";
             mined[] = {"copper_unrefined"};
-            zoneSize = 20;
+            zoneSize = 60;
         };
 		
 		class kakao_unrefined {
@@ -70,7 +70,7 @@ Example 2:
             zones[] = { "kakao_1" };
             item = "";
             mined[] = {"kakao_unrefined" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 		
 		class banana {
@@ -78,7 +78,7 @@ Example 2:
             zones[] = { "banana_1", "banana_2" };
             item = "";
             mined[] = {"banana" };
-            zoneSize = 35;
+            zoneSize = 60;
         };
 		
 		class strawberry {
@@ -86,7 +86,7 @@ Example 2:
             zones[] = { "strawberry_1" };
             item = "";
             mined[] = {"strawberry" };
-            zoneSize = 35;
+            zoneSize = 60;
         };
 		
 		class quellwasser {
@@ -94,7 +94,7 @@ Example 2:
             zones[] = { "quellwasser_1" };
             item = "";
             mined[] = {"quellwasser" };
-            zoneSize = 10;
+            zoneSize = 60;
         };
 		
 		class tabakpflanze {
@@ -102,7 +102,7 @@ Example 2:
             zones[] = { "tabakpflanze_1" };
             item = "";
             mined[] = {"tabakpflanze" };
-            zoneSize = 40;
+            zoneSize = 6o;
         };
 		
 		class kartoffel {
@@ -118,7 +118,7 @@ Example 2:
             zones[] = { "kaffebohnen_1" };
             item = "";
             mined[] = {"kaffebohnen" };
-            zoneSize = 50;
+            zoneSize = 60;
         };
 
         class iron_unrefined {
@@ -126,7 +126,7 @@ Example 2:
             zones[] = { "iron_1" };
             item = "pickaxe";
             mined[] = { "iron_unrefined" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 		
 		 class kohle {
@@ -134,7 +134,7 @@ Example 2:
             zones[] = { "kohle_1" };
             item = "pickaxe";
             mined[] = { "kohle" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 		
 		class goldkies {
@@ -142,7 +142,7 @@ Example 2:
             zones[] = { "goldkies_1" };
             item = "schaufel";
             mined[] = { "goldkies" };
-            zoneSize = 15;
+            zoneSize = 60;
         };
 		
 		class muschel {
@@ -158,7 +158,7 @@ Example 2:
             zones[] = { "salt_mine" };
             item = "pickaxe";
             mined[] = { "salt_unrefined" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 
         class sand {
@@ -166,7 +166,7 @@ Example 2:
             zones[] = { "sand_mine" };
             item = "pickaxe";
             mined[] = { "sand" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 
         class diamond_uncut {
@@ -174,7 +174,7 @@ Example 2:
             zones[] = { "diamond_mine" };
             item = "pickaxe";
             mined[] = { "diamond_uncut" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 
         class rock {
@@ -182,7 +182,7 @@ Example 2:
             zones[] = { "rock_quarry" };
             item = "pickaxe";
             mined[] = { "rock" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
 		
 		class schlangen {
@@ -190,7 +190,7 @@ Example 2:
             zones[] = { "schlangen_1" };
             item = "handschuhe";
             mined[] = { "schlangen" };
-            zoneSize = 25;
+            zoneSize = 60;
         };
 		
 		class kokosnuss {
@@ -198,7 +198,7 @@ Example 2:
             zones[] = { "kokosnuss_1" };
             item = "";
             mined[] = { "kokosnuss" };
-            zoneSize = 35;
+            zoneSize = 60;
         };
 
         class oil_unprocessed {
@@ -206,7 +206,7 @@ Example 2:
             zones[] = { "oil_field_1" };
             item = "pickaxe";
             mined[] = { "oil_unprocessed" };
-            zoneSize = 30;
+            zoneSize = 60;
         };
     };
 };

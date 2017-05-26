@@ -10,12 +10,19 @@ switch (playerSide) do {
         //Drop fishing net
         life_actions = [player addAction[localize "STR_pAct_DropFishingNet",life_fnc_dropFishingNet,"",0,false,false,"",'
         (surfaceisWater (getPos vehicle player)) && (vehicle player isKindOf "Ship") && life_carryWeight < life_maxWeight && speed (vehicle player) < 2 && speed (vehicle player) > -1 && !life_net_dropped ']];
+		
         //Rob person
         life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
         !isNull cursorObject && player distance cursorObject < 3.5 && isPlayer cursorObject && animationState cursorObject == "Incapacitated" && !(cursorObject getVariable ["robbed",false]) ']];
+		
+		//Ausweis 
+	    life_actions = life_actions + [player addAction[localize "STR_pAct_Papiere",life_fnc_papieredialog,"",1,false,true,"",' playerSide == civilian && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
     };
 	
 	case west: {
+	
+	//Ausweis 
+	life_actions = life_actions + [player addAction[localize "STR_pAct_Polizeiausweiss",life_fnc_polizeidialog,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
     
 	//Waffen Entfernen
     life_actions = life_actions + [player addAction["Sachen beschlagnahmen",life_fnc_seizeWeapon,cursorTarget,0,false,false,"",'count(nearestObjects [player,["weaponholder"],3])>0']];

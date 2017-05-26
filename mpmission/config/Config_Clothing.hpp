@@ -285,21 +285,29 @@ class Clothing {
         conditions = "";
         side = "cop";
         uniforms[] = {
-            { "NONE", $STR_C_Remove_uniforms, 0, "" }
+            { "NONE", $STR_C_Remove_uniforms, 0, "" },
+			{ "fbi1_2", "", 100, "" }
         };
         headgear[] = {
-            { "NONE", $STR_C_Remove_headgear, 0, "" }
+            { "NONE", $STR_C_Remove_headgear, 0, "" },
+			{ "FBI_Helmet", "", 100, "" },
+			{ "FBI_Helmet2", "", 100, "" },
+			{ "tacs_Cap_Earpiece_BlackLogo", "", 50, "" }
         };
         goggles[] = {
-            { "NONE", $STR_C_Remove_goggles, 0, "" }
+            { "NONE", $STR_C_Remove_goggles, 0, "" },
+			{ "G_Squares", "", 100, "" },
+			{ "TRYK_Shemagh_shade", "", 100, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
-            { "A3L_fbivest1_Fix", "", 100, "" }
+            { "A3L_fbivest1_Fix", "", 100, "" },
+			{ "FBI_V1", "", 100, "" }
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
-            { "tf_anprc155", "", 500, "" }
+            { "tf_anprc155", "", 300, "" },
+			{ "tacs_Backpack_Kitbag_DarkBlack", "", 150, "" }
         };
     };
 

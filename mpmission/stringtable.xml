@@ -10653,15 +10653,16 @@
             <German>Sergeant Waffengeschäft</German>
         </Key>
         <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>Vehicle Shop</Original>
-            <Czech>Shop Vehicle</Czech>
-            <French>Magasin de vehicules</French>
-            <Spanish>Tienda de Vehículos</Spanish>
-            <Italian>di veicoli</Italian>
-            <Russian></Russian>
-            <German>Autohändler</German>
-            <Portuguese>Loja de Carros</Portuguese>
-            <Polish>Pojazdy - sklep</Polish>
+            <Original>Police Vehicles Shop</Original>
+            <German>Polizei Fahrzeug Shop</German>
+        </Key>
+		<Key ID="STR_MAR_W_E_Vehicle Shop_FBI">
+            <Original>FBI Vehicles Shop</Original>
+            <German>FBI Fahrzeuge Shop</German>
+        </Key>
+		<Key ID="STR_MAR_W_E_Vehicle Shop_SWAT">
+            <Original>SWAT Vehicles Shop</Original>
+            <German>SWAT Fahrzeuge Shop</German>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Process Sand</Original>

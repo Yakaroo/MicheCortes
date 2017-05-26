@@ -80,6 +80,10 @@ if (_requiredItem != "") then {
 if (_exit) exitWith {
     life_action_inUse = false;
 };
+//1
+while{true} do {
+ if(vehicle player != player) exitWith {};
+ if(life_interrupted) exitWith {life_interrupted = false;}; 
 
 _amount = round(random(_maxGather)) + 1;
 _diff = [_mined, _amount, life_carryWeight, life_maxWeight] call life_fnc_calWeightDiff;
@@ -100,8 +104,9 @@ for "_i" from 0 to 4 do {
 if (([true, _mined, _diff] call life_fnc_handleInv)) then {
     _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
     titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
-};
+	};
 
+};
 ["Itemmined"] spawn mav_ttm_fnc_addExp;
 
 sleep 2.5;
