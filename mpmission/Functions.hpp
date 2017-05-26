@@ -12,16 +12,6 @@ class Socket_Reciever {
     };
 };
 
-class SpyGlass {
-    tag = "SPY";
-    class Functions {
-        file = "SpyGlass";
-        class cookieJar{};
-        class notifyAdmins{};
-        class observe{};
-    };
-};
-
 class Life_Client_Core {
     tag = "life";
 
@@ -139,6 +129,30 @@ class Life_Client_Core {
         file = "core\jobcenter";
         class jobcenter {};
         class jobcaffe {};
+    };
+	
+    class papiere {
+        file = "core\papiere";
+        class frame {};
+        class papiereDialog {};
+        class polizeiDialog {};
+    };
+	
+    class scheine {
+        file = "core\papiere\scheine";
+        class ausweiss {};
+        class flugzeug {};
+        class helikopter {};
+        class lkw {};
+        class pkw {};
+        class waffenschein {};
+    };
+	
+    class polizei {
+        file = "core\papiere\polizei";
+        class fbiausweiss {};
+        class polizeiausweiss {};
+        class swatausweiss {};
     };
 
     class Cop {

@@ -7,7 +7,7 @@
     Loops through a list of variables and checks whether
     or not they are defined, if they are defined then trigger
     spyglass and kick the client to the lobby.
-*/
+
 private ["_vars"];
 _vars = [
     "life_revive_fee","life_gangPrice","life_gangUpgradeBase","life_enableFatigue","life_paycheck_period","life_vShop_rentalOnly","sell_array","buy_array",
@@ -23,3 +23,5 @@ _vars = [
         failMission "SpyGlass";
     };
 } forEach _vars;
+
+*/

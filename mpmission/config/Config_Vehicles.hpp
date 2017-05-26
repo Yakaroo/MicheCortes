@@ -903,14 +903,7 @@ class LifeCfgVehicles {
 	// Cop Auto Ende
 	
 	// Cop FBI Autos - Anfang
-	
-	class ivory_wrx_unmarked {
-        vItemSpace = 30;
-        conditions = "";
-        price = 500;
-        textures[] = {};
-    };
-	
+		
 	class ivory_evox_unmarked {
         vItemSpace = 30;
         conditions = "";

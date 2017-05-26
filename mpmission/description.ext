@@ -16,7 +16,6 @@ disableChannels[]={{0,true,true},{1,false,true},{2,true,true},{3,true,true},{4,t
  
 overviewText = "$STR_MISC_overviewText";    // Text to be displayed below the overviewPicture on the mission selection screen when the mission is available to play.
 
-#include "config\Config_SpyGlass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "config\Config_Master.hpp"
@@ -34,7 +33,7 @@ class CfgServer {
 
 class RscTitles {
     #include "dialog\progress.hpp"
-    #include "dialog\hud_nameTags.hpp"
+    //#include "dialog\hud_nameTags.hpp"
     #include "dialog\hud_stats.hpp"
 	#include "maverick\talent-tree-modular\gui\_masterTitles.cpp"
 };
@@ -121,15 +120,6 @@ class CfgDebriefing {
         title = "$STR_Blacklisted_Title";
         subtitle = "$STR_Blacklisted_SubTitle";
         description = "$STR_Blacklisted_Descript";
-        pictureBackground = "";
-        picture = "";
-        pictureColor[] = {0,0.3,0.6,1};
-    };
-
-    class SpyGlass {
-        title = "$STR_SpyDetect_Title";
-        subTitle = "$STR_SpyDetect_SubTitle";
-        description = "$STR_SpyDetect_Descript";
         pictureBackground = "";
         picture = "";
         pictureColor[] = {0,0.3,0.6,1};

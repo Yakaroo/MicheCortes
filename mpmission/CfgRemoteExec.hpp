@@ -70,6 +70,16 @@ class CfgRemoteExec {
         F(TON_fnc_clientMessage,CLIENT)
         F(TON_fnc_player_query,CLIENT)
 		F(life_fnc_update,CLIENT) //DynMarket
+		F(life_fnc_frame,CLIENT)
+		F(life_fnc_ausweiss,CLIENT)
+		F(life_fnc_flugzeug,CLIENT)
+		F(life_fnc_helikopter,CLIENT)
+		F(life_fnc_lkw,CLIENT)
+		F(life_fnc_pkw,CLIENT)
+		F(life_fnc_waffenschein,CLIENT) //1
+		F(life_fnc_fbiausweiss,CLIENT)
+		F(life_fnc_polizeiausweiss,CLIENT)
+		F(life_fnc_swatausweiss,CLIENT)
 
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)

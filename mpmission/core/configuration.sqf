@@ -65,7 +65,6 @@ life_definePlaceables = //Array aller Absperrungen (Cop + Medic)
  "Land_CncBarrier_stripes_F",
  "Land_PortableLight_single_F",
  "Land_PortableLight_double_F",
- "Land_PortableLight_double_F",
  "plp_up_MetalFenceGreySign",
  "plp_up_ParkingBlockCone",
  "plp_up_PlasticBarrierOrange",

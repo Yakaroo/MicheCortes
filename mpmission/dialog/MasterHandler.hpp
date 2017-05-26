@@ -34,3 +34,5 @@
 #include "impounded.hpp"
 #include "dynmarket_changeprice.hpp"
 #include "dynmarket_prices.hpp"
+#include "papiere.hpp"
+#include "ausweiss_polizei.hpp"

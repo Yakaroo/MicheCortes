@@ -66,29 +66,34 @@ switch (_code) do {
     };
 
     //Space key for Jumping
-    case 57: {
-      if (!_shift && life_barrier_active) then {
-         0 spawn life_fnc_placeablesPlaceComplete;
-    };
-      if (isNil "jumpActionTime") then {jumpActionTime = 0;};
-      if (_shift && {!(animationState player isEqualTo "AovrPercMrunSrasWrflDf")} && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {speed player > 2} && {!life_is_arrested} && {((velocity player) select 2) < 2.5} && {time - jumpActionTime > 1.5}) then {
-      if (life_barrier_active) then { [true] call life_fnc_placeableCancel; };
-         jumpActionTime = time; //Update the time.
-      [player] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
- _       handled = true;
-         };
-    };
-
-    //Surrender (Shift + B)
-    case 48: {
-        if (_shift) then {
-            if (player getVariable ["playerSurrender",false]) then {
-                player setVariable ["playerSurrender",false,true];
-            } else {
-                [] spawn life_fnc_surrender;
-            };
-            _handled = true;
+       case 57: {
+          if (!_shift && life_barrier_active) then {
+          0 spawn life_fnc_placeablesPlaceComplete;
+          };
+          if (isNil "jumpActionTime") then {jumpActionTime = 0;};
+          if (_shift && {!(animationState player isEqualTo "AovrPercMrunSrasWrflDf")} && {isTouchingGround player} && {stance player isEqualTo "STAND"} && {speed player > 2} && {!life_is_arrested} && {((velocity player) select 2) < 2.5} && {time - jumpActionTime > 1.5}) then {
+          if (life_barrier_active) then { [true] call life_fnc_placeableCancel; };
+          jumpActionTime = time; //Update the time.
+          [player] remoteExec ["life_fnc_jumpFnc",RANY]; //Global execution
+          _handled = true;
         };
+    };
+	
+	//Ö-Key
+      case 39: {
+      if ((isNull(findDisplay 20000)) && (playerSide in ([west,independent]))) then {
+      0 spawn life_fnc_placeablesMenu;
+      _handled = true;
+      };
+    _handled = true;
+    };
+	
+	//ENTF-Key
+     case 211: {
+      if ((playerSide in [west,independent]) && ((typeOf cursorTarget) in life_definePlaceables)) then {
+      deleteVehicle cursorTarget;
+      hintSilent "Die Absperrung wurde entfernt";
+      };
     };
 	
 	//Autosync
@@ -108,23 +113,6 @@ switch (_code) do {
 			[] call SOCK_fnc_updateRequest;
 		};
 	};
-	
-	//Ö-Key
-    case 39: {
-        if ((isNull(findDisplay 20000)) && (playerSide in ([west,independent]))) then {
-        0 spawn life_fnc_placeablesMenu;
-        _handled = true;
-        };
-        _handled = true;
-    };
-	
-	//ENTF-Key
-    case 211: {
-       if ((playerSide in [west,independent]) && ((typeOf cursorTarget) in life_definePlaceables)) then {
-       deleteVehicle cursorTarget;
-       hintSilent "Die Absperrung wurde entfernt";
-       };
-    };
 
 
     //Map Key
