@@ -171,6 +171,7 @@ class Life_Client_Core {
         class wantedGrab {};
 		class showArrestDialog {};
         class arrestDialog_Arrest {};
+		class seizeWeapon {};
     };
 
     class Dialog_Controls {
