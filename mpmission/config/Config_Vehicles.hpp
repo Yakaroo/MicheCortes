@@ -35,8 +35,8 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "sga_hover_board", "" },
-            { "dbo_CIV_ol_bike", "" },
-            { "dbo_CIV_new_bike", "" }
+            { "dbo_CIV_ol_bike", " " },
+            { "dbo_CIV_new_bike", " " }
         };
     };
 	
@@ -127,7 +127,26 @@ class CarShops {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
-            { "C_Plane_Civil_01_F", "" } //Apex DLC
+			{ "NH90", "" }
+        };
+    };
+	
+	
+	class civ_plane {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+            { "C_Plane_Civil_01_F", "" },
+			{ "Sab_af_An2", "" },
+			{ "Sab_tk_An2", "" },
+			{ "Sab_ca_An2", "" },
+			{ "Sab_yel_An2", "" },
+			{ "Sab_sea2_An2", "" },
+			{ "Sab_sea3_An2", "" },
+            { "Sab_aeroc", "" },
+			{ "Sab_aeroc_3", "" },
+            { "Sab_737_2", "" },
+			{ "Sab_737_6", "" }
         };
     };
 
@@ -160,6 +179,7 @@ class CarShops {
         side = "med";
         conditions = "";
         vehicles[] = {
+			{ "ivory_suburban_ems", "" },
             { "Dacia_Duster_gn", "" },
             { "c4h_gnb", "" },
             { "Transit_gn", "" },
@@ -175,7 +195,8 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "B_Heli_Light_01_F", "" },
-            { "O_Heli_Light_02_unarmed_F", "" }
+            { "O_Heli_Light_02_unarmed_F", "" },
+			{ "EC635_ADAC", "" }
         };
     };
 
@@ -183,23 +204,45 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "FaisalAlYahya_CVPI_police", "" },
-            { "ivory_isf_slicktop", "" },
-            { "ivory_isf_marked", "" },
-            { "ivory_rs4_marked", "" },
-            { "ivory_rs4_slicktop", "" },
-            { "ivory_suburban_slicktop", "" },
-            { "ivory_suburban_marked", "" },
-            { "ivory_evox_slicktop", "" },
-            { "ivory_evox_marked", "" },
-            { "ivory_wrx_slicktop", "" },
-            { "ivory_wrx_marked", "" }
+			{ "ivory_m3_marked", "" },
+			{ "ivory_rs4_marked", "call life_coplevel >= 2" },
+            { "ivory_rs4_slicktop", "call life_coplevel >= 2" },
+			{ "ivory_isf_slicktop", "call life_coplevel >= 3" },
+            { "ivory_isf_marked", "call life_coplevel >= 3" },
+			{ "ivory_suburban_slicktop", "call life_coplevel >= 4" },
+            { "ivory_suburban_marked", "call life_coplevel >= 4" },
+            { "ivory_evox_slicktop", "call life_coplevel >= 5" },
+            { "ivory_evox_marked", "call life_coplevel >= 5" },
+            { "ivory_wrx_slicktop", "call life_coplevel >= 6" },
+            { "ivory_wrx_marked", "call life_coplevel >= 6" },
+			{ "DAR_ExplorerSheriff", "call life_coplevel >= 7" },
+			{ "FaisalAlYahya_CVPI_police", "call life_coplevel >= 8" },
+			{ "Faisal_Youkun2015_PD", "call life_coplevel >= 8" }
+        };
+    };
+	
+	class cop_car_fbi {
+        side = "cop";
+        conditions = "fbi";
+        vehicles[] = {
+			{ "ivory_m3_unmarked", "" },
+            { "ivory_isf_unmarked", "" },
+            { "ivory_suburban_unmarked", "" },
+            { "ivory_rs4_unmarked", "" },
+            { "AMG_TahoePolice", "" },
+            { "ivory_wrx_unmarked", "" },
+            { "ivory_evox_unmarked", "" },
+            { "ivory_wrx_unmarked", "" },
+            { "", "" },
+            { "", "" },
+            { "", "" },
+            { "", "" }
         };
     };
 	
 	class cop_swat {
         side = "cop";
-        conditions = "";
+        conditions = "swat";
         vehicles[] = {
             { "DAR_SWATPolice", "" }
         };
@@ -209,7 +252,9 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "ivory_b206_RCMP", "" }
+            { "ivory_b206_RCMP", "" },
+            { "EC635_Unarmed", "" },
+			{ "MELB_MH6M", "" }
         };
     };
 
@@ -270,7 +315,7 @@ class LifeCfgVehicles {
     class dbo_CIV_new_bike {
         vItemSpace = 100;
         conditions = "";
-        price = 500;
+        price = 600;
         textures[] = {};
     };
 	
@@ -573,7 +618,101 @@ class LifeCfgVehicles {
     };
 	// CIV Luxus Händler Ende
 	
+	// CIV Flugzeug Anfang
+	
+	class Sab_sea3_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Sab_sea2_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Sab_yel_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class Sab_ca_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	    class Sab_tk_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	    class Sab_af_An2 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	    class Sab_aeroc {
+        vItemSpace = 20;
+        conditions = "";
+        price = 5000030;
+        textures[] = {};
+    };
+	
+	    class Sab_aeroc_3 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500000;
+        textures[] = {};
+    };
+	
+	    class Sab_737_2 {
+        vItemSpace = 30;
+        conditions = "";
+        price = 5000000;
+        textures[] = {};
+    };
+	
+	    class Sab_737_6 {
+        vItemSpace = 30;
+        conditions = "";
+        price = 5000000;
+        textures[] = {};
+    };
+	
+	
+	// CIV Flugzeug Ende
+	
+	// CIV Heli Anfang
+	
+	
+	
+	class NH90 {
+        vItemSpace = 25;
+        conditions = "";
+        price = 450000;
+        textures[] = {};
+    };
+	
+	
 	// Fara Autos - Anfang
+	
+	class ivory_suburban_ems {
+        vItemSpace = 50;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
 	
     class Dacia_Duster_gn {
         vItemSpace = 50;
@@ -606,29 +745,48 @@ class LifeCfgVehicles {
 	class depanren {
         vItemSpace = 75;
         conditions = "";
-        price = 700;
+        price = 1000;
+        textures[] = {};
+    };
+	
+	class Jonzie_Tow_Truck {
+        vItemSpace = 75;
+        conditions = "";
+        price = 1000;
         textures[] = {};
     };
 	
 	class Jonzie_Ambulance {
         vItemSpace = 75;
         conditions = "";
-        price = 1000;
+        price = 700;
         textures[] = {};
     };
 	
 	class Bcas {
         vItemSpace = 75;
         conditions = "";
-        price = 1000;
+        price = 700;
         textures[] = {};
     };
 	
 	// Fara Autos - Ende
 	
+	//Fara Helicopter - Anfang
+	
+	class EC635_ADAC {
+        vItemSpace = 50;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	
+	//Fara Helicopter - Ende
+	
 	//Cop Autos - Anfang	
     class FaisalAlYahya_CVPI_police {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {
@@ -639,82 +797,163 @@ class LifeCfgVehicles {
     };
 	
     class ivory_isf_slicktop {
-        vItemSpace = 100;
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class Faisal_Youkun2015_PD {
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_rs4_marked {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_rs4_slicktop {
-        vItemSpace = 100;
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class DAR_ExplorerSheriff {
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_suburban_slicktop {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_suburban_marked {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_isf_marked {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_evox_slicktop {
-        vItemSpace = 100;
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	 class ivory_m3_marked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class zorak_audi_rs3_police {
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_evox_marked {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_wrx_slicktop {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
     class ivory_wrx_marked {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 500;
         textures[] = {};
     };
 	
 	class DAR_SWATPolice {
-        vItemSpace = 100;
+        vItemSpace = 30;
         conditions = "";
         price = 5000;
         textures[] = {};
     };
 	// Cop Auto Ende
+	
+	// Cop FBI Autos - Anfang
+	
+	class ivory_wrx_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class ivory_evox_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class ivory_wrx_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class AMG_TahoePolice {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class ivory_m3_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class ivory_rs4_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class ivory_suburban_unmarked {
+        vItemSpace = 30;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	// Cop FBI Autos - Ende
 	
 	// Cop Heli Anfang
     class ivory_b206_RCMP {
@@ -723,6 +962,21 @@ class LifeCfgVehicles {
         price = 3500;
         textures[] = {};
     };
+	
+	class EC635_Unarmed {
+        vItemSpace = 50;
+        conditions = "";
+        price = 8000;
+        textures[] = {};
+    };
+	
+	class MELB_MH6M {
+        vItemSpace = 50;
+        conditions = "swat";
+        price = 5000;
+        textures[] = {};
+    };
+	
 	// Cop Heli Ende
 	
     // Apex DLC
