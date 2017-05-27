@@ -63,7 +63,7 @@ class VirtualShops {
         name = "STR_Shop_Station_Coffee";
         side = "";
         conditions = "";
-        items[] = { "pickaxe", "netz", "schaufel", "axt", "fuelFull", "toolkit", "storagesmall", "storagebig", "waterBottle", "redgull", "rabbit", "banana", "tbacon", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
+        items[] = { "pickaxe", "netz", "oil_processed", "schaufel", "axt", "fuelFull", "toolkit", "storagesmall", "storagebig", "waterBottle", "redgull", "rabbit", "banana", "tbacon", "rabbit_raw", "hen_raw", "rooster_raw", "sheep_raw", "goat_raw" };
     };
 
     class drugdealer {
@@ -84,7 +84,6 @@ class VirtualShops {
 	class tempeldisco {
         name = "STR_Shops_Tempeldisco";
         side = "civ";
-        license = "";
         conditions = "";
         items[] = { "kotropfen" };
     };
@@ -100,7 +99,7 @@ class VirtualShops {
         name = "STR_Shops_Seetraderlegal";
         side = "civ";
         conditions = "";
-        items[] = { "alpenmilch" };
+        items[] = { "alpenmilch", "cornseeds" };
     };
 
     class oil {
@@ -200,7 +199,7 @@ class VirtualShops {
         name = "STR_Shops_WikiBar";
         side = "civ";
         conditions = "";
-        items[] = { "banana_juice", "strawberry_juice", "icecube", "kokosnuss" };
+        items[] = { "banana_juice", "strawberry_juice", "icecube", "kokosnussmilch" };
     };
 	
 	class seeds {
@@ -619,7 +618,7 @@ class VirtualItems {
         variable = "cornseeds";
         displayName = "STR_Item_cornseeds";
         weight = 1;
-        buyPrice = 150;
+        buyPrice = 60;
         sellPrice = -1;
         illegal = false;
         edible = -1;
@@ -640,7 +639,7 @@ class VirtualItems {
     class oil_unprocessed {
         variable = "oilUnprocessed";
         displayName = "STR_Item_OilU";
-        weight = 7;
+        weight = 4;
         buyPrice = -1;
         sellPrice = -1;
         illegal = false;
@@ -651,9 +650,9 @@ class VirtualItems {
     class oil_processed {
         variable = "oilProcessed";
         displayName = "STR_Item_OilP";
-        weight = 5;
-        buyPrice = 100;
-        sellPrice = 78;
+        weight = 3;
+        buyPrice = -1;
+        sellPrice = 10;
         illegal = false;
         edible = -1;
         icon = "icons\ico_oilProcessed.paa";
@@ -958,7 +957,7 @@ class VirtualItems {
     };
 	
 	class icecube {
-        variable = "iceCube";
+        variable = "icecube";
         displayName = "STR_Item_Icecube";
         weight = 1;
         buyPrice = -1;
@@ -1217,7 +1216,7 @@ class VirtualItems {
     };
 	
 	class quellwasser {
-        variable = "quellWasser";
+        variable = "quellwasser";
         displayName = "STR_Item_Quellwasser";
         weight = 2;
         buyPrice = -1;

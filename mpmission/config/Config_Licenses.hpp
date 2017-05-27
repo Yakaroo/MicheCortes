@@ -190,7 +190,7 @@ class Licenses {
     class oil {
         variable = "oil";
         displayName = "STR_License_Oil";
-        price = 1800;
+        price = 3800;
         illegal = false;
         side = "civ";
     };
@@ -279,6 +279,14 @@ class Licenses {
         variable = "roesterei";
         displayName = "STR_License_roesterei";
         price = 450;
+        illegal = false;
+        side = "civ";
+    };
+	
+	class gefrierschrank {
+        variable = "gefrierschrank";
+        displayName = "STR_License_gefrierschrank";
+        price = 10;
         illegal = false;
         side = "civ";
     };

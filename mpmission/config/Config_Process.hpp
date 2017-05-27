@@ -18,11 +18,11 @@
 
 class ProcessAction {
     class oil {
-        MaterialsReq[] = {{"oil_unprocessed",1}};
+        MaterialsReq[] = {{"oil_unprocessed",3}};
         MaterialsGive[] = {{"oil_processed",1}};
         Text = "STR_Process_Oil";
         //ScrollText = "Process Oil";
-        NoLicenseCost = 9000;
+        NoLicenseCost = 500;
     };
 	
 	class kohle {

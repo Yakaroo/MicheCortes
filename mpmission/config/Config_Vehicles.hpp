@@ -18,7 +18,7 @@ class CarShops {
     */
     class civ_car {
         side = "civ";
-        conditions = "driver";
+        conditions = "";
         vehicles[] = {
             { "AMG_Caprice1993", "" },
             { "Jonzie_30CSL", "" },
@@ -43,7 +43,7 @@ class CarShops {
 	
     class civ_luxus {
         side = "civ";
-        conditions = "driver";
+        conditions = "";
         vehicles[] = {
             { "Guillaume9545_Bmw_M5_Blanche", "" },
             { "Guillaume9545_Bmw_M5_bleu", "" },
@@ -94,7 +94,7 @@ class CarShops {
 
     class kart_shop {
         side = "civ";
-        conditions = "driver";
+        conditions = "";
         vehicles[] = {
             { "C_Kart_01_Blu_F", "" },
             { "C_Kart_01_Fuel_F", "" },
@@ -105,7 +105,7 @@ class CarShops {
 
     class civ_truck {
         side = "civ";
-        conditions = "trucking";
+        conditions = "";
         vehicles[] = {
             { "Jonzie_Box_Truck", "" },
             { "Jonzie_Flat_Bed", "" },
@@ -116,7 +116,7 @@ class CarShops {
 
     class civ_air {
         side = "civ";
-        conditions = "helikopter";
+        conditions = "";
         vehicles[] = {
             { "C_Heli_Light_01_civil_F", "" },
             { "B_Heli_Light_01_F", "" },
@@ -128,7 +128,7 @@ class CarShops {
 	
 	class civ_plane {
         side = "civ";
-        conditions = "pilot";
+        conditions = "";
         vehicles[] = {
             { "C_Plane_Civil_01_F", "" },
 			{ "Sab_af_An2", "" },
@@ -146,7 +146,7 @@ class CarShops {
 
      class civ_ship {
         side = "civ";
-        conditions = "boat";
+        conditions = "";
         vehicles[] = {
             { "C_Rubberboat", "" },
             { "C_Boat_Civil_01_F", "" },
@@ -219,7 +219,7 @@ class CarShops {
 	
 	class cop_car_fbi {
         side = "cop";
-        conditions = "fbi";
+        conditions = "";
         vehicles[] = {
 			{ "ivory_m3_unmarked", "" },
             { "ivory_isf_unmarked", "" },
@@ -234,7 +234,7 @@ class CarShops {
 	
 	class cop_swat {
         side = "cop";
-        conditions = "swat";
+        conditions = "";
         vehicles[] = {
             { "DAR_SWATPolice", "" }
         };

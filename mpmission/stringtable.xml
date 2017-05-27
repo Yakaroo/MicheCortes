@@ -6297,6 +6297,18 @@
             <Original>Tobacco</Original>
             <German>Tabak</German>
         </Key>
+		<Key ID="STR_Item_muschelOre">
+            <Original>Shellfish</Original>
+            <German>Muschel</German>
+        </Key>
+		<Key ID="STR_Item_perle">
+            <Original>Pearl</Original>
+            <German>Perle</German>
+        </Key>
+		<Key ID="STR_Item_cornseeds">
+            <Original>Corn Seed</Original>
+            <German>Weizensamen</German>
+        </Key>
 		<Key ID="STR_Item_Tabakpflanze">
             <Original>Tobacco Plant</Original>
             <German>Tabakpflanze</German>
@@ -6392,15 +6404,7 @@
             <Polish>Ropa naftowa</Polish>
         </Key>
         <Key ID="STR_Item_OilP">
-            <Original>Processed Oil</Original>
-            <Czech>Zpracovaný olej</Czech>
-            <Spanish>Petróleo Procesado</Spanish>
-            <Russian></Russian>
-            <German>Verarbeitetes Öl</German>
-            <French>Pétrole raffiné</French>
-            <Italian>Olio processato</Italian>
-            <Portuguese>Petróleo Refinado</Portuguese>
-            <Polish>Olej napędowy</Polish>
+            <Original>Diesel</Original>
         </Key>
         <Key ID="STR_Item_HeroinU">
             <Original>Opium Poppy</Original>
@@ -7144,15 +7148,7 @@
             <Polish>Wytwarzanie Heroiny</Polish>
         </Key>
         <Key ID="STR_License_Oil">
-            <Original>Oil Processing</Original>
-            <Czech>Zpracování olej</Czech>
-            <Spanish>Procesamiento de Petroleo</Spanish>
-            <Russian></Russian>
-            <German>Ölverarbeitung</German>
-            <French>Raffinage du pétrole</French>
-            <Italian>Processo Olio</Italian>
-            <Portuguese>Refinamento de Petróleo</Portuguese>
-            <Polish>Rafinacja ropy naftowej</Polish>
+            <Original>Diesel Raffinerie</Original>
         </Key>
 		<Key ID="STR_License_Fruchtwerk">
             <Original>Fruit Factory License</Original>
@@ -7294,6 +7290,9 @@
 		<Key ID="STR_License_roesterei">
             <Original>Roasted License</Original>
             <German>Rösterei Lizenz</German>
+        </Key>
+		<Key ID="STR_License_gefrierschrank">
+            <Original>Gefrierschrank Erlaubnis</Original>
         </Key>
 		<Key ID="STR_License_giftmischer">
             <Original>Poison Mixer License</Original>
@@ -10255,6 +10254,9 @@
             <Original>Cigarettes Trader</Original>
             <German>Zigaretten Händler</German>
         </Key>
+		<Key ID="STR_MAR_Ueberseehändler">
+            <Original>Überseehändler Legal</Original>
+        </Key>
         <Key ID="STR_MAR_Diamond_Trader">
             <Original>Diamond Trader</Original>
             <Czech>Diamond Trader</Czech>
@@ -10653,16 +10655,20 @@
             <German>Sergeant Waffengeschäft</German>
         </Key>
         <Key ID="STR_MAR_W_E_Vehicle Shop">
-            <Original>Police Vehicles Shop</Original>
+            <Original>Vehicles Shop</Original>
+            <German>Fahrzeug Shop</German>
+        </Key>
+		<Key ID="STR_MAR_W_E_Vehicle Shop_Cop">
+            <Original>Police Vehicle Shop</Original>
             <German>Polizei Fahrzeug Shop</German>
         </Key>
 		<Key ID="STR_MAR_W_E_Vehicle Shop_FBI">
-            <Original>FBI Vehicles Shop</Original>
-            <German>FBI Fahrzeuge Shop</German>
+            <Original>FBI Vehicle Shop</Original>
+            <German>FBI Fahrzeug Shop</German>
         </Key>
 		<Key ID="STR_MAR_W_E_Vehicle Shop_SWAT">
-            <Original>SWAT Vehicles Shop</Original>
-            <German>SWAT Fahrzeuge Shop</German>
+            <Original>SWAT Vehicle Shop</Original>
+            <German>SWAT Fahrzeug Shop</German>
         </Key>
         <Key ID="STR_MAR_Process_Sand">
             <Original>Process Sand</Original>
