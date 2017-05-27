@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=82;
+		nextID=84;
 	};
 	class Camera
 	{
-		pos[]={8970.8818,88.898926,4806.8252};
-		dir[]={0.63700193,-0.75549686,-0.153519};
-		up[]={0.73448718,0.65512162,-0.17701434};
-		aside[]={-0.23431017,2.2556196e-007,-0.97222412};
+		pos[]={3411.031,27.002785,6851.7573};
+		dir[]={-0.018160848,-0.44731671,0.89420718};
+		up[]={-0.0090822261,0.89437222,0.44723195};
+		aside[]={0.99980915,-4.9978553e-008,0.020304356};
 	};
 };
 binarizationWanted=0;
@@ -690,24 +690,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -722,6 +704,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -1206,7 +1206,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.15582;
+			angle=229.15581;
 			id=203;
 		};
 		class Item44
@@ -37790,18 +37790,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3389.6904,-0.075381517,6881.4316};
+				position[]={3389.6902,-0.075403929,6881.4316};
 				angles[]={0,4.3258162,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Tabak"",life_fnc_processAction,""tabak"",0,false,false,"""",' life_inv_tabakPflanze > 0 && !life_is_processing && !life_action_inUse'];}";
+				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Tabak"",life_fnc_processAction,""tabak"",0,false,false,"""",' life_inv_tabakpflanze > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""tabaktrockner"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""tabaktrockner"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""tabaktrockner"",0,false,false,"""",' !license_civ_tabaktrockner && playerSide isEqualTo civilian '];}";
 			};
 			id=7144;
 			type="Land_InfoStand_V1_F";
-			atlOffset=-0.0029373765;
+			atlOffset=-0.003000021;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -38007,84 +38007,89 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3390.4546,-0.068876803,6876.9976};
-				angles[]={0,5.9210482,0};
+				position[]={3390.4551,-0.068906903,6876.9976};
+				angles[]={0,5.9210472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=37513456;
 			};
 			id=7162;
 			type="Land_WoodenTable_large_F";
-			atlOffset=0.031988621;
+			atlOffset=0.032000005;
 		};
 		class Item1202
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3389.6897,-0.097736001,6879.0249};
-				angles[]={0,5.9210482,0};
+				position[]={3389.6899,-0.09741962,6879.0244};
+				angles[]={0,5.9210472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=37513456;
 			};
 			id=7163;
 			type="Land_WoodenTable_large_F";
-			atlOffset=0.015682936;
+			atlOffset=0.015999973;
 		};
 		class Item1203
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3388.9255,-0.13278729,6881.0547};
-				angles[]={0,5.9210482,0};
+				position[]={3388.9258,-0.13280743,6881.0547};
+				angles[]={0,5.9210472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=37513456;
 			};
 			id=7164;
 			type="Land_WoodenTable_large_F";
+			atlOffset=-5.9604645e-008;
 		};
 		class Item1204
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3387.0383,-0.18671,6886.1641};
-				angles[]={0,5.9210482,0};
+				position[]={3387.0391,-0.18678945,6886.1646};
+				angles[]={0,5.9210472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=37513456;
 			};
 			id=7166;
 			type="Land_WoodenTable_large_F";
-			atlOffset=-2.3066998e-005;
 		};
 		class Item1205
 		{
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={3387.8267,-0.16760856,6884.0986};
-				angles[]={0,5.9210482,0};
+				position[]={3387.8271,-0.16765004,6884.0986};
+				angles[]={0,5.9210472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				init="call{this enableSimulation false;  this allowDamage false;}";
 				aiRadarUsage=37513456;
 			};
 			id=7167;
@@ -44696,7 +44701,7 @@ class Mission
 			};
 			id=7883;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.50438356;
+			atlOffset=0.50438309;
 		};
 		class Item1525
 		{
@@ -44821,7 +44826,7 @@ class Mission
 			};
 			id=7891;
 			type="Land_DPP_01_mainFactory_F";
-			atlOffset=0.65430498;
+			atlOffset=0.65430403;
 		};
 		class Item1533
 		{
@@ -44832,7 +44837,6 @@ class Mission
 				angles[]={0,2.4298277,0};
 			};
 			side="Empty";
-			flags=4;
 			class Attributes
 			{
 				init="call{this enableSimulation false;  this allowDamage false;  this addAction[localize""STR_Process_Oil"",life_fnc_processAction,""oil"",0,false,false,"""",' life_inv_oilUnprocessed > 0 && !life_is_processing && !life_action_inUse'];  this addAction[format [""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""oil"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""oil"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""oil"",0,false,false,"""",' !license_civ_oil && playerSide isEqualTo civilian '];}";
@@ -44840,6 +44844,7 @@ class Mission
 			};
 			id=7894;
 			type="Land_InfoStand_V1_F";
+			atlOffset=1.5107474;
 		};
 		class Item1534
 		{
