@@ -267,6 +267,14 @@ class Licenses {
         side = "civ";
     };
 	
+	class tabaktrockner {
+        variable = "tabaktrockner";
+        displayName = "STR_License_Trockner";
+        price = 500;
+        illegal = false;
+        side = "civ";
+    };
+	
 	class tabakdreher {
         variable = "tabakdreher";
         displayName = "STR_License_Tabakdreher";

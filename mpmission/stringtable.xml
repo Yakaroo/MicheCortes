@@ -7184,6 +7184,10 @@
             <Original>Tabacco Turner License</Original>
             <German>Tabakdreher</German>
         </Key>
+		<Key ID="STR_License_Trockner">
+            <Original>Tabacco Dryer License</Original>
+            <German>Tabaktrockner</German>
+        </Key>
         <Key ID="STR_License_Firearm">
             <Original>Firearm License</Original>
             <Czech>zbrojní průkaz</Czech>
