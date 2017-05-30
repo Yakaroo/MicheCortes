@@ -222,13 +222,6 @@ class CfgSpawnPoints {
                 conditions = "";
             };
 
-            class NEAirportHospital {
-                displayName = $STR_SP_EMS_NEair;
-                spawnMarker = "medic_spawn_3";
-                icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
-                conditions = "";
-            };
-
         };
 
     };

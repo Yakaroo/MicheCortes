@@ -236,8 +236,9 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "C_Rubberboat", "" },
+			{ "Lexx_Jetboat_H", "" },
+			{ "sab_boat", "" },
             { "C_Boat_Civil_01_F", "" },
-            { "B_SDV_01_F", "" },
             { "C_Boat_Transport_02_F", "" },
             { "C_Scooter_Transport_01_F", "" },
 			{ "vvv_NewYacht", "" }
@@ -280,6 +281,16 @@ class CarShops {
             { "B_Heli_Light_01_F", "" },
             { "O_Heli_Light_02_unarmed_F", "" },
 			{ "EC635_ADAC", "" }
+        };
+    };
+	
+	class med_ship {
+        side = "med";
+        conditions = "";
+        vehicles[] = {
+            { "C_Boat_Civil_01_rescue_F", "" },
+            { "B_Lifeboat", "" },
+			{ "", "" }
         };
     };
 
@@ -345,8 +356,8 @@ class CarShops {
         vehicles[] = {
             { "B_Boat_Transport_01_F", "" },
             { "C_Boat_Civil_01_police_F", "" },
-            { "C_Boat_Transport_02_F", "" }, //Apex DLC
-            { "B_Boat_Armed_01_minigun_F", "call life_coplevel >= 3" },
+            { "C_Boat_Transport_02_F", "" },
+			{ "B_CBS_WaterShadow730_F", "" },
             { "B_SDV_01_F", "" }
         };
     };
@@ -578,7 +589,25 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 
-	// CIV Gebraucht - ende
+	// CIV Gebraucht - Ende
+	
+	// CIV Boot - Anfang
+	
+	class Lexx_Jetboat_H {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	class sab_boat {
+        vItemSpace = 20;
+        conditions = "";
+        price = 500;
+        textures[] = {};
+    };
+	
+	// CIV Boot - Ende
 	
 	// CIV Luxus Händler Anfang
 	
@@ -1527,7 +1556,7 @@ class LifeCfgVehicles {
 	
 	// Fara Autos - Ende
 	
-	//Fara Helicopter - Anfang
+	// Fara Helicopter - Anfang
 	
 	class EC635_ADAC {
         vItemSpace = 50;
@@ -1537,7 +1566,25 @@ class LifeCfgVehicles {
     };
 	
 	
-	//Fara Helicopter - Ende
+	// Fara Helicopter - Ende
+	
+	// Fara Boot - Anfang
+	
+	class C_Boat_Civil_01_rescue_F {
+        vItemSpace = 50;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class B_Lifeboat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	// Fara Boot - Ende
 	
 	//Cop Autos - Anfang	
     class FaisalAlYahya_CVPI_police {
@@ -1740,6 +1787,17 @@ class LifeCfgVehicles {
     };
 	
 	// Cop Heli Ende
+	
+	// Cop Boot - Anfang
+	
+	class B_CBS_WaterShadow730_F {
+        vItemSpace = 50;
+        conditions = "";
+        price = 5000;
+        textures[] = {};
+    };
+	
+	// Cop Boot - Ende
 	
     // Apex DLC
     class C_Boat_Transport_02_F {

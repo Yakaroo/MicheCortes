@@ -178,6 +178,7 @@ class WeaponShops {
         conditions = "";
         items[] = {
             { "RH_g19", "", 800, 3750, "" },
+			{ "EN_Tazer_X3_Yellow", "", 1500, 3750, "" },
             { "RH_fn57", "", 1000, 3750, "" },
 			{ "RH_usp", "", 1000, 3750, "" },
 			{ "RH_bullb", "", 1500, 3750, "" },
@@ -197,6 +198,7 @@ class WeaponShops {
         mags[] = {
             { "16Rnd_9x21_Mag", "", 30, 60, "" },
 			{ "RH_17Rnd_9x19_g17", "", 30, 60, "" },
+			{ "EN_3Rnd_Tazer", "", 30, 60, "" },
 			{ "RH_20Rnd_57x28_FN", "", 30, 60, "" },
 			{ "RH_12Rnd_45cal_usp", "", 30, 60, "" },
 			{ "RH_6Rnd_454_Mag", "", 40, 60, "" },

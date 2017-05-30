@@ -38,6 +38,8 @@ if(_shooter isKindOf "Man" && alive player) then {
  life_istazed = false;
  disableUserInput false;
  player playMoveNow "amovppnemstpsraswrfldnon";
+ player setFatigue 1; //no running for you
+ player setdamage 0; //especially no running for you
  };
 } else {
  _unit allowDamage true;
