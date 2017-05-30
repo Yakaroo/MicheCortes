@@ -438,13 +438,6 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
-	class Jonzie_Mini_Cooper {
-        vItemSpace = 20;
-        conditions = "";
-        price = 500;
-        textures[] = {};
-    };
-	
 	class IVORY_PRIUS {
         vItemSpace = 20;
         conditions = "";
