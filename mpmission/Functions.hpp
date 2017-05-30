@@ -186,6 +186,8 @@ class Life_Client_Core {
 		class showArrestDialog {};
         class arrestDialog_Arrest {};
 		class seizeWeapon {};
+        class einfahren {};
+		class ausfahren {};
     };
 
     class Dialog_Controls {

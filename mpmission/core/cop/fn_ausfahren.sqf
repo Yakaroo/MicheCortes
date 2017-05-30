@@ -1,0 +1,1 @@
+burns1 animateSource ["ironOpenSource",1]; hint "Barrikaden (Georgetown) ausgefahren !";

@@ -8,7 +8,7 @@ class EditorData
 	toggles=1090;
 	class ItemIDProvider
 	{
-		nextID=7896;
+		nextID=7898;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=84;
+		nextID=88;
 	};
 	class Camera
 	{
-		pos[]={3411.031,27.002785,6851.7573};
-		dir[]={-0.018160848,-0.44731671,0.89420718};
-		up[]={-0.0090822261,0.89437222,0.44723195};
-		aside[]={0.99980915,-4.9978553e-008,0.020304356};
+		pos[]={5812.0205,6.57129,10729.459};
+		dir[]={0.96221852,-0.23349452,0.14029238};
+		up[]={0.23107621,0.97235352,0.033690289};
+		aside[]={0.14427808,-2.6975613e-007,-0.98956466};
 	};
 };
 binarizationWanted=0;
@@ -779,7 +779,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1535;
+		items=1536;
 		class Item0
 		{
 			dataType="Marker";
@@ -1206,7 +1206,7 @@ class Mission
 			position[]={6849.2598,2.6600001,7437.4902};
 			name="kart_shop_1";
 			type="Empty";
-			angle=229.15581;
+			angle=229.15578;
 			id=203;
 		};
 		class Item44
@@ -44120,12 +44120,13 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5842.9302,4.1566453,10714.961};
-				angles[]={0,6.240541,0};
+				angles[]={0,6.2405472,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
+				name="burns1";
 			};
 			id=7832;
 			type="Burnes_floorGate";
@@ -44856,6 +44857,46 @@ class Mission
 			colorName="ColorBrown";
 			id=7895;
 			atlOffset=-7.1255665;
+		};
+		class Item1535
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5811.6333,5.5969234,10725.898};
+				angles[]={0,4.117136,0};
+			};
+			side="Empty";
+			class Attributes
+			{
+				init="call{this addAction[""<t color='#ADFF2F'>Barrieren ausfahren</t>"",life_fnc_ausfahren]; this addAction[""Barrieren einfahren"",life_fnc_einfahren];}";
+			};
+			id=7897;
+			type="Land_Laptop_unfolded_F";
+			atlOffset=0.69627714;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 	class Connections

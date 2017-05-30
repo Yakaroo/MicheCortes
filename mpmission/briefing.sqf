@@ -6,7 +6,7 @@ player createDiarySubject ["ChangeLog","ChangeLog"];
 player createDiarySubject ["Regeln","Regeln"];
 player createDiarySubject ["Teamspeak 3","Teamspeak 3"];
 player createDiarySubject ["Fragen","Support"];
-player createDiarySubject ["items","Allgemeines"];
+player createDiarySubject ["items","Lizenzen/Items","Routen"];
 player createDiarySubject ["controls","Tastenbelegung"];
 player createDiarySubject ["space2","--------------------------"];
 player createDiarySubject ["Illegales","Illegales"];
@@ -68,7 +68,7 @@ player createDiaryRecord ["Fragen",
 	
 player createDiaryRecord ["items",
 	[
-		"Farming",
+		"Lizenzen/Items",
 			"
 			<br />
 			=== <font color='#FE642E'>Items</font> ==============================================<br />
@@ -111,6 +111,43 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>42.000 €</font>] - LSD<br />
 			[<font color='#63bfaa'>2.000 €</font>] - Gift Mischer<br />
 			[<font color='#63bfaa'>50.000 €</font>] - Ophiotoxin Mischer<br />
+			"
+	]
+];
+
+player createDiaryRecord ["items",
+	[
+		"Routen",
+			"
+			<br />
+			=== <font color='#FE642E'>Anfangsrouten</font> ==============================================<br />
+			[<font color='#63bfaa'>Bananen</font>] - Bananenplantage -> Markt<br />
+			[<font color='#63bfaa'>Bananensaft</font>] - Bananenplantage -> Fruchtwerk -> Wikibar<br />
+			[<font color='#63bfaa'>Erdbeeren</font>] - Erdbeerfeld -> Markt<br />
+			[<font color='#63bfaa'>Erdbeersaft</font>] - Erdbeerfeld -> Fruchtwerk -> Wikibar<br />
+			[<font color='#63bfaa'>Schokolade</font>] - Kakaoplantage -> Schokoladenfabrik -> Schokoladenhändler<br />
+			[<font color='#63bfaa'>Chips</font>] - Kartoffelfeld -> Rösterrei -> Markt<br />
+			[<font color='#63bfaa'>Eiswürfel</font>] - Quellwasser -> Gefrierschrank FARA HQ -> Wikibar<br />
+			[<font color='#63bfaa'>Kupferbarren</font>] - Kupfermine -> Metallschmelze -> Metallhändler<br />
+			<br />
+			=== <font color='#2E2EFE'>Mittelrouten Legal</font> =============================================<br />
+			[<font color='#63bfaa'>Kaffepulver</font>] - Kaffeplantage -> Kaffemühle -> Café<br />
+			[<font color='#63bfaa'>Kokosnussmilch</font>] - Kokosnusspalmen -> Kokosnussknacker -> Wikibar<br />
+			[<font color='#63bfaa'>Eisenbarren</font>] - Eisenmine -> Metallschmelze -> Metallhändler<br />
+			[<font color='#63bfaa'>Goldbarren</font>] - Goldkies -> Sieber -> Metallschmelze -> Juwelier<br />
+			[<font color='#63bfaa'>Diesel</font>] - Ölfeld -> Diesel Raffinerie -> Tankstelle<br />
+			[<font color='#63bfaa'>Diamant</font>] - Kohlemine -> Presswerk -> Diamantschleifer -> Juwelier<br />
+			<br />
+			=== <font color='#2E2EFE'>Mittelrouten Illegal</font> =============================================<br />
+			[<font color='#63bfaa'>K.O. Tropfen</font>] - Schlangen -> Giftmischer -> Ophiotoxinmischer -> Tempel Disco<br />
+			[<font color='#63bfaa'>Marihuana</font>] - Canabisplantage -> Marihuanaverarbeiter -> Drogendealerin<br />
+			<br />
+			=== <font color='#FF0040'>Große Routen Legal</font> =========================================<br />
+			[<font color='#63bfaa'>Perlen</font>] - Muscheln -> Muschelknacker -> Juwelier<br />
+			<br />
+			=== <font color='#FF0040'>Große Routen Illegal</font> =========================================<br />
+			[<font color='#63bfaa'>Kokain</font>] - Kokaplantage -> Kokainverarbeiter -> Drogendealerin<br />
+			[<font color='#63bfaa'>Heroin</font>] - Mohnfeld -> Heroinverarbeiter -> Drogendealerin<br />
 			"
 	]
 ]; 

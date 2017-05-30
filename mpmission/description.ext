@@ -3,7 +3,7 @@ onLoadName = "Tanoa Life by Miche Cortes";
 onLoadMission = "Rollenspiel von Tonic / Modifiziert von Miche Cortes Team";
 loadScreen =  "logo.paa";
 
-disableChannels[]={{0,true,true},{1,false,true},{2,true,true},{3,true,true},{4,true,true},{5,true,true},{6,true,true},{7,true,true}};
+disableChannels[]={{0,true,true},{1,false,true},{2,true,true},{3,true,true},{4,true,true},{5,false,true},{6,true,true},{7,true,true}};
  /*
 0 = Global
 1 = Side
@@ -101,6 +101,30 @@ class CfgSounds {
     class unlockCarSound {
         name = "unlockCarSound";
         sound[] = {"\sounds\carUnlock.ogg", 0.25, 1};
+        titles[] = {};
+    };
+	
+	class normalmessagesound {
+        name = "normalmessagesound";
+        sound[] = {"\sounds\normalmessagesound.ogg", 2.00, 1};
+        titles[] = {};
+    };
+	
+	class adminmessagesound {
+        name = "adminmessagesound";
+        sound[] = {"\sounds\adminmessagesound.ogg", 3.00, 1};
+        titles[] = {};
+    };
+	
+	class policedispatchsound {
+        name = "policedispatchsound";
+        sound[] = {"\sounds\policedispatchsound.ogg", 2.00, 1};
+        titles[] = {};
+    };
+	
+	class medicdispatchsound {
+        name = "medicdispatchsound";
+        sound[] = {"\sounds\medicdispatchsound.ogg", 3.00, 1};
         titles[] = {};
     };
 };
