@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 50;
+        price = 1000;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +19,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 1000;
+        price = 2000;
         illegal = false;
         side = "civ";
     };
@@ -83,7 +83,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 10000;
+        price = 20000;
         illegal = false;
         side = "civ";
     };

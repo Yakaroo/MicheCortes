@@ -1254,7 +1254,7 @@ class VirtualItems {
         displayName = "STR_Item_Banana";
         weight = 3;
         buyPrice = 10;
-        sellPrice = 4;
+        sellPrice = 5;
         illegal = false;
         edible = 25;
         icon = "icons\ico_banana.paa";
@@ -1265,7 +1265,7 @@ class VirtualItems {
         displayName = "STR_Item_Strawberry";
         weight = 2;
         buyPrice = 12;
-        sellPrice = 7;
+        sellPrice = 6;
         illegal = false;
         edible = 15;
         icon = "icons\ico_strawberry.paa";

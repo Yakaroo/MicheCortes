@@ -15,6 +15,8 @@ if (hasInterface) then {
 
 [] execVM "core\markers\mapmarker.sqf";
 
+[] execVM "core\markers\mapmarker1.sqf";
+
 // [] execVM "core\cop\keycard.sqf"; 
 
 [] execVM "dialog\function\statusBar.sqf";

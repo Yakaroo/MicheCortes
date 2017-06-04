@@ -82,11 +82,11 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>Kontaminationsschutzanzug</font>] - Waffenfähiges Uran<br />
 			<br />
 			=== <font color='#2E2EFE'>Lizenzen (Allgemein)</font> =============================================<br />
-			[<font color='#63bfaa'>1.400 €</font>] - Führerschein<br />
+			[<font color='#63bfaa'>1.000 €</font>] - Führerschein<br />
 			[<font color='#63bfaa'>3.000 €</font>] - Bootsschein<br />
 			[<font color='#63bfaa'>6.000 €</font>] - Gefahrgutführerschein<br />
 			[<font color='#63bfaa'>16.000 €</font>] - LKW Führerschein<br />
-			[<font color='#63bfaa'>12.000 €</font>] - Waffenschein<br />
+			[<font color='#63bfaa'>20.000 €</font>] - Waffenschein<br />
 			[<font color='#63bfaa'>15.000 €</font>] - Helikopterschein<br />
 			[<font color='#63bfaa'>20.000 €</font>] - Pilotenschein<br />
 			[<font color='#63bfaa'>30.000 €</font>] - Berufpilotenschein<br />
@@ -134,7 +134,7 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>Kaffepulver</font>] - Kaffeplantage -> Kaffemühle -> Café<br />
 			[<font color='#63bfaa'>Kokosnussmilch</font>] - Kokosnusspalmen -> Kokosnussknacker -> Wikibar<br />
 			[<font color='#63bfaa'>Eisenbarren</font>] - Eisenmine -> Metallschmelze -> Metallhändler<br />
-			[<font color='#63bfaa'>Goldbarren</font>] - Goldkies -> Sieber -> Metallschmelze -> Juwelier<br />
+			[<font color='#63bfaa'>Goldbarren</font>] - Goldkies -> Sieber -> Metallschmelze -> Metallhändler<br />
 			[<font color='#63bfaa'>Diesel</font>] - Ölfeld -> Diesel Raffinerie -> Tankstelle<br />
 			[<font color='#63bfaa'>Diamant</font>] - Kohlemine -> Presswerk -> Diamantschleifer -> Juwelier<br />
 			<br />
