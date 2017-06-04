@@ -1,4 +1,13 @@
-//Keine Verwendung ohne Erlaubnis by Darkwin Duck & Shriver Basdekis
+/*
+	Datei:	dialog
+	Datum:   -
+	Ersteller: "PSEUDONYM" Darkwin Duck
+	Disclaimer: Niemand ist berechtigt meine Scripts zu verwenden oder zu editieren, außer ICH gebe die Erlaubnis dazu !
+	Ich behalte mir jederzeit das Recht die Erlaubnis zu entziehen.
+	
+	Beschreibung:
+	
+*/
 #include "player_sys.sqf"
 
 class playerSettings {

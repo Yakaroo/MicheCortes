@@ -1,13 +1,16 @@
 waitUntil {!(isNull (findDisplay 46))};
 disableSerialization;
 /*
-    File: fn_statusBar.sqf
-    Author: Some French Guy named Osef I presume, given the variable on the status bar
-    Edited by: Darkwin Duck & Shriver Basdekis
-	Keine Verwendung ohne Erlaubnis by Darkwin Duck & Shriver Basdekis
-    Description: Puts a small bar in the bottom right of screen to display in-game information
+	Datei:	statusbar.sqf
+	Datum:   -
+	Ersteller: "PSEUDONYM" Shriver Basdekis & irgendeiner Französischer Typ
+	Kontakt: http://steamcommunity.com/profiles/76561198107872048/
+	Disclaimer: Niemand ist berechtigt meine Scripts zu verwenden oder zu editieren, außer ICH gebe die Erlaubnis dazu !
+	Ich behalte mir jederzeit das Recht die Erlaubnis zu entziehen.
+	
+	Beschreibung:
+	
 */
-
 4 cutRsc ["osefStatusBarAdmin","PLAIN"];
  
 [] spawn {

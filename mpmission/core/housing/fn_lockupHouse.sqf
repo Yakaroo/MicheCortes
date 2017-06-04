@@ -8,6 +8,8 @@
 */
 private ["_house"];
 _house = param [0,objNull,[objNull]];
+_house setVariable ["locked",true,true];
+_house setVariable ["alarme",true,true];
 if (isNull _house || !(_house isKindOf "House_F")) exitWith {};
 
 _numberOfDoors = FETCH_CONFIG2(getNumber,"CfgVehicles",(typeOf _house), "numberOfDoors");

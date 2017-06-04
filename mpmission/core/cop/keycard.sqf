@@ -11,5 +11,5 @@ player setVariable ['copLevel',1]
 player setVariable ['copLevel',0]
 
 	};
-  sleep 2;
+  sleep 5;
 };

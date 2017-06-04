@@ -348,6 +348,21 @@
             <Portuguese>Fechar</Portuguese>
             <Polish>Zamknij</Polish>
         </Key>
+		<Key ID="STR_Global_lvl">
+            <Original>Skills</Original>
+        </Key>
+		<Key ID="STR_Global_gather_title">
+            <Original>Farming</Original>
+        </Key>
+		<Key ID="STR_Global_gather_vollfarmen">
+            <Original>Alles</Original>
+        </Key>
+		<Key ID="STR_Global_gather_einzeln">
+            <Original>Einzeln</Original>
+        </Key>
+		<Key ID="STR_Global_gather_text">
+            <Original>Wie viel/schnell willst du abbauen ?</Original>
+        </Key>
         <Key ID="STR_Global_Sell">
             <Original>Sell</Original>
             <Czech>Prodat</Czech>
@@ -7136,6 +7151,13 @@
             <Portuguese>Licença de Piloto</Portuguese>
             <Polish>Licencja Pilota</Polish>
         </Key>
+		<Key ID="STR_License_helikopter">
+            <Original>Helicopter License</Original>
+            <German>Helicopter Lizenz</German>
+        </Key>
+		<Key ID="STR_License_bigpilot">
+            <Original>Gewerbehelikopter License</Original>
+        </Key>
         <Key ID="STR_License_Heroin">
             <Original>Heroin Training</Original>
             <Czech>heroin Training</Czech>
@@ -10627,6 +10649,9 @@
             <German>Polizei Waffengeschäft</German>
             <Portuguese>Loja de Armas da Polícia</Portuguese>
             <Polish>Broń policji</Polish>
+        </Key>
+		<Key ID="STR_MAR_Cop_Attachments_Shop">
+            <Original>Cop Attachments Shop</Original>
         </Key>
 		<Key ID="STR_MAR_SWAT_Weapon_Shop">
             <Original>S.W.A.T Weapon Shop</Original>

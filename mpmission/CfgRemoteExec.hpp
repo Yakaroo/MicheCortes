@@ -80,7 +80,8 @@ class CfgRemoteExec {
 		F(life_fnc_fbiausweiss,CLIENT)
 		F(life_fnc_polizeiausweiss,CLIENT)
 		F(life_fnc_swatausweiss,CLIENT)
-
+		F(murshun_cigs_fnc_smoke,CLIENT)
+		
         /* Server only functions */
         F(BIS_fnc_execVM,SERVER)
         F(DB_fnc_insertRequest,SERVER)

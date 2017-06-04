@@ -160,14 +160,6 @@ switch (_code) do {
             };
         };
     };
-	
-//F Key
-case 33: {
- if(playerSide in [west] && !_shift && _crtlKey) then {
- [player, "cop_stop", 25] call life_fnc_globalSound;
- _handled = true;
- };
-};
 
     //T Key (Trunk)
     case 20: {
@@ -289,7 +281,7 @@ case 33: {
             };
 
             if (_veh isKindOf "House_F" && {playerSide isEqualTo civilian}) then {
-                if (_veh in life_vehicles && {player distance _veh < 20}) then {
+                if (_veh in life_vehicles && {player distance _veh < 40}) then {
                     _door = [_veh] call life_fnc_nearestDoor;
                     if (_door isEqualTo 0) exitWith {hint localize "STR_House_Door_NotNear"};
                     _locked = _veh getVariable [format ["bis_disabled_Door_%1",_door],0];
@@ -306,7 +298,7 @@ case 33: {
                 };
             } else {
                 _locked = locked _veh;
-                if (_veh in life_vehicles && {player distance _veh < 20}) then {
+                if (_veh in life_vehicles && {player distance _veh < 40}) then {
                     if (_locked isEqualTo 2) then {
                         if (local _veh) then {
                             _veh lock 0;

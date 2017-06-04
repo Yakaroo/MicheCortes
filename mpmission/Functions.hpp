@@ -24,6 +24,7 @@ class Life_Client_Core {
         class setupEVH {};
         class survival {};
         class welcomeNotification {};
+		class tfarcheck {};
     };
 
     class Actions {
@@ -189,7 +190,21 @@ class Life_Client_Core {
         class einfahren {};
 		class ausfahren {};
     };
+	
+	class policeloaudouts {
+        file = "core\cop\loadouts";
+        class copLoadoutCadet {};
+		class copLoadoutDeputy {};
+		class copLoadoutCorporal {};
+		class copLoadoutSergeant {};
+		class copLoadoutLieutenant {};
+		class copLoadoutCaptain {};
+		class copLoadoutMajor {};
+		class copLoadoutAssistantSheriff {};
+		class copLoadoutSheriff {};
 
+    };
+	
     class Dialog_Controls {
         file = "dialog\function";
         class bankDeposit {};
@@ -315,6 +330,7 @@ class Life_Client_Core {
         class raidHouse {};
         class sellHouse {};
         class sellHouseGarage {};
+		class alarme {};
     };
 
     class Items {

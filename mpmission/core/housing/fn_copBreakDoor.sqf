@@ -21,6 +21,11 @@ if ((_house getVariable [format ["bis_disabled_Door_%1",_door],0]) isEqualTo 0) 
 
 life_action_inUse = true;
 
+if(_house getVariable "alarme") then {
+ [_house]call life_fnc_alarme;
+ [2,"STR_House_Raid_NOTF",true,[(_house getVariable "house_owner") select 1]] remoteExecCall ["life_fnc_broadcast",RCLIENT];
+};
+
 //Setup the progress bar
 disableSerialization;
 _title = localize "STR_House_Raid_Progress";

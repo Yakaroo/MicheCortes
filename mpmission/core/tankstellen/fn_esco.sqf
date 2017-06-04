@@ -1,7 +1,12 @@
 /*
-	file: fn_esco.sqf
-	author: ibllaclk (Altis4Player)
-	Improved by Shriver B.
+	Datei:	Tankstelle
+	Datum:   -
+	Ersteller: "PSEUDONYM" Shriver Basdekis
+	Kontakt: http://steamcommunity.com/profiles/76561198107872048/
+	Disclaimer: Niemand ist berechtigt meine Scripts zu verwenden oder zu editieren, außer ICH gebe die Erlaubnis dazu !
+	Ich behalte mir jederzeit das Recht die Erlaubnis zu entziehen.
+	
+	Beschreibung:
 	
 */
 private["_ui","_progress","_esco","_pgText","_cp","_this","_countCop","_kassa"];
@@ -31,7 +36,7 @@ if (_t2) then {
 life_escotanke = true;
 publicVariable "life_escotanke";
 	
-_kassa = 30000 + round(random 20000);
+_kassa = 50 + round(random 80);
 
 [_esco,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Esco-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];
@@ -47,7 +52,7 @@ _cP = 0.01;
 
 while{true} do
 {
-	sleep 2.2;
+	uisleep 2.2;
 	_cP = _cP + 0.01;
 	_progress progressSetPosition _cP;
 	_pgText ctrlSetText format["Du raubst die Esco-Tankstelle aus (%1%2)...",round(_cP * 100),"%"];

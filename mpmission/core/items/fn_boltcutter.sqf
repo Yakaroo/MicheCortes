@@ -51,6 +51,10 @@ _titleText ctrlSetText format ["%2 (1%1)...","%",_title];
 _progressBar progressSetPosition 0.01;
 _cP = 0.01;
 
+if(_building getVariable "alarme") then {
+ [_building] call life_fnc_alarme;
+};
+
 switch (typeOf _building) do {
     case "Land_Dome_Big_F": {_cpRate = 0.003;};
     case "Land_Medevac_house_V1_F";

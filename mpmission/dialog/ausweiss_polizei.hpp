@@ -1,3 +1,14 @@
+/*
+	Datei:	dialog
+	Datum:   -
+	Ersteller: "PSEUDONYM" Shriver Basdekis
+	Kontakt: http://steamcommunity.com/profiles/76561198107872048/
+	Disclaimer: Niemand ist berechtigt meine Scripts zu verwenden oder zu editieren, außer ICH gebe die Erlaubnis dazu !
+	Ich behalte mir jederzeit das Recht die Erlaubnis zu entziehen.
+	
+	Beschreibung:
+	
+*/
 class life_polizei {
 	idd = 47000;
 	name= "ausweis";

@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 1400;
+        price = 50;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +19,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 3000;
+        price = 1000;
         illegal = false;
         side = "civ";
     };
@@ -27,7 +27,7 @@ class Licenses {
     class pilot {
         variable = "pilot";
         displayName = "STR_License_Pilot";
-        price = 20000;
+        price = 5000;
         illegal = false;
         side = "civ";
     };
@@ -35,7 +35,7 @@ class Licenses {
     class helikopter {
         variable = "helikopter";
         displayName = "STR_License_helikopter";
-        price = 15000;
+        price = 5000;
         illegal = false;
         side = "civ";
     };
@@ -43,7 +43,7 @@ class Licenses {
 	class bigpilot {
         variable = "bigpilot";
         displayName = "STR_License_Bigpilot";
-        price = 30000;
+        price = 8000;
         illegal = false;
         side = "civ";
     };
@@ -59,7 +59,7 @@ class Licenses {
     class trucking {
         variable = "trucking";
         displayName = "STR_License_Truck";
-        price = 16000;
+        price = 10000;
         illegal = false;
         side = "civ";
     };
@@ -83,7 +83,7 @@ class Licenses {
     class gun {
         variable = "gun";
         displayName = "STR_License_Firearm";
-        price = 12000;
+        price = 10000;
         illegal = false;
         side = "civ";
     };

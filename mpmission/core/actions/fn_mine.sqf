@@ -17,6 +17,7 @@ _exit = false;
 if (player getVariable "playerSurrender") exitWith {
     hint localize "STR_NOTF_surrender";
 };
+
 life_action_inUse = true;
 _zone = "";
 _requiredItem = "";
@@ -63,6 +64,17 @@ if (_zone isEqualTo "") exitWith {
     life_action_inUse = false;
 };
 
+// ######################
+
+_voll = [
+    localize "STR_Global_gather_text",
+    localize "STR_Global_gather_title",
+    localize "STR_Global_gather_vollfarmen",
+    localize "STR_Global_gather_einzeln"
+] call BIS_fnc_guiMessage;
+	
+if (_voll) then { //###
+
 if (_requiredItem != "") then {
     _valItem = missionNamespace getVariable "life_inv_" + _requiredItem;
 
@@ -91,7 +103,53 @@ if (_diff isEqualTo 0) exitWith {
     hint localize "STR_NOTF_InvFull";
     life_action_inUse = false;
 };
-player say3D "mining";
+["Itemmined"] spawn mav_ttm_fnc_addExp;
+
+for "_i" from 0 to 4 do {
+    player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+    waitUntil {
+        animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+    };
+    sleep 0.5;
+	
+};
+
+if (([true, _mined, _diff] call life_fnc_handleInv)) then {
+    _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
+    titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
+	};
+
+};
+
+sleep 2.5;
+life_action_inUse = false;
+
+} else {  //###
+
+if (_requiredItem != "") then {
+    _valItem = missionNamespace getVariable "life_inv_" + _requiredItem;
+
+    if (_valItem < 1) exitWith {
+        switch (_requiredItem) do {
+            case "pickaxe": {
+                titleText[(localize "STR_NOTF_Pickaxe"), "PLAIN"];
+            };
+        };
+        life_action_inUse = false;
+        _exit = true;
+  };
+};
+
+if (_exit) exitWith {
+    life_action_inUse = false;
+};
+
+_amount = round(random(_maxGather)) + 1;
+_diff = [_mined, _amount, life_carryWeight, life_maxWeight] call life_fnc_calWeightDiff;
+if (_diff isEqualTo 0) exitWith {
+    hint localize "STR_NOTF_InvFull";
+    life_action_inUse = false;
+};
 
 for "_i" from 0 to 4 do {
     player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
@@ -104,10 +162,12 @@ for "_i" from 0 to 4 do {
 if (([true, _mined, _diff] call life_fnc_handleInv)) then {
     _itemName = M_CONFIG(getText, "VirtualItems", _mined, "displayName");
     titleText[format [localize "STR_NOTF_Mine_Success", (localize _itemName), _diff], "PLAIN"];
-	};
-
 };
-["Itemmined"] spawn mav_ttm_fnc_addExp;
+
+	["Itemmined"] spawn mav_ttm_fnc_addExp;
 
 sleep 2.5;
 life_action_inUse = false;
+
+
+};

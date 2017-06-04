@@ -92,7 +92,7 @@ life_is_processing = true;
 
 if (_hasLicense) then {
     for "_i" from 0 to 1 step 0 do {
-        sleep  0.28;
+        uisleep  0.28;
 _cP = _cP + (0.01 * (missionNamespace getVariable ["mav_ttm_var_processMultiplier", 1]));
         _progress progressSetPosition _cP;
         _pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];
@@ -117,7 +117,7 @@ _cP = _cP + (0.01 * (missionNamespace getVariable ["mav_ttm_var_processMultiplie
     if (CASH < _cost) exitWith {hint format[localize "STR_Process_License",[_cost] call life_fnc_numberText]; 5 cutText ["","PLAIN"]; life_is_processing = false; life_action_inUse = false;};
 
     for "_i" from 0 to 1 step 0 do {
-        sleep  0.9;
+        uisleep  0.9;
 _cP = _cP + (0.01 * (missionNamespace getVariable ["mav_ttm_var_processMultiplier", 1]));
         _progress progressSetPosition _cP;
         _pgText ctrlSetText format["%3 (%1%2)...",round(_cP * 100),"%",_upp];

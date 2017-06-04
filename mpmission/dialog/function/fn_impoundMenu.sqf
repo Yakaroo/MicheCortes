@@ -31,6 +31,6 @@ lbClear _control;
     _control lbSetPicture [(lbSize _control)-1,(_vehicleInfo select 2)];
     _control lbSetValue [(lbSize _control)-1,(_x select 0)];
 } forEach _vehicles;
-
+lbSort _control; //Sortierung der Fahrzeuge
 ctrlShow[2810,false];
 ctrlShow[2811,false];

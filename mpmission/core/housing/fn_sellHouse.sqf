@@ -10,6 +10,8 @@
 private ["_house","_uid","_action","_houseCfg"];
 _house = param [0,objNull,[objNull]];
 _uid = getPlayerUID player;
+_house setVariable ["locked",false,true];
+_house setVariable ["alarme",false,true];
 
 if (isNull _house) exitWith {};
 if (!(_house isKindOf "House_F")) exitWith {};

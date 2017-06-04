@@ -35,6 +35,15 @@ for "_i" from 0 to count(_resourceCfg)-1 do {
 
 if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
 
+_voll = [
+    localize "STR_Global_gather_text",
+    localize "STR_Global_gather_title",
+    localize "STR_Global_gather_vollfarmen",
+    localize "STR_Global_gather_einzeln"
+] call BIS_fnc_guiMessage;
+	
+if (_voll) then { //###
+
 if (_requiredItem != "") then {
     _valItem = missionNamespace getVariable "life_inv_" + _requiredItem;
 
@@ -61,14 +70,14 @@ if (_diff isEqualTo 0) exitWith {
 };
 
 switch (_requiredItem) do {
-    case "pickaxe": {player say3D "mining";};
-    default {player say3D "harvest";};
+    case "pickaxe": {};
+    default {};
 };
 
 for "_i" from 0 to 4 do {
     player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
     waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
-    sleep 0.5;
+    uisleep 0.5;
 };
 
 if ([true,_resource,_diff] call life_fnc_handleInv) then {
@@ -79,7 +88,52 @@ if ([true,_resource,_diff] call life_fnc_handleInv) then {
 
 };
 
-["Itemmined"] spawn mav_ttm_fnc_addExp;
-
-sleep 1;
+uisleep 1;
 life_action_inUse = false;
+
+} else { 
+
+if (_zone isEqualTo "") exitWith {life_action_inUse = false;};
+
+if (_requiredItem != "") then {
+    _valItem = missionNamespace getVariable "life_inv_" + _requiredItem;
+
+    if (_valItem < 1) exitWith {
+        switch (_requiredItem) do {
+         //Messages here
+        };
+        life_action_inUse = false;
+        _exit = true;
+    };
+};
+
+if (_exit) exitWith {life_action_inUse = false;};
+
+_amount = round(random(_maxGather)) + 1;
+_diff = [_resource,_amount,life_carryWeight,life_maxWeight] call life_fnc_calWeightDiff;
+if (_diff isEqualTo 0) exitWith {
+    hint localize "STR_NOTF_InvFull";
+    life_action_inUse = false;
+};
+
+switch (_requiredItem) do {
+    case "pickaxe": {};
+    default {};
+};
+
+for "_i" from 0 to 4 do {
+    player playMoveNow "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";
+    waitUntil{animationState player != "AinvPercMstpSnonWnonDnon_Putdown_AmovPercMstpSnonWnonDnon";};
+    uisleep 0.5;
+};
+
+if ([true,_resource,_diff] call life_fnc_handleInv) then {
+    _itemName = M_CONFIG(getText,"VirtualItems",_resource,"displayName");
+    titleText[format [localize "STR_NOTF_Gather_Success",(localize _itemName),_diff],"PLAIN"];
+};
+
+uisleep 1;
+life_action_inUse = false;
+
+};
+
