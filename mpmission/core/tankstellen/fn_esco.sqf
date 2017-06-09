@@ -36,7 +36,7 @@ if (_t2) then {
 life_escotanke = true;
 publicVariable "life_escotanke";
 	
-_kassa = 50 + round(random 80);
+_kassa = 500 + round(random 750);
 
 [_esco,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Esco-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];

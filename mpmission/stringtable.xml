@@ -73,6 +73,10 @@
             <Original>FBI Clothing Shop</Original>
             <German>FBI Kleidung Shop</German>
         </Key>
+		<Key ID="STR_Shops_C_DEA">
+            <Original>DEA Clothing Shop</Original>
+            <German>DEA Kleidung Shop</German>
+        </Key>
 		<Key ID="STR_Shops_C_SWAT">
             <Original>S.W.A.T Clothing Shop</Original>
             <German>S.W.A.T Kleidung Shop</German>
@@ -4867,6 +4871,36 @@
             <Portuguese>Você roubou R$%1</Portuguese>
             <Polish>Ukradłeś %1</Polish>
         </Key>
+		<Key ID="STR_Civ_RevokeLicense_Driver">
+        <Original>Dein Führerschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Truck">
+        <Original>Dein LKW Führerschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+		<Key ID="STR_Civ_RevokeLicense_Helicopter">
+        <Original>Dein Helikopterschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+		<Key ID="STR_Civ_RevokeLicense_Bigpilot">
+        <Original>Dein Gewerbepilotenschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Pilot">
+        <Original>Dein Flugschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Boating">
+        <Original>Dein Bootsschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Diving">
+        <Original>Deine Taucherlizenz wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_Taxi">
+        <Original>Dein Taxischein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+		<Key ID="STR_Civ_RevokeLicense_Gun">
+        <Original>Dein Waffenschein wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
+        <Key ID="STR_Civ_RevokeLicense_AllMotor">
+        <Original>Alle deine Fahrlizenzen wurde von der Polizei beschlagnahmt!</Original>
+        </Key>
         <Key ID="STR_Civ_VaultEmpty">
             <Original>The safe is empty!</Original>
             <Czech>Bezpečné je prázdný!</Czech>
@@ -7173,6 +7207,15 @@
             <Portuguese>Treinamento de Heroina</Portuguese>
             <Polish>Wytwarzanie Heroiny</Polish>
         </Key>
+		<Key ID="STR_License_fbi">
+            <Original>FBI</Original>
+        </Key>
+		<Key ID="STR_License_SWAT">
+            <Original>S.W.A.T</Original>
+        </Key>
+		<Key ID="STR_License_Ausbilder">
+            <Original>Ausbilder</Original>
+        </Key>
         <Key ID="STR_License_Oil">
             <Original>Diesel Raffinerie</Original>
         </Key>
@@ -8447,6 +8490,9 @@
             <Italian>Togli Manette</Italian>
             <Portuguese>Soltar</Portuguese>
             <Polish>Rozkuj</Polish>
+        </Key>
+		<Key ID="STR_pInAct_RevokeLicense">
+            <Orignal>Lizenzen entziehen</Orignal>
         </Key>
         <Key ID="STR_pInAct_checkLicenses">
             <Original>Check Licenses</Original>
@@ -9981,6 +10027,10 @@
             <German>Autohändler</German>
             <Portuguese>Loja de Carros</Portuguese>
             <Polish>Salon samochodowy</Polish>
+        </Key>
+		<Key ID="STR_MAR_Motorcycle_Shop">
+            <Original>Motorcycle Shop</Original>
+            <German>Motorräder Händler</German>
         </Key>
         <Key ID="STR_MAR_Hospital_Clinic">
             <Original>Hospital/Clinic</Original>

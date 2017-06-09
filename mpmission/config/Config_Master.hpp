@@ -31,7 +31,7 @@ class Life_Settings {
     save_vehicle_items[] = { "pickaxe","fuelEmpty","fuelFull", "spikeStrip", "lockpick", "defuseKit","storageSmall","storageBig","redgull","coffee","waterBottle","apple","peach","tbacon","donuts","rabbit","salema","ornate","mackerel","tuna","mullet","catshark","turtle_soup","hen","rooster","sheep","goat","defibrillator","toolkit","netz", "schaufel","axt","schlauch","handschuhe","goldbar","kakao_unrefined","schokolade_refined","muschel_unrefined","perle_refined","holz_unrefined","holzkohle_refined","getreide_unrefined","mais_unrefined","iron_unrefined","iron_refined","kokosnuss","kokosnussmilch","kohle","goldkies","goldnuggets","icecube","tabakpflanze","tabak","zigarette" };
     save_vehicle_inventory = true; //Save Arma inventory of vehicle to the database
     save_vehicle_fuel = true; //Save vehicle fuel level to the database (Impounded/Garaged).
-    save_vehicle_damage = true; //Save vehicle damage to the database.
+    save_vehicle_damage = false; //Save vehicle damage to the database.
     save_vehicle_illegal = false; //This will allow cops to be advised when a vehicle, with illegal items in it, is impounded. This will also save illegal items as proof of crime, and needs "save_vehicle_virtualItems" set as true. Illegal items don't need to be set in save_vehicle_items[] for being saved, if it's enabled.
 
 
@@ -109,12 +109,12 @@ class Life_Settings {
 
     /* Paycheck & Bank System Configurations */
     bank_cop = 8000; //Amount of cash in bank for new cops
-    bank_civ = 350; //Amount of cash in bank for new civillians
+    bank_civ = 400; //Amount of cash in bank for new civillians
     bank_med = 5000; //Amount of cash in bank for new medics
 
-    paycheck_cop = 8; //Payment for cops
-    paycheck_civ = 3; //Payment for civillians
-    paycheck_med = 5; //Payment for medics
+    paycheck_cop = 30; //Payment for cops
+    paycheck_civ = 15; //Payment for civillians
+    paycheck_med = 25; //Payment for medics
 
     paycheck_period = 5; //Scaled in minutes
     bank_transferTax = .05; //Tax that player pays when transferring money from ATM. Tax = Amount * multiplier
@@ -133,7 +133,7 @@ class Life_Settings {
     /* Vehicle System Configurations */
     chopShop_vehicles[] = { "Car", "Air" }; //Vehicles that can be chopped. (Can add: "Ship" and possibly more -> look at the BI wiki...)
     vehicle_infiniteRepair[] = {false, false, true, false}; //Set to true for unlimited repairs with 1 toolkit. False will remove toolkit upon use. civilian, west, independent, east
-    vehicleShop_rentalOnly[] = { "B_MRAP_01_hmg_F", "B_G_Offroad_01_armed_F", "B_Boat_Armed_01_minigun_F" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
+    vehicleShop_rentalOnly[] = { "sga_hover_board" }; //Vehicles that can only be rented and not purchased. (Last only for the session)
     vehicleShop_3D = true; //Add preview 3D inside Shop vehicle.       Default : False
 
     /* Vehicle Purchase Prices */

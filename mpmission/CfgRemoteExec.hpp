@@ -179,6 +179,11 @@ class CfgRemoteExec {
         F(life_fnc_setFuel,ANYONE)
         F(life_fnc_simDisable,ANYONE)
         F(SPY_fnc_notifyAdmins,ANYONE)
+		F(switchmove,ANYONE)
+		F(say3d,ANYONE)
+		F(san_fnc_sendjipinfo,ANYONE)
+		F(stig_sz_msg_add,ANYONE) //Sperrzonenscript
+        F(stig_sz_msg_del,ANYONE) //Sperrzonenscript
     };
 
     class Commands {

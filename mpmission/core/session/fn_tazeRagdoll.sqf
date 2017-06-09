@@ -6,5 +6,5 @@ _tazered attachTo [player, [0,0,0], "Spine3"];
 _tazered setVelocity [0,0,6];
 detach _tazered;
 0 = _tazered spawn {
- deleteVehicle _this;
+	deleteVehicle _this;
 };

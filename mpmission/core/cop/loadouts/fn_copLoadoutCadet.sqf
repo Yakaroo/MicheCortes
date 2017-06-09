@@ -24,14 +24,14 @@ player addBackpack "tf_anprc155";
 
 
 /* TAZER */
-player addWeapon "hgun_P07_snds_F";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
+player addWeapon "DDOPP_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
 
 
 /* ITEMS */

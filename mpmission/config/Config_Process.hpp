@@ -26,7 +26,7 @@ class ProcessAction {
     };
 	
 	class kohle {
-        MaterialsReq[] = {{"kohle",6}};
+        MaterialsReq[] = {{"kohle",5}};
         MaterialsGive[] = {{"diamond_uncut",1}};
         Text = "STR_Process_Kohle";
         //ScrollText = "Press Coal";
@@ -50,7 +50,7 @@ class ProcessAction {
     };
 
     class copper {
-        MaterialsReq[] = {{"copper_unrefined",3}};
+        MaterialsReq[] = {{"copper_unrefined",2}};
         MaterialsGive[] = {{"copper_refined",2}};
         Text = "STR_Process_Copper";
         //ScrollText = "Refine Copper";
@@ -58,7 +58,7 @@ class ProcessAction {
     };
 	
 	class bananaJuice {
-        MaterialsReq[] = {{"banana",4}};
+        MaterialsReq[] = {{"banana",3}};
         MaterialsGive[] = {{"banana_juice",1}};
         Text = "STR_Process_BananaJuice";
         //ScrollText = "Refine Bananas";
@@ -114,7 +114,7 @@ class ProcessAction {
     };
 	
 	class kaffee {
-        MaterialsReq[] = {{"kaffebohnen",4}};
+        MaterialsReq[] = {{"kaffebohnen",2}};
         MaterialsGive[] = {{"kaffepulver",1}};
         Text = "STR_Process_Kaffe";
         //ScrollText = "freeze source water";
@@ -138,7 +138,7 @@ class ProcessAction {
     };
 	
 	class kakao {
-        MaterialsReq[] = {{"kakao_unrefined",2}};
+        MaterialsReq[] = {{"kakao_unrefined",3}};
         MaterialsGive[] = {{"schokolade_refined",1}};
         Text = "STR_Process_Kakao";
         //ScrollText = "Refine Kakao";
@@ -170,7 +170,7 @@ class ProcessAction {
     };
 	
 	class goldbar {
-        MaterialsReq[] = {{"goldnuggets",8}};
+        MaterialsReq[] = {{"goldnuggets",4}};
         MaterialsGive[] = {{"goldbar",1}};
         Text = "STR_Process_Goldbar";
         //ScrollText = "Refine Goldnuggets";
@@ -186,7 +186,7 @@ class ProcessAction {
     };
 
     class iron {
-        MaterialsReq[] = {{"iron_unrefined",4}};
+        MaterialsReq[] = {{"iron_unrefined",3}};
         MaterialsGive[] = {{"iron_refined",2}};
         Text = "STR_Process_Iron";
         //ScrollText = "Refine Iron";

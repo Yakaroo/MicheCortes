@@ -36,7 +36,7 @@ if (_t5) then {
 life_relltanke = true;
 publicVariable "life_relltanke";
 	
-_kassa = 50 + round(random 80);
+_kassa = 500 + round(random 750);
 
 [_rell,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Rell-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];

@@ -134,7 +134,6 @@ class WeaponShops {
             { "TRYK_Shemagh_G_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_TAN_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_WH_NV", "", 10, 10, "" },
-			{ "SAN_Headlamp_v1", "", 25, 10, "" },
 			{ "ACE_fieldDressing", "", 10, 5, "" },
 			{ "ACE_quikclot", "", 10, 5, "" },
 			{ "ACE_elasticBandage", "", 10, 5, "" },
@@ -165,7 +164,6 @@ class WeaponShops {
             { "TRYK_Shemagh_WH_NV", "", 10, 10, "" },
 			{ "murshun_cigs_cigpack", "", 10, 10, "" },
 			{ "murshun_cigs_lighter", "", 6, 4, "" },
-			{ "SAN_Headlamp_v1", "", 25, 10, "" },
 			{ "ACE_fieldDressing", "", 15, 5, "" },
 			{ "ACE_quikclot", "", 15, 5, "" },
 			{ "ACE_elasticBandage", "", 15, 5, "" },
@@ -185,7 +183,7 @@ class WeaponShops {
         side = "cop";
         conditions = "";
         items[] = {
-			{ "DDOPPX_X26", "X26 Taser", 200, 100, "" },
+			{ "DDOPP_X26", "X26 Taser", 200, 100, "" },
             { "RH_g19", "", 500, 200, "" },
             { "RH_fn57", "", 750, 400, "" },
 			{ "RH_usp", "", 800, 500, "" },
@@ -373,7 +371,6 @@ class WeaponShops {
 			{ "Rangefinder", "", 200, 75, "" },
 			{ "ACE_Vector", "", 200, 75, "" },
 			{ "tf_anprc152", "", 150, 75, "" },
-            { "TRYK_Shemagh_MESH_NC", "", 10, 10, "" },
             { "TRYK_Shemagh_G_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_TAN_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_WH_NV", "", 10, 10, "" },
@@ -408,7 +405,7 @@ class WeaponShops {
 			{ "Rangefinder", "", 100, 10, "" },
             { "ItemGPS", "", 20, 5, "" },
             { "ItemMap", "", 10, 5, "" },
-            { "TRYK_Shemagh_MESH_NC", "", 10, 10, "" },
+            { "tf_anprc152", "", 150, 75, "" },
             { "TRYK_Shemagh_G_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_TAN_NV", "", 10, 10, "" },
             { "TRYK_Shemagh_WH_NV", "", 10, 10, "" },

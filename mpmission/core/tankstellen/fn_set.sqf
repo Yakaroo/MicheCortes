@@ -36,7 +36,7 @@ if (_t3) then {
 life_settanke = true;
 publicVariable "life_settanke";
 	
-_kassa = 50 + round(random 80);
+_kassa = 500 + round(random 750);
 
 [_set,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Set-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];

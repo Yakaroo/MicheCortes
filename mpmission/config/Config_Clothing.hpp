@@ -294,6 +294,10 @@ class Clothing {
 			{ "EF_Mcap_PB", "", 10, "" },
 			{ "AM_PatrolHat", "", 10, "" },
 			{ "H_Watchcap_blk", "", 10, "call life_coplevel >= 4" },
+			{ "TRYK_H_PASGT_BLK", "", 10, "call life_coplevel >= 5" },
+			{ "TRYK_H_PASGT_COYO", "", 10, "call life_coplevel >= 5" },
+			{ "TRYK_H_PASGT_OD", "", 10, "call life_coplevel >= 5" },
+			{ "TRYK_H_PASGT_TAN", "", 10, "call life_coplevel >= 5" },
 			{ "jamie_pcapgreen", "", 10, "call life_coplevel >= 8" },
 			{ "jamie_pcapgreen2", "", 10, "call life_coplevel >= 8" },
 			{ "H_Bombsuit_Helmet", "", 50, "call life_coplevel >= 6" },
@@ -422,7 +426,7 @@ class Clothing {
     };
 	
 	class cop_dea {
-        title = "STR_Shops_C_FBI";
+        title = "STR_Shops_C_DEA";
         conditions = "";
         side = "cop";
         uniforms[] = {
@@ -676,6 +680,7 @@ class Clothing {
         };
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
+			{ "tf_anprc155", "", 200, "" },
             { "B_FieldPack_oli", $STR_C_EMS_backpacks, 3000, "" }
         };
     };

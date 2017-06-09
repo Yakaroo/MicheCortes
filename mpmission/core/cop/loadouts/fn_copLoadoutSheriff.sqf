@@ -8,7 +8,7 @@
 */
 
 private["_handle","_price"];
-_price = 12000;
+_price = 100;
 
 if ((FETCH_CONST(life_coplevel) isEqualTo 0) && (FETCH_CONST(life_adminlevel) isEqualTo 0)) exitWith { hint "Du bist kein Polizeibeamter!" };
 if ((BANK < _price) && (CASH < _price)) exitWith { hint "Du hast nicht genügend Geld" };
@@ -24,14 +24,14 @@ player addBackpack "tf_anprc155";
 
 
 /* TAZER */
-player addWeapon "hgun_P07_snds_F";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
-player addMagazine "16Rnd_9x21_Mag";
+player addWeapon "DDOPP_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
+player addMagazine "DDOPP_6Rnd_X26";
 
 /* SCHARFE WAFFE */
 player addWeapon "KA_SCAR_H_Black_Grip";
@@ -89,7 +89,7 @@ player addItem "ACE_tourniquet";
 
 
 /* Dafür wirst du noch bezahlen */
-If (CASH >= 12000) then { CASH = CASH - _price } else { BANK = BANK - 12000 };
+If (CASH >= 100) then { CASH = CASH - _price } else { BANK = BANK - 100 };
 hint "Vielen Dank für Ihren Einkauf!";
  
 

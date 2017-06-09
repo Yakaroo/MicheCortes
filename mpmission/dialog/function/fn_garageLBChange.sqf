@@ -52,8 +52,10 @@ switch (playerSide) do {
 _retrievePrice = _purchasePrice * _storageFee;
 _sellPrice = _purchasePrice * _sellMultiplier;
 
-if (!(_sellPrice isEqualType 0) || _sellPrice < 1) then {_sellPrice = 10;};
-if (!(_retrievePrice isEqualType 0) || _retrievePrice < 1) then {_retrievePrice = 10;};
+if (!(_sellPrice isEqualType 0) || _sellPrice < 1) then {_sellPrice = 5;};
+if (!(_retrievePrice isEqualType 0) || _retrievePrice < 1) then {_retrievePrice = 5;};
+
+_retrievePrice = 10;
 
 (CONTROL(2800,2803)) ctrlSetStructuredText parseText format [
     (localize "STR_Shop_Veh_UI_RetrievalP")+ " <t color='#8cff9b'>$%1</t><br/>

@@ -36,7 +36,7 @@ if (_t4) then {
 life_startanke = true;
 publicVariable "life_startanke";
 	
-_kassa = 50 + round(random 80);
+_kassa = 500 + round(random 750);
 
 [_star,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Star-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];

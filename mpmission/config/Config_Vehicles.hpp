@@ -26,15 +26,73 @@ class CarShops {
             { "Guillaume9545_Peugeot_207_civ_orange", "" },
             { "Guillaume9545_Peugeot_207_civ_jaune", "" },
             { "Guillaume9545_Peugeot_207_civ_bleu", "" },
-			{ "Mrshouka_c4_p_civ", "" },
-			{ "Mrshouka_c4_p_bleufonce", "" },
-			{ "Mrshouka_c4_p_grise", "" },
-			{ "Mrshouka_c4_p_jaune", "" },
-			{ "Mrshouka_c4_p_noir", "" },
-			{ "Mrshouka_c4_p_orange", "" },
-			{ "Mrshouka_c4_p_violet", "" },
+			{ "Mrshounka_c4_p_civ", "" },
+			{ "Mrshounka_c4_p_bleufonce", "" },
+			{ "Mrshounka_c4_p_grise", "" },
+			{ "Mrshounka_c4_p_jaune", "" },
+			{ "Mrshounka_c4_p_noir", "" },
+			{ "Mrshounka_c4_p_orange", "" },
+			{ "Mrshounka_c4_p_violet", "" },
+			{ "Mrshounka_Vandura_civ", "" },
+			{ "Mrshounka_Vandura_civ_bleufonce", "" },
+			{ "Mrshounka_Vandura_civ_grise", "" },
+			{ "Mrshounka_Vandura_civ_jaune", "" },
+			{ "Mrshounka_Vandura_civ_noir", "" },
+			{ "Mrshounka_Vandura_civ_orange", "" },
+			{ "Mrshounka_Vandura_civ_rose", "" },
+			{ "Mrshounka_Vandura_civ_rouge", "" },
+			{ "Mrshounka_Vandura_civ_violet", "" },
 			{ "Jonzie_Ceed", "" },
-            { "IVORY_PRIUS", "" }	
+            { "IVORY_PRIUS", "" },
+            { "Mrshounka_golfvi_civ", "" },
+            { "Mrshounka_golfvi_civ_bleufonce", "" },
+            { "Mrshounka_golfvi_civ_grise", "" },
+            { "Mrshounka_golfvi_civ_jaune", "" },
+            { "Mrshounka_golfvi_civ_noir", "" },
+            { "Mrshounka_golfvi_civ_orange", "" },
+            { "Mrshounka_golfvi_civ_rose", "" },
+            { "Mrshounka_golfvi_civ_rouge", "" },
+            { "Mrshounka_golfvi_civ_violet", "" },			
+			{ "Mrshounka_a3_ds3_civ", "" },
+            { "Mrshounka_a3_ds3_civ_bleufonce", "" },
+            { "Mrshounka_a3_ds3_civ_civ_grise", "" },
+            { "Mrshounka_a3_ds3_civ_civ_jaune", "" },
+			{ "Mrshounka_a3_ds3_civ_noir", "" },	
+            { "Mrshounka_a3_ds3_civ_civ_orange", "" },
+            { "Mrshounka_a3_ds3_civ_civ_rose", "" },
+            { "Mrshounka_a3_ds3_civ_civ_rouge", "" },
+            { "Mrshounka_a3_ds3_civ_civ_violet", "" },
+            { "shounka_a3_ds4_civ", "" },
+            { "shounka_a3_ds4_bleufonce", "" },
+            { "shounka_a3_ds4_grise", "" },
+            { "shounka_a3_ds4_jaune", "" },
+            { "shounka_a3_ds4_noir", "" },
+            { "shounka_a3_ds4_orange", "" },
+            { "shounka_a3_ds4_rose", "" },
+            { "shounka_a3_ds4_rouge", "" },
+            { "shounka_a3_ds4_violet", "" },
+			{ "shounka_a3_cliors_civ", "" },
+			{ "shounka_a3_cliors_civ_bleufonce", "" },
+			{ "shounka_a3_cliors_civ_grise", "" },
+			{ "shounka_a3_cliors_civ_jaune", "" },
+			{ "shounka_a3_cliors_civ_noir", "" },
+			{ "shounka_a3_cliors_civ_orange", "" },
+			{ "shounka_a3_cliors_civ_rose", "" },
+			{ "shounka_a3_cliors_civ_rouge", "" },
+			{ "shounka_a3_cliors_civ_violet", "" },
+            { "shounka_nemo", "" },
+            { "shounka_nemo_bleufonce", "" },
+            { "shounka_nemo_grise", "" },
+            { "shounka_nemo_jaune", "" },
+            { "shounka_nemo_orange", "" },
+            { "shounka_nemo_rose", "" },
+            { "shounka_nemo_rouge", "" },
+            { "shounka_nemo_violet", "" },
+			{ "Quiet_ford_raptor_blanche_f", "" },
+			{ "Quiet_ford_raptor_bleu_f", "" },
+			{ "Quiet_ford_raptor_noir_f", "" },
+			{ "Quiet_ford_raptor_rouge_f", "" },
+			{ "Quiet_ford_raptor_chrome_f", "" }
         };
     };
 	
@@ -44,7 +102,25 @@ class CarShops {
         vehicles[] = {
             { "sga_hover_board", "" },
             { "dbo_CIV_ol_bike", " " },
-            { "dbo_CIV_new_bike", " " }
+            { "dbo_CIV_new_bike", " " },
+			{ "shounka_buggy", " " },
+			{ "shounka_buggy_noir", " " },
+			{ "shounka_buggy_bleufonce", " " },
+			{ "shounka_buggy_grise", " " },
+			{ "shounka_buggy_jaune", " " },
+			{ "shounka_buggy_orange", " " },
+			{ "shounka_buggy_rose", " " },
+			{ "shounka_buggy_rouge", " " },
+			{ "shounka_buggy_violet", " " },
+			{ "shounka_monsteur", " " },
+			{ "shounka_monsteur_bleufonce", " " },
+			{ "shounka_monsteur_grise", " " },
+			{ "shounka_monsteur_jaune", " " },
+			{ "shounka_monsteur_noir", " " },
+			{ "shounka_monsteur_orange", " " },
+			{ "shounka_monsteur_rose", " " },
+			{ "shounka_monsteur_rouge", " " },
+			{ "shounka_monsteur_violet", " " },
         };
     };
 	
@@ -73,6 +149,146 @@ class CarShops {
             { "Guillaume9545_Shelby_Cobra_Vert", "" },
             { "Guillaume9545_Shelby_Cobra_Rouge_fonce", "" },
             { "Guillaume9545_Shelby_Cobra_noir", "" },
+			{ "Mrshounka_Alfa_Romeo_civ", "" },
+			{ "Mrshounka_Alfa_Romeo_bleufonce", "" },
+			{ "Mrshounka_Alfa_Romeo_grise", "" },
+			{ "Mrshounka_Alfa_Romeo_jaune", "" },
+			{ "Mrshounka_Alfa_Romeo_noir", "" },
+			{ "Mrshounka_Alfa_Romeo_orange", "" },
+			{ "Mrshounka_Alfa_Romeo_rose", "" },
+			{ "Mrshounka_Alfa_Romeo_rouge", "" },
+			{ "Mrshounka_Alfa_Romeo_violet", "" },
+			{ "Mrshounka_cherokee_noir", "" },
+			{ "Mrshounka_cherokee_noir_mat", "" },
+			{ "Mrshounka_cherokee_noir_blanc", "" },
+			{ "Mrshounka_cherokee_noir_blanc_mat", "" },
+			{ "Mrshounka_cherokee_noir_bleu", "" },
+			{ "Mrshounka_cherokee_noir_bleu_mat", "" },
+			{ "Mrshounka_cherokee_noir_rouge", "" },
+			{ "Mrshounka_cherokee_noir_rouge_mat", "" },
+			{ "Mrshounka_cherokee_noir_violet", "" },
+			{ "Mrshounka_cherokee_noir_violet_mat", "" },
+			{ "Mrshounka_evox_civ", "" },
+			{ "Mrshounka_evox_bleufonce", "" },
+			{ "Mrshounka_evox_grise", "" },
+			{ "Mrshounka_evox_jaune", "" },
+			{ "Mrshounka_evox_noir", "" },
+			{ "Mrshounka_evox_orange", "" },
+			{ "Mrshounka_evox_rose", "" },
+			{ "Mrshounka_evox_rouge", "" },
+			{ "Mrshounka_evox_violet", "" },
+			{ "Mrshounka_rs4_civ", "" },
+			{ "Mrshounka_rs4_civ_bleufonce", "" },
+			{ "Mrshounka_rs4_civ_grise", "" },
+			{ "Mrshounka_rs4_civ_jaune", "" },
+			{ "Mrshounka_rs4_civ_noir", "" },
+			{ "Mrshounka_rs4_civ_orange", "" },
+			{ "Mrshounka_rs4_civ_rose", "" },
+			{ "Mrshounka_rs4_civ_rouge", "" },
+			{ "Mrshounka_rs4_civ_violet", "" },
+			{ "shounka_a3_rs5_civ", "" },
+			{ "shounka_a3_rs5_civ_bleufonce", "" },
+			{ "shounka_a3_rs5_civ_grise", "" },
+			{ "shounka_a3_rs5_civ_jaune", "" },
+			{ "shounka_a3_rs5_civ_noir", "" },
+			{ "shounka_a3_rs5_civ_orange", "" },
+			{ "shounka_a3_rs5_civ_rose", "" },
+			{ "shounka_a3_rs5_civ_rouge", "" },
+			{ "shounka_a3_rs5_civ_violet", "" },
+			{ "shounka_rs6", "" },
+			{ "shounka_rs6_bleufonce", "" },
+			{ "shounka_rs6_grise", "" },
+			{ "shounka_rs6_jaune", "" },
+			{ "shounka_rs6_noir", "" },
+			{ "shounka_rs6_orange", "" },
+			{ "shounka_rs6_rose", "" },
+			{ "shounka_rs6_rouge", "" },
+			{ "shounka_rs6_violet", "" },
+			{ "shounka_f430_spider", "" },
+			{ "shounka_f430_spider_bleufonce", "" },
+			{ "shounka_f430_spider_grise", "" },
+			{ "shounka_f430_spider_jaune", "" },
+			{ "shounka_f430_spider_noir", "" },
+			{ "shounka_f430_spider_orange", "" },
+			{ "shounka_f430_spider_rose", "" },
+			{ "shounka_f430_spider_rouge", "" },
+			{ "shounka_f430_spider_violet", "" },
+			{ "Mrshounka_bmwm1_civ", "" },
+			{ "Mrshounka_bmwm1_civ_bleufonce", "" },
+			{ "Mrshounka_bmwm1_civ_grise", "" },
+			{ "Mrshounka_bmwm1_civ_jaune", "" },
+			{ "Mrshounka_bmwm1_civ_noir", "" },
+			{ "Mrshounka_bmwm1_civ_orange", "" },
+			{ "Mrshounka_bmwm1_civ_rose", "" },
+			{ "Mrshounka_bmwm1_civ_rouge", "" },
+			{ "Mrshounka_bmwm1_civ_violet", "" },
+			{ "Mrshounka_bmwm6_civ", "" },
+			{ "Mrshounka_bmwm6_bleufonce", "" },
+			{ "Mrshounka_bmwm6_grise", "" },
+			{ "Mrshounka_bmwm6_jaune", "" },
+			{ "Mrshounka_bmwm6_noir", "" },
+			{ "Mrshounka_bmwm6_orange", "" },
+			{ "Mrshounka_bmwm6_rose", "" },
+			{ "Mrshounka_bmwm6_rouge", "" },
+			{ "Mrshounka_bmwm6_violet", "" },
+			{ "Mrshounka_corbillard_c", "" },
+			{ "Mrshounka_corbillard_c_bleufonce", "" },
+			{ "Mrshounka_corbillard_c_grise", "" },
+			{ "Mrshounka_corbillard_c_jaune", "" },
+			{ "Mrshounka_corbillard_c_noir", "" },
+			{ "Mrshounka_corbillard_c_orange", "" },
+			{ "Mrshounka_corbillard_c_rose", "" },
+			{ "Mrshounka_corbillard_c_rouge", "" },
+			{ "Mrshounka_corbillard_c_violet", "" },
+			{ "Quiet_Cadillac_blanche_f", "" },
+			{ "Quiet_Cadillac_noir_f", "" },
+			{ "Quiet_Cadillac_bleu_f", "" },
+			{ "Quiet_Cadillac_rouge_f", "" },
+			{ "Quiet_Cadillac_chrome_f", "" },
+			{ "Quiet_1969charger_blanche_f", "" },
+			{ "Quiet_1969charger_bleu_f", "" },
+			{ "Quiet_1969charger_noir_f", "" },
+			{ "Quiet_1969charger_rouge_f", "" },
+			{ "Quiet_1969charger_chrome_f", "" },
+			{ "Mrshounka_a3_dodge15_civ", "" },
+			{ "Mrshounka_a3_dodge15_civ_bleufonce", "" },
+			{ "Mrshounka_a3_dodge15_civ_grise", "" },
+			{ "Mrshounka_a3_dodge15_civ_jaune", "" },
+			{ "Mrshounka_a3_dodge15_civ_noir", "" },
+			{ "Mrshounka_a3_dodge15_civ_orange", "" },
+			{ "Mrshounka_a3_dodge15_civ_rose", "" },
+			{ "Mrshounka_a3_dodge15_civ_rouge", "" },
+			{ "Mrshounka_a3_dodge15_civ_violet", "" },
+			{ "Mrshounka_mustang_civ", "" },
+			{ "Mrshounka_mustang_mat", "" },
+			{ "Mrshounka_mustang_bleufonce", "" },
+			{ "Mrshounka_mustang_mat_b", "" },
+			{ "Mrshounka_mustang_grise", "" },
+			{ "Mrshounka_mustang_jaune", "" },
+			{ "Mrshounka_mustang_noir", "" },
+			{ "Mrshounka_mustang_mat_n", "" },
+			{ "Mrshounka_mustang_orange", "" },
+			{ "Mrshounka_mustang_rose", "" },
+			{ "Mrshounka_mustang_rouge", "" },
+			{ "Mrshounka_mustang_violet", "" },
+			{ "shounka_limo_civ", "" },
+			{ "shounka_limo_civ_bleufonce", "" },
+			{ "shounka_limo_civ_grise", "" },
+			{ "shounka_limo_civ_jaune", "" },
+			{ "shounka_limo_civ_noir", "" },
+			{ "shounka_limo_civ_orange", "" },
+			{ "shounka_limo_civ_rose", "" },
+			{ "shounka_limo_civ_rouge", "" },
+			{ "shounka_limo_civ_violet", "" },
+			{ "shounka_gt", "" },
+			{ "shounka_gt_bleufonce", "" },
+			{ "shounka_gt_grise", "" },
+			{ "shounka_gt_jaune", "" },
+			{ "shounka_gt_noir", "" },
+			{ "shounka_gt_orange", "" },
+			{ "shounka_gt_rose", "" },
+			{ "shounka_gt_rouge", "" },
+			{ "shounka_gt_violet", "" },
 			{ "SIG_SuperBeeB", "" },
 			{ "SIG_SuperBeeG", "" },
 			{ "SIG_SuperBeeL", "" },
@@ -113,18 +329,17 @@ class CarShops {
 			{ "sk_car_bmw_e46_orange", "" },
 			{ "sk_car_bmw_e46_red_mat", "" },
 			{ "sk_car_bmw_e46_grey", "" },
-			{ "Mrshouka_bmwm6_civ", "" },
-			{ "Mrshouka_bmwm6_noir", "" },
-			{ "Mrshouka_bmwm6_bleufonce", "" },
-			{ "Mrshouka_bmwm6_jaune", "" },
-			{ "Mrshouka_bmwm6_violet", "" },
-			{ "Mrshouka_bmwm6_grise", "" },
-			{ "Mrshouka_Bowler_c", "" },
-			{ "Mrshouka_Bowler_c_noir", "" },
-			{ "Mrshouka_Bowler_c_bleufonce", "" },
-			{ "Mrshouka_Bowler_c_grise", "" },
-			{ "Mrshouka_Bowler_c_jaune", "" },
-			{ "Mrshouka_Bowler_c_violet", "" },
+			{ "Mrshounka_Bowler_c", "" },
+			{ "Mrshounka_Bowler_c_noir", "" },
+			{ "Mrshounka_Bowler_c_bleufonce", "" },
+			{ "Mrshounka_Bowler_c_grise", "" },
+			{ "Mrshounka_Bowler_c_jaune", "" },
+			{ "Mrshounka_Bowler_c_violet", "" },
+			{ "quiet_Ford_shelbyGT500_blanche_f", "" },
+			{ "quiet_Ford_shelbyGT500_bleu_f", "" },
+			{ "quiet_Ford_shelbyGT500_noir_f", "" },
+			{ "quiet_Ford_shelbyGT500_rouge_f", "" },
+			{ "quiet_Ford_shelbyGT500_chrome_f", "" },
 			{ "Tal_Maserati_Black", "" },
 			{ "Tal_Maserati_Blue", "" },
 			{ "Tal_Maserati_LightBlue", "" },
@@ -157,20 +372,66 @@ class CarShops {
 			{ "Tal_Murci_Red", "" },
 			{ "Tal_Murci_Grey", "" },
 			{ "Tal_Murci_White", "" },
+			{ "Mrshounka_agera_p", "" },
+			{ "Mrshounka_agera_p_bleu", "" },
+			{ "Mrshounka_agera_p_jaune", "" },
+			{ "Mrshounka_agera_p_noir", "" },
+			{ "Quiet_v2_r8plus_blanche_f", "" },
+			{ "Quiet_v2_r8plus_bleu_f", "" },
+			{ "Quiet_v2_r8plus_noir_f", "" },
+			{ "Quiet_v2_r8plus_rouge_f", "" },
+			{ "Quiet_v2_r8plus_chrome_f", "" },
+			{ "ivory_mp4", "" },
+			{ "IVORY_R8", "" },
+			{ "IVORY_R8SPYDER", "" },
+			{ "mrshounka_huracan_c", "" },
+			{ "mrshounka_huracan_c_bleufonce", "" },
+			{ "mrshounka_huracan_c_grise", "" },
+			{ "mrshounka_huracan_c_jaune", "" },
+			{ "mrshounka_huracan_c_noir", "" },
+			{ "mrshounka_huracan_c_orange", "" },
+			{ "mrshounka_huracan_c_rose", "" },
+			{ "mrshounka_huracan_c_violet", "" },
+			{ "Mrshounka_veneno_c", "" },
+			{ "Mrshounka_veneno_c_bleu", "" },
+			{ "Mrshounka_veneno_c_jaune", "" },
+			{ "Mrshounka_veneno_c_noir", "" },
+			{ "ivory_veyron", "" },
+			{ "quiet_Bugatti_blanche_f", "" },
+			{ "quiet_Bugatti_bleu_f", "" },
+			{ "quiet_Bugatti_noir_f", "" },
+			{ "quiet_Bugatti_rouge_f", "" },
+			{ "quiet_Bugatti_chrome_f", "" },
+            { "fox_787", "" },
+            { "Fox_GT1", " " }
+        };
+    };
+	
+	class civ_motorcycle {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+			{ "shounka_harley_a3", "" },
+			{ "shounka_harley_a3_bleu", "" },
+			{ "shounka_harley_a3_lolz", "" },
+			{ "shounka_harley_a3_noir", "" },
+			{ "shounka_harley_a3_rouge", "" },
+			{ "Mrshounka_ducati_p", "" },
+			{ "Mrshounka_ducati_p_bf", "" },
+			{ "Mrshounka_ducati_p_g", "" },
+			{ "Mrshounka_ducati_p_j", "" },
+			{ "Mrshounka_ducati_p_noir", "" },
+			{ "Mrshounka_ducati_p_o", "" },
+			{ "Mrshounka_ducati_p_r", "" },
+			{ "Mrshounka_ducati_p_rose", "" },
+			{ "Mrshounka_ducati_p_v", "" },
 			{ "Mrshouka_yamaha_p_noir", "" },
 			{ "Mrshouka_yamaha_p_bf", "" },
 			{ "Mrshouka_yamaha_p_g", "" },
 			{ "Mrshouka_yamaha_p_o", "" },
 			{ "Mrshouka_yamaha_p_j", "" },
 			{ "Mrshouka_yamaha_p_r", "" },
-			{ "Mrshouka_yamaha_p_v", "" },
-			{ "ivory_f1", "" },
-			{ "ivory_mp4", "" },
-			{ "IVORY_R8", "" },
-			{ "IVORY_R8SPYDER", "" },
-			{ "ivory_veyron", "" },
-            { "fox_787", "" },
-            { "Fox_GT1", " " }
+			{ "Mrshouka_yamaha_p_v", "" }
         };
     };
 
@@ -257,7 +518,16 @@ class CarShops {
 			{ "ivecoCh_cciv_gris", "" },
 			{ "ivecoCh_cciv_yellow", "" },
 			{ "ivecoCh_cciv_noir", "" },
-			{ "ivecoCh_cciv_rouge", "" }
+			{ "ivecoCh_cciv_rouge", "" },
+			{ "shounka_avalanche", "" },
+			{ "shounka_avalanche_bleufonce", "" },
+			{ "shounka_avalanche_grise", "" },
+			{ "shounka_avalanche_jaune", "" },
+			{ "shounka_avalanche_noir", "" },
+			{ "shounka_avalanche_orange", "" },
+			{ "shounka_avalanche_rose", "" },
+			{ "shounka_avalanche_rouge", "" },
+			{ "shounka_avalanche_violet", "" }
         };
     };
 
@@ -329,6 +599,8 @@ class CarShops {
         side = "med";
         conditions = "";
         vehicles[] = {
+			{ "shounka_nemo_pompier", "" },
+			{ "shounka_a3_suburbangign_pompier", "" },
 			{ "ivory_suburban_ems", "" },
             { "Dacia_Duster_gn", "" },
             { "c4h_gnb", "" },
@@ -366,20 +638,18 @@ class CarShops {
         conditions = "";
         vehicles[] = {
 			{ "FaisalAlYahya_CVPI_police", "" },
-			{ "ivory_m3_marked", "" },
-			{ "ivory_rs4_marked", "call life_coplevel >= 2" },
-            { "ivory_rs4_slicktop", "call life_coplevel >= 2" },
-			{ "ivory_isf_slicktop", "call life_coplevel >= 3" },
-            { "ivory_isf_marked", "call life_coplevel >= 3" },
-			{ "ivory_suburban_slicktop", "call life_coplevel >= 4" },
-            { "ivory_suburban_marked", "call life_coplevel >= 4" },
-            { "ivory_evox_slicktop", "call life_coplevel >= 5" },
-            { "ivory_evox_marked", "call life_coplevel >= 5" },
-            { "ivory_wrx_slicktop", "call life_coplevel >= 6" },
-            { "ivory_wrx_marked", "call life_coplevel >= 6" },
+			{ "shounka_a3_cliors_gend_civ", "" },
+			{ "shounka_a3_gendsprinter", "" },
+			{ "shounka_a3_508gend", "call life_coplevel >= 2" },
+			{ "Mrshounka_Volkswagen_Tourareg_police_police", "call life_coplevel >= 3" },
+			{ "shounka_a3_audiq7_v2_gendarmerie", "call life_coplevel >= 3" },
+			{ "Mrshounka_tahoe", "call life_coplevel >= 4" },
+			{ "Mrshounka_bmw_gend", "call life_coplevel >= 5" },
+			{ "Mrshounka_a3_dodge15_pol", "call life_coplevel >= 5" },
+			{ "Mrshounka_a3_dodge15_pol2", "call life_coplevel >= 5" },
+			{ "Mrshounka_ducati_police_p", "call life_coplevel >= 5" },
 			{ "vvv_HarleyDavidson_CustomBobber", "call life_coplevel >= 7" },
-			{ "AMG_TahoePolice", "call life_coplevel >= 8" },
-			{ "Faisal_Youkun2015_PD", "call life_coplevel >= 8" }
+			{ "Mrshounka_agera_gend_p", "call life_coplevel >= 9" }
         };
     };
 	
@@ -387,16 +657,13 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-			{ "ivory_m3_unmarked", "" },
-            { "ivory_isf_unmarked", "" },
-            { "ivory_suburban_unmarked", "" },
-            { "ivory_rs4_unmarked", "" },
             { "AMG_TahoePolice", "" }, 
-            { "ivory_wrx_unmarked", "" },
-            { "ivory_evox_unmarked", "" },
-            { "ivory_wrx_unmarked", "" },
             { "zorak_audi_rs3_police", "" },
-			{ "zorak_audi_S8_police", "" }
+			{ "zorak_audi_S8_police", "" },
+			{ "Mrshounka_rs4_gend_p_blanc", "" },
+			{ "Mrshounka_rs4_gend_p_bleufonce", "" },
+			{ "Mrshounka_rs4_gend_p_jaune", "" },
+			{ "Mrshounka_rs4_gend_p_noir", "" }
         };
     };
 	
@@ -404,7 +671,9 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "DAR_SWATPolice", "" }
+            { "DAR_SWATPolice", "" },
+			{ "shounka_a3_brinks_noir", "" },
+			{ "shounka_a3_suburbangign", "" }
         };
     };
 
@@ -412,8 +681,8 @@ class CarShops {
         side = "cop";
         conditions = "";
         vehicles[] = {
-            { "ivory_b206_RCMP", "" },
-            { "EC635_Unarmed", "" },
+            { "ivory_b206_RCMP", "call life_coplevel >= 3" },
+            { "EC635_Unarmed", "call life_coplevel >= 5" },
 			{ "MELB_MH6M", "" }
         };
     };
@@ -842,7 +1111,203 @@ class LifeCfgVehicles {
         price = 16500;
         textures[] = {};
     };
+	
+	class shounka_avalanche {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_bleufonce {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_grise {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_jaune {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_noir {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_orange {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_rose {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_rouge {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	class shounka_avalanche_violet {
+        vItemSpace = 300;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 42000;
+        textures[] = {};
+    };
+	
+	
 	// Civ transport Ende
+	
+	// Civ motorcycle Anfang
+	
+	class shounka_harley_a3 {
+        vItemSpace = 5;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class shounka_harley_a3_bleu {
+        vItemSpace = 5;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class shounka_harley_a3_lolz {
+        vItemSpace = 5;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class shounka_harley_a3_noir {
+        vItemSpace = 5;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class shounka_harley_a3_rouge {
+        vItemSpace = 5;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+    };
+	
+	class Mrshouka_yamaha_p_noir {
+        vItemSpace = 5;
+        conditions = "";
+        price = 530000;
+        textures[] = {};
+    };
+	
+	class Mrshouka_yamaha_p_bf {
+        vItemSpace = 5;
+        conditions = "";
+        price = 530000;
+        textures[] = {};
+    };
+	
+	class Mrshouka_yamaha_p_g {
+        vItemSpace = 5;
+        conditions = "";
+        price = 530000;
+        textures[] = {};
+    };
+	
+	class Mrshouka_yamaha_p_j {
+        vItemSpace = 5;
+        conditions = "";
+        price = 530000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_bf {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_g {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_j {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_noir {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_o {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_rose {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_r {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_p_v {
+        vItemSpace = 5;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	
+	// Civ motorcycle Ende
 	
 	// CIV Freizeit Händler Anfang
     class dbo_CIV_ol_bike {
@@ -865,6 +1330,134 @@ class LifeCfgVehicles {
         price = 100;
         textures[] = {};
     };
+	
+	class shounka_buggy {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_bleufonce {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_jaune {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_rose {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_rouge {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_violet {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_orange {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_grise {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_buggy_noir {
+        vItemSpace = 5;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_bleufonce {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_grise {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_orange {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_rose {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_rouge {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	class shounka_monsteur_violet {
+        vItemSpace = 10;
+        conditions = "";
+        price = 350000;
+        textures[] = {};
+    };
+	
+	
 	// CIV Freizeit Händler Ende
 	
 	// CIV Gebraucht - Anfang
@@ -883,6 +1476,69 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class Mrshounka_golfvi_civ {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_bleufonce {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_grise {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_jaune {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_noir {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_orange {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_rose {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_rouge {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
+	class Mrshounka_golfvi_civ_violet {
+        vItemSpace = 40;
+        conditions = "";
+        price = 2300;
+        textures[] = {};
+    };
+	
 	class Jonzie_Ceed {
         vItemSpace = 40;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
@@ -897,6 +1553,41 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class Quiet_ford_raptor_blanche_f {
+        vItemSpace = 60;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 22000;
+        textures[] = {};
+    };
+	
+	class Quiet_ford_raptor_bleu_f {
+        vItemSpace = 60;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 22000;
+        textures[] = {};
+    };
+	
+	class Quiet_ford_raptor_noir_f {
+        vItemSpace = 60;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 22000;
+        textures[] = {};
+    };
+	
+	class Quiet_ford_raptor_rouge_f {
+        vItemSpace = 60;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 22000;
+        textures[] = {};
+    };
+	
+	class Quiet_ford_raptor_chrome_f {
+        vItemSpace = 60;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 28000;
+        textures[] = {};
+    };
+	
 	class IVORY_PRIUS {
         vItemSpace = 40;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
@@ -904,7 +1595,63 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
-	class ADM_GMC_Vandura {
+	class Mrshounka_Vandura_civ {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_bleufonce {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_grise {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_jaune {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_noir {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_orange {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_rose {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_rouge {
+        vItemSpace = 45;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 13500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Vandura_civ_violet {
         vItemSpace = 45;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 13500;
@@ -925,13 +1672,6 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
-	class Jonzie_Raptor {
-        vItemSpace = 35;
-        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
-        price = 12500;
-        textures[] = {};
-    };
-	
     class _Peugeot_207_civ_violet {
         vItemSpace = 10;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
@@ -946,49 +1686,49 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_civ {
+	class Mrshounka_c4_p_civ {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_bleufonce {
+	class Mrshounka_c4_p_bleufonce {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_grise {
+	class Mrshounka_c4_p_grise {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_jaune {
+	class Mrshounka_c4_p_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_noir {
+	class Mrshounka_c4_p_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_orange {
+	class Mrshounka_c4_p_orange {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
         textures[] = {};
     };
 	
-	class Mrshouka_c4_p_violet {
+	class Mrshounka_c4_p_violet {
         vItemSpace = 35;
         conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
         price = 2150;
@@ -1036,7 +1776,252 @@ class LifeCfgVehicles {
         price = 9500;
         textures[] = {};
     };
-
+	
+	class Mrshounka_a3_ds3_civ {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_bleufonce {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_grise {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_jaune {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_noir {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_orange {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_rose {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_rouge {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_ds3_civ_civ_violet {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_civ {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_bleufonce {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_grise {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_jaune {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_noir {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_orange {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_rose {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_rouge {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_ds4_violet {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2700;
+        textures[] = {};
+    };
+	
+	class shounka_nemo {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_bleufonce {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_grise {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_jaune {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_orange {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_rose {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_rouge {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_nemo_violet {
+        vItemSpace = 50;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 3800;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_bleufonce {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_grise {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_jaune {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_noir {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_orange {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_rose {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_rouge {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_civ_violet {
+        vItemSpace = 30;
+        conditions = "license_civ_driver || {!(playerSide isEqualTo civilian)}";
+        price = 2000;
+        textures[] = {};
+    };
+	
 	// CIV Gebraucht - Ende
 	
 	// CIV Boot - Anfang
@@ -1142,42 +2127,49 @@ class LifeCfgVehicles {
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_Blanche {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_bleu {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_bleufonce {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_gris {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_jaune {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_Violette {
         vItemSpace = 10;
         conditions = "";
         price = 30500;
         textures[] = {};
     };
+	
 	    class Guillaume9545_Shelby_Cobra_VertFonce {
         vItemSpace = 10;
         conditions = "";
@@ -1233,10 +2225,165 @@ class LifeCfgVehicles {
         price = 60000;
         textures[] = {};
     };
-	    class ivory_rs4 {
+
+	 class ivory_rs4 {
         vItemSpace = 20;
         conditions = "";
         price = 60000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_bleufonce {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_grise {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;																													
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_jaune {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_noir {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_orange {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_rose {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_rouge {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_corbillard_c_violet {
+        vItemSpace = 25;
+        conditions = "";
+        price = 62000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_gend_p_blanc {
+        vItemSpace = 20;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_gend_p_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_gend_p_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_gend_p_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_rs4_civ_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
         textures[] = {};
     };
 	
@@ -1334,16 +2481,314 @@ class LifeCfgVehicles {
     class AMG_MercedesBenz6x6 {
         vItemSpace = 20;
         conditions = "";
-        price = 500;
+        price = 500000;
         textures[] = {};
     
     };
+	
+	class Mrshounka_Alfa_Romeo_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+    
+    };
+	
+	class Mrshounka_Alfa_Romeo_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 65000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_mat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_blanc {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_blanc_mat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_bleu {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_bleu_mat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_rouge {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_rouge_mat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_violet {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_cherokee_noir_violet_mat {
+        vItemSpace = 50;
+        conditions = "";
+        price = 75000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_civ {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_bleufonce {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_grise {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_jaune {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_noir {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_orange {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_rose {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_rouge {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class Mrshounka_evox_violet {
+        vItemSpace = 15;
+        conditions = "";
+        price = 95000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_bleufonce {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_grise {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_jaune {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_noir {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_orange {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_rose {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_rouge {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
+	class shounka_limo_civ_violet {
+        vItemSpace = 15;
+        conditions = "";
+        price = 184000;
+        textures[] = {};
+   
+    };
+	
 	    class C_Sal_nissan_gtr_2017_alt_F {
         vItemSpace = 20;
         conditions = "";
         price = 155000;
         textures[] = {};
     };
+	
 	    class C_Sal_nissan_gtr_2017_whiteF_F {
         vItemSpace = 20;
         conditions = "";
@@ -1387,10 +2832,263 @@ class LifeCfgVehicles {
         price = 41000;
         textures[] = {};
     };
-	    class Jonzie_STI {
+	
+	class Jonzie_STI {
         vItemSpace = 20;
         conditions = "";
         price = 85200;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_rs5_civ_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 280000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6 {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class shounka_rs6_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 320000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm1_civ_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 380000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmwm6_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 210000;
         textures[] = {};
     };
 	
@@ -1419,6 +3117,41 @@ class LifeCfgVehicles {
         vItemSpace = 10;
         conditions = "";
         price = 125850;
+        textures[] = {};
+    };
+	
+	class Quiet_Cadillac_blanche_f {
+        vItemSpace = 30;
+        conditions = "";
+        price = 87000;
+        textures[] = {};
+    };
+	
+	class Quiet_Cadillac_bleu_f {
+        vItemSpace = 30;
+        conditions = "";
+        price = 87000;
+        textures[] = {};
+    };
+	
+	class Quiet_Cadillac_rouge_f {
+        vItemSpace = 30;
+        conditions = "";
+        price = 87000;
+        textures[] = {};
+    };
+	
+	class Quiet_Cadillac_noir_f {
+        vItemSpace = 30;
+        conditions = "";
+        price = 87000;
+        textures[] = {};
+    };
+	
+	class Quiet_Cadillac_chrome_f {
+        vItemSpace = 30;
+        conditions = "";
+        price = 180000;
         textures[] = {};
     };
 	
@@ -1597,42 +3330,77 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c {
+	class quiet_Ford_shelbyGT500_blanche_f {
+        vItemSpace = 20;
+        conditions = "";
+        price = 182000;
+        textures[] = {};
+    };
+	
+	class quiet_Ford_shelbyGT500_bleu_f {
+        vItemSpace = 20;
+        conditions = "";
+        price = 182000;
+        textures[] = {};
+    };
+	
+	class quiet_Ford_shelbyGT500_noir_f {
+        vItemSpace = 20;
+        conditions = "";
+        price = 182000;
+        textures[] = {};
+    };
+	
+	class quiet_Ford_shelbyGT500_rouge_f {
+        vItemSpace = 20;
+        conditions = "";
+        price = 182000;
+        textures[] = {};
+    };
+	
+	class quiet_Ford_shelbyGT500_chrome_f {
+        vItemSpace = 20;
+        conditions = "";
+        price = 240000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Bowler_c {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c_noir {
+	class Mrshounka_Bowler_c_noir {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c_bleufonce {
+	class Mrshounka_Bowler_c_bleufonce {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c_grise {
+	class Mrshounka_Bowler_c_grise {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c_jaune {
+	class Mrshounka_Bowler_c_jaune {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
         textures[] = {};
     };
 	
-	class Mrshouka_Bowler_c_violet {
+	class Mrshounka_Bowler_c_violet {
         vItemSpace = 25;
         conditions = "";
         price = 76780;
@@ -1653,37 +3421,351 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class Quiet_1969charger_blanche_f {
+        vItemSpace = 15;
+        conditions = "";
+        price = 40500;
+        textures[] = {};
+    };
+	
+	class Quiet_1969charger_bleu_f {
+        vItemSpace = 15;
+        conditions = "";
+        price = 40500;
+        textures[] = {};
+    };
+	
+	class Quiet_1969charger_noir_f {
+        vItemSpace = 15;
+        conditions = "";
+        price = 40500;
+        textures[] = {};
+    };
+	
+	class Quiet_1969charger_rouge_f {
+        vItemSpace = 15;
+        conditions = "";
+        price = 40500;
+        textures[] = {};
+    };
+	
+	class Quiet_1969charger_chrome_f {
+        vItemSpace = 15;
+        conditions = "";
+        price = 45000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ {
+        vItemSpace = 20;
+        conditions = "";
+        price = 110000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_bleufonce {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_grise {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_jaune {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_noir {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_orange {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_rose {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_rouge {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_civ_violet {
+        vItemSpace = 20;
+        conditions = "";
+        price = 120000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_bleufonce {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_grise {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_orange {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_rose {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_rouge {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_f430_spider_violet {
+        vItemSpace = 10;
+        conditions = "";
+        price = 452000;
+        textures[] = {};
+    };
+	
+	class shounka_gt {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_bleufonce {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_grise {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_orange {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_rose {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_rouge {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class shounka_gt_violet {
+        vItemSpace = 10;
+        conditions = "";
+        price = 351000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_civ {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_mat {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_bleufonce {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_mat_b {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_grise {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_mat_n {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_orange {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_rose {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_rouge {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
+	
+	class Mrshounka_mustang_violet {
+        vItemSpace = 10;
+        conditions = "";
+        price = 320050;
+        textures[] = {};
+    };
 	
 	
 	// CIV Luxus Händler Ende
 	
 	// CIV Supersport - Anfang
 	
-	class Mrshouka_yamaha_p_noir {
-        vItemSpace = 5;
+	class Mrshounka_agera_p {
+        vItemSpace = 10;
         conditions = "";
-        price = 530000;
+        price = 870000;
         textures[] = {};
     };
 	
-	class Mrshouka_yamaha_p_bf {
-        vItemSpace = 5;
+	class Mrshounka_agera_p_bleu {
+        vItemSpace = 10;
         conditions = "";
-        price = 530000;
+        price = 870000;
         textures[] = {};
     };
 	
-	class Mrshouka_yamaha_p_g {
-        vItemSpace = 5;
+	class Mrshounka_agera_p_jaune {
+        vItemSpace = 10;
         conditions = "";
-        price = 530000;
+        price = 870000;
         textures[] = {};
     };
 	
-	class Mrshouka_yamaha_p_j {
-        vItemSpace = 5;
+	class Mrshounka_agera_p_noir {
+        vItemSpace = 10;
         conditions = "";
-        price = 530000;
+        price = 870000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_agera_gend_p {
+        vItemSpace = 10;
+        conditions = "";
+        price = 200000;
         textures[] = {};
     };
 	
@@ -1708,17 +3790,80 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class Quiet_v2_r8plus_blanche_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 750000;
+        textures[] = {};
+    };
+	
+	class Quiet_v2_r8plus_bleu_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 750000;
+        textures[] = {};
+    };
+	
+	class Quiet_v2_r8plus_noir_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 750000;
+        textures[] = {};
+    };
+	
+	class Quiet_v2_r8plus_rouge_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 750000;
+        textures[] = {};
+    };
+	
+	class Quiet_v2_r8plus_chrome_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1000000;
+        textures[] = {};
+    };
+	
+	class quiet_Bugatti_blanche_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+    };
+	
+	class quiet_Bugatti_bleu_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+    };
+	
+	class quiet_Bugatti_noir_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+    };
+	
+	class quiet_Bugatti_rouge_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 2500000;
+        textures[] = {};
+    };
+	
+	class quiet_Bugatti_chrome_f {
+        vItemSpace = 10;
+        conditions = "";
+        price = 5000000;
+        textures[] = {};
+    };
+	
 	class ivory_mp4 {
         vItemSpace = 10;
         conditions = "";
         price = 1400000;
-        textures[] = {};
-    };
-	
-	class ivory_f1 {
-        vItemSpace = 10;
-        conditions = "";
-        price = 1200000;
         textures[] = {};
     };
 	
@@ -1799,6 +3944,90 @@ class LifeCfgVehicles {
         textures[] = {};
     };
 	
+	class mrshounka_huracan_c {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_bleufonce {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_grise {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_orange {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_rose {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class mrshounka_huracan_c_violet {
+        vItemSpace = 10;
+        conditions = "";
+        price = 1200000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_veneno_c {
+        vItemSpace = 10;
+        conditions = "";
+        price = 3600000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_veneno_c_bleu {
+        vItemSpace = 10;
+        conditions = "";
+        price = 3600000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_veneno_c_jaune {
+        vItemSpace = 10;
+        conditions = "";
+        price = 3600000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_veneno_c_noir {
+        vItemSpace = 10;
+        conditions = "";
+        price = 3600000;
+        textures[] = {};
+    };
+	
 	class IVORY_R8SPYDER {
         vItemSpace = 10;
         conditions = "";
@@ -1841,72 +4070,58 @@ class LifeCfgVehicles {
 	// CIV LKW - Anfang
 	
 	class SLB2k11_Scania_420_black {
-        vItemSpace = 325;
+        vItemSpace = 420;
         conditions = "";
-        price = 550000;
+        price = 70000;
         textures[] = {};
     };
 	
 	class SLB2k11_Scania_420_blau {
-        vItemSpace = 325;
+        vItemSpace = 420;
         conditions = "";
-        price = 550000;
+        price = 70000;
         textures[] = {};
     };
 	
 	class SLB2k11_Scania_420_orange {
-        vItemSpace = 325;
+        vItemSpace = 420;
         conditions = "";
-        price = 550000;
+        price = 70000;
         textures[] = {};
     };
 	
 	class SLB2k11_Scania_420_weis {
-        vItemSpace = 325;
+        vItemSpace = 420;
         conditions = "";
-        price = 550000;
+        price = 70000;
         textures[] = {};
     };
 	
 	 class Jonzie_Box_Truck {
-        vItemSpace = 450;
+        vItemSpace = 480;
         conditions = "";
-        price = 1150000;
+        price = 84000;
         textures[] = {};
     };
 	
 	class Jonzie_Flat_Bed {
-        vItemSpace = 250;
+        vItemSpace = 325;
         conditions = "";
-        price = 300000;
+        price = 47800;
         textures[] = {};
     };
 	
 	class Jonzie_Log_Truck {
-        vItemSpace = 270;
+        vItemSpace = 340;
         conditions = "";
-        price = 375000;
+        price = 50000;
         textures[] = {};
     };
 	
 	class Jonzie_Tanker_Truck {
-        vItemSpace = 100;
+        vItemSpace = 420;
         conditions = "";
-        price = 500;
-        textures[] = {};
-    };
-	
-	class Jonzie_Superliner {
-        vItemSpace = 125;
-        conditions = "";
-        price = 620000;
-        textures[] = {};
-    };
-	
-	class Jonzie_Western {
-        vItemSpace = 125;
-        conditions = "";
-        price = 600000;
+        price = 70000;
         textures[] = {};
     };
 	
@@ -2047,10 +4262,17 @@ class LifeCfgVehicles {
 	
 	// Fara Autos - Anfang
 	
+	class shounka_nemo_pompier {
+        vItemSpace = 50;
+        conditions = "";
+        price = 150;
+        textures[] = {};
+    };
+	
 	class ivory_suburban_ems {
         vItemSpace = 50;
         conditions = "";
-        price = 500;
+        price = 750;
         textures[] = {};
     };
 	
@@ -2099,14 +4321,21 @@ class LifeCfgVehicles {
 	class Jonzie_Ambulance {
         vItemSpace = 75;
         conditions = "";
-        price = 700;
+        price = 1500;
         textures[] = {};
     };
 	
 	class Bcas {
         vItemSpace = 75;
         conditions = "";
-        price = 700;
+        price = 1500;
+        textures[] = {};
+    };
+	
+	class shounka_a3_suburbangign_pompier {
+        vItemSpace = 75;
+        conditions = "";
+        price = 1500;
         textures[] = {};
     };
 	
@@ -2146,7 +4375,7 @@ class LifeCfgVehicles {
     class FaisalAlYahya_CVPI_police {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 1000;
         textures[] = {
             { "Polizei", "cop", {
 			"textures\cvpi.paa"
@@ -2157,77 +4386,140 @@ class LifeCfgVehicles {
     class ivory_isf_slicktop {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 1200;
         textures[] = {};
     };
 	
 	class Faisal_Youkun2015_PD {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 1200;
         textures[] = {};
     };
 	
     class ivory_rs4_marked {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 1200;
         textures[] = {};
     };
 	
     class ivory_rs4_slicktop {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 1200;
         textures[] = {};
     };
 	
 	class DAR_ExplorerSheriff {
-        vItemSpace = 30;
+        vItemSpace = 35;
         conditions = "";
-        price = 500;
+        price = 2500;
+        textures[] = {};
+    };
+	
+	class Mrshounka_ducati_police_p {
+        vItemSpace = 10;
+        conditions = "";
+        price = 4500;
         textures[] = {};
     };
 	
     class ivory_suburban_slicktop {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
         textures[] = {};
     };
 	
     class ivory_suburban_marked {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_tahoe {
+        vItemSpace = 30;
+        conditions = "";
+        price = 2000;
         textures[] = {};
     };
 	
     class ivory_isf_marked {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_Volkswagen_Tourareg_police_police {
+        vItemSpace = 30;
+        conditions = "";
+        price = 2000;
         textures[] = {};
     };
 	
     class ivory_evox_slicktop {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
         textures[] = {};
     };
 	
 	 class ivory_m3_marked {
         vItemSpace = 30;
         conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_pol {
+        vItemSpace = 30;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class Mrshounka_a3_dodge15_pol2 {
+        vItemSpace = 30;
+        conditions = "";
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_508gend {
+        vItemSpace = 30;
+        conditions = "";
+        price = 1700;
+        textures[] = {};
+    };
+	
+	class shounka_a3_gendsprinter {
+        vItemSpace = 100;
+        conditions = "license_cop_ausbilder";
         price = 500;
+        textures[] = {};
+    };
+	
+	class shounka_a3_cliors_gend_civ {
+        vItemSpace = 30;
+        conditions = "";
+        price = 250;
+        textures[] = {};
+    };
+	
+	class Mrshounka_bmw_gend {
+        vItemSpace = 30;
+        conditions = "";
+        price = 4000;
         textures[] = {};
     };
 	
 	class zorak_audi_rs3_police {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
         textures[] = {
             { "Polizei", "cop", {
 			"textures\schwarz.jpg"
@@ -2238,27 +4530,48 @@ class LifeCfgVehicles {
     class ivory_evox_marked {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_suburbangign {
+        vItemSpace = 30;
+        conditions = "license_cop_swat";
+        price = 3200;
         textures[] = {};
     };
 	
     class ivory_wrx_slicktop {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
         textures[] = {};
     };
 	
     class ivory_wrx_marked {
         vItemSpace = 30;
         conditions = "";
-        price = 500;
+        price = 2000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_audiq7_v2_gendarmerie {
+        vItemSpace = 30;
+        conditions = "";
+        price = 2700;
         textures[] = {};
     };
 	
 	class DAR_SWATPolice {
-        vItemSpace = 30;
-        conditions = "";
+        vItemSpace = 40;
+        conditions = "license_cop_swat";
+        price = 5000;
+        textures[] = {};
+    };
+	
+	class shounka_a3_brinks_noir {
+        vItemSpace = 40;
+        conditions = "license_cop_swat";
         price = 5000;
         textures[] = {};
     };
@@ -2275,49 +4588,49 @@ class LifeCfgVehicles {
 		
 	class ivory_evox_unmarked {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class ivory_wrx_unmarked {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class AMG_TahoePolice {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class ivory_m3_unmarked {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class ivory_rs4_unmarked {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class ivory_suburban_unmarked {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
 	
 	class zorak_audi_S8_police {
         vItemSpace = 30;
-        conditions = "";
+        conditions = "license_cop_fbi";
         price = 500;
         textures[] = {};
     };
@@ -2341,7 +4654,7 @@ class LifeCfgVehicles {
 	
 	class MELB_MH6M {
         vItemSpace = 50;
-        conditions = "swat";
+        conditions = "license_cop_swat";
         price = 5000;
         textures[] = {};
     };

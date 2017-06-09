@@ -37,3 +37,4 @@
 #include "papiere.hpp"
 #include "ausweiss_polizei.hpp"
 #include "statusbar.hpp"
+#include "revoke_license.hpp"

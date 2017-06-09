@@ -82,14 +82,14 @@ player createDiaryRecord ["items",
 			[<font color='#63bfaa'>Kontaminationsschutzanzug</font>] - Waffenfähiges Uran<br />
 			<br />
 			=== <font color='#2E2EFE'>Lizenzen (Allgemein)</font> =============================================<br />
-			[<font color='#63bfaa'>1.000 €</font>] - Führerschein<br />
-			[<font color='#63bfaa'>3.000 €</font>] - Bootsschein<br />
+			[<font color='#63bfaa'>500 €</font>] - Führerschein<br />
+			[<font color='#63bfaa'>1.500 €</font>] - Bootsschein<br />
 			[<font color='#63bfaa'>6.000 €</font>] - Gefahrgutführerschein<br />
-			[<font color='#63bfaa'>16.000 €</font>] - LKW Führerschein<br />
-			[<font color='#63bfaa'>20.000 €</font>] - Waffenschein<br />
-			[<font color='#63bfaa'>15.000 €</font>] - Helikopterschein<br />
-			[<font color='#63bfaa'>20.000 €</font>] - Pilotenschein<br />
-			[<font color='#63bfaa'>30.000 €</font>] - Berufpilotenschein<br />
+			[<font color='#63bfaa'>10.000 €</font>] - LKW Führerschein<br />
+			[<font color='#63bfaa'>10.000 €</font>] - Waffenschein<br />
+			[<font color='#63bfaa'>5.000 €</font>] - Helikopterschein<br />
+			[<font color='#63bfaa'>8.000 €</font>] - Berufpilotenschein<br />
+			[<font color='#63bfaa'>10.000 €</font>] - Pilotenschein<br />
 			[<font color='#63bfaa'>175.000 €</font>] - Rebellentraining<br />
 			[<font color='#63bfaa'>1.000.000 €</font>] - Hausbesitzerurkunde<br />
 			[<font color='#63bfaa'>4.000.000 €</font>] - Elite-Waffenschein<br />

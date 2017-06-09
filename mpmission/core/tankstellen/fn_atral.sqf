@@ -36,7 +36,7 @@ if (_t1) then {
 life_atraltanke = true;
 publicVariable "life_atraltanke";
 	
-_kassa = 50 + round(random 80);
+_kassa = 700 + round(random 1100);
 
 [_atral,"moneybank"] remoteExec ["life_fnc_globalSoundClient",0];
 [[1,2],"Die Atral-Tankstelle wird ausgeraubt !!!"] remoteExec ["life_fnc_broadcast",west];
