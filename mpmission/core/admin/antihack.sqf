@@ -1,0 +1,1 @@
+if ((isNull (findDisplay 2200)) ) then { hint "Hacking";     sleep 1; hint "Hacking";                                     };//Dialog gefunden
